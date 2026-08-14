@@ -6,11 +6,109 @@
   "license": "Apache-2.0",
   "modules": [
     {
-      "id": "hello-apatch",
-      "name": "Hello APatch",
-      "author": "zelect0r",
-      "description": "Test module for APatch and MMRL",
-      "updateJson": "modules/hello-apatch/update.json"
+      "id": "susfs4ksu",
+      "name": "SUSFS4KSU",
+      "author": "sidex15",
+      "description": "SUSFS module",
+      "updateJson": "modules/susfs4ksu/update.json"
+    },
+    {
+      "id": "ios-emoji",
+      "name": "Magisk iOS Emoji",
+      "author": "Keinta15",
+      "description": "iOS Emoji font module",
+      "updateJson": "modules/ios-emoji/update.json"
+    },
+    {
+      "id": "neozygisk",
+      "name": "NeoZygisk",
+      "author": "JingMatrix",
+      "description": "Zygisk implementation for APatch and KernelSU",
+      "updateJson": "modules/neozygisk/update.json"
+    },
+    {
+      "id": "rezygisk",
+      "name": "ReZygisk",
+      "author": "PerformanC",
+      "description": "Alternative Zygisk implementation",
+      "updateJson": "modules/rezygisk/update.json"
+    },
+    {
+      "id": "lsposed",
+      "name": "LSPosed",
+      "author": "LSPosed Team",
+      "description": "Xposed framework with Zygisk support",
+      "updateJson": "modules/lsposed/update.json"
+    },
+    {
+      "id": "vector",
+      "name": "Vector",
+      "author": "JingMatrix",
+      "description": "Modern Xposed framework",
+      "updateJson": "modules/vector/update.json"
+    },
+    {
+      "id": "zygisk-assistant",
+      "name": "Zygisk Assistant",
+      "author": "snake-4",
+      "description": "Root hiding assistant",
+      "updateJson": "modules/zygisk-assistant/update.json"
+    },
+    {
+      "id": "zygisk-detach",
+      "name": "Zygisk Detach",
+      "author": "j-hc",
+      "description": "Detach apps from Play Store updates",
+      "updateJson": "modules/zygisk-detach/update.json"
+    },
+    {
+      "id": "playintegrityfork",
+      "name": "Play Integrity Fork",
+      "author": "osm0sis",
+      "description": "Play Integrity module",
+      "updateJson": "modules/playintegrityfork/update.json"
+    },
+    {
+      "id": "playintegrityfix",
+      "name": "Play Integrity Fix",
+      "author": "KOWX712",
+      "description": "Play Integrity module",
+      "updateJson": "modules/playintegrityfix/update.json"
+    },
+    {
+      "id": "teesimulator",
+      "name": "TEESimulator",
+      "author": "JingMatrix",
+      "description": "TEE simulation module",
+      "updateJson": "modules/teesimulator/update.json"
+    },
+    {
+      "id": "teesimulator-rs",
+      "name": "TEESimulator-RS",
+      "author": "Enginex0",
+      "description": "Rust based TEE simulation module",
+      "updateJson": "modules/teesimulator-rs/update.json"
+    },
+    {
+      "id": "tricky-addon-target-list",
+      "name": "Tricky Addon Update Target List",
+      "author": "KOWX712",
+      "description": "Tricky Store addon",
+      "updateJson": "modules/tricky-addon-target-list/update.json"
+    },
+    {
+      "id": "music-morphe",
+      "name": "Music Morphe",
+      "author": "j-hc",
+      "description": "YouTube Music ReVanced Magisk module",
+      "updateJson": "modules/music-morphe/update.json"
+    },
+    {
+      "id": "youtube-morphe",
+      "name": "YouTube Morphe",
+      "author": "j-hc",
+      "description": "YouTube ReVanced Magisk module",
+      "updateJson": "modules/youtube-morphe/update.json"
     }
   ]
 }

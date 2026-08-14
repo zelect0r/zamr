@@ -7,7 +7,7 @@
   "modules": [
     {
       "id": "zygisk-next",
-      "name": "Zygisk Next",
+      "name": "zygisk next",
       "author": "Dr-TSNG",
       "description": "Zygisk implementation",
       "updateJson": "modules/zygisk-next/update.json"

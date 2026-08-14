@@ -1,6 +1,10 @@
 {
+  "id": "playintegrityfork",
+  "name": "Play Integrity Fork",
   "version": "17",
   "versionCode": 17,
+  "author": "osm0sis",
+  "description": "Play Integrity module",
   "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v17/PlayIntegrityFork-v17.zip",
-  "changelog": "Latest Play Integrity Fork release"
+  "changelog": "Release v17"
 }

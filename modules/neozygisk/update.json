@@ -1,6 +1,10 @@
 {
-  "version": "2.3",
-  "versionCode": 23,
-  "zipUrl": "https://github.com/JingMatrix/NeoZygisk/releases/download/v2.3/NeoZygisk-v2.3.zip",
-  "changelog": "Latest NeoZygisk release"
+  "id": "neozygisk",
+  "name": "NeoZygisk",
+  "version": "2.4",
+  "versionCode": 289,
+  "author": "JingMatrix",
+  "description": "Zygisk implementation for APatch and KernelSU",
+  "zipUrl": "https://github.com/JingMatrix/NeoZygisk/releases/download/v2.4/NeoZygisk-v2.4-289-release.zip",
+  "changelog": "Release v2.4"
 }

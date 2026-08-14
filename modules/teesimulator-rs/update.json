@@ -1,6 +1,10 @@
 {
-  "version": "6.0.1-307",
-  "versionCode": 601307,
+  "id": "teesimulator-rs",
+  "name": "TEESimulator-RS",
+  "version": "6.0.1",
+  "versionCode": 307,
+  "author": "Enginex0",
+  "description": "Rust based TEE simulation module",
   "zipUrl": "https://github.com/Enginex0/TEESimulator-RS/releases/download/v6.0.1-307/TEESimulator-RS-v6.0.1-307-Release.zip",
-  "changelog": "Latest TEESimulator-RS release"
+  "changelog": "Release v6.0.1"
 }

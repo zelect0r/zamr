@@ -1,6 +1,10 @@
 {
-  "version": "3.2",
-  "versionCode": 302,
-  "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/v3.2/TEESimulator-v3.2-80-7209171-Release.zip",
-  "changelog": "Latest TEESimulator release"
+  "id": "susfs4ksu",
+  "name": "SUSFS4KSU",
+  "version": "1.5.2",
+  "versionCode": 152,
+  "author": "sidex15",
+  "description": "SUSFS module",
+  "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2%2B_R28/ksu_module_susfs_1.5.2+.zip",
+  "changelog": "Release v1.5.2"
 }

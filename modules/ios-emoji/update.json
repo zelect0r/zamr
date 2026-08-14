@@ -1,6 +1,10 @@
 {
+  "id": "ios-emoji",
+  "name": "Magisk iOS Emoji",
   "version": "26.4",
   "versionCode": 264,
+  "author": "Keinta15",
+  "description": "iOS Emoji font module",
   "zipUrl": "https://github.com/Keinta15/Magisk-iOS-Emoji/releases/download/v26.4/Magisk_iOS_Emoji_26.4.zip",
-  "changelog": "Latest iOS Emoji release"
+  "changelog": "Release v26.4"
 }

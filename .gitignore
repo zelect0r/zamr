@@ -1,0 +1,12 @@
+# Build output
+*.zip
+build/
+out/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE
+.idea/

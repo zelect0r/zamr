@@ -5,11 +5,12 @@
   "homepage": "https://github.com/zelect0r/zelect0rs-android-modules-repo",
   "license": "Apache-2.0",
   "modules": [
-  {
-    "id": "hello-apatch",
-    "name": "Hello APatch",
-    "author": "zelect0r",
-    "description": "Test module for APatch and MMRL",
-    "updateJson": "modules/hello-apatch/update.json"
-  }
-]
+    {
+      "id": "hello-apatch",
+      "name": "Hello APatch",
+      "author": "zelect0r",
+      "description": "Test module for APatch and MMRL",
+      "updateJson": "modules/hello-apatch/update.json"
+    }
+  ]
+}

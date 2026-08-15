@@ -5,7 +5,8 @@
       "version": "21.04.223",
       "versionCode": 2104223,
       "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/youtube-morphe-module-v21.04.223-all.zip",
-      "changelog": "Initial release"
+      "changelog": "Initial release",
+      "timestamp": 1786750000
     }
   ]
 }

@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1786830302.511493
+    "timestamp": 1786830698.699003
   },
   "modules": [
     {
@@ -46,7 +46,8 @@
           "version": "26.4",
           "versionCode": 264,
           "zipUrl": "https://github.com/Keinta15/Magisk-iOS-Emoji/releases/download/v26.4/Magisk_iOS_Emoji_26.4.zip",
-          "changelog": "Release v26.4"
+          "changelog": "Release v26.4",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -86,7 +87,8 @@
           "version": "9.15.51",
           "versionCode": 91551,
           "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/music-morphe-module-v9.15.51-arm64-v8a.zip",
-          "changelog": "Initial release"
+          "changelog": "Initial release",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -174,7 +176,8 @@
           "version": "4.7",
           "versionCode": 47,
           "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
-          "changelog": "Release v4.7"
+          "changelog": "Release v4.7",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -215,7 +218,8 @@
           "version": "17",
           "versionCode": 17,
           "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v17/PlayIntegrityFork-v17.zip",
-          "changelog": "Release v17"
+          "changelog": "Release v17",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -257,7 +261,8 @@
           "version": "1.0.0",
           "versionCode": 100,
           "zipUrl": "https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0/ReZygisk-v1.0.0-release.zip",
-          "changelog": "Release v1.0.0"
+          "changelog": "Release v1.0.0",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -306,7 +311,8 @@
           "version": "1.5.2",
           "versionCode": 152,
           "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2%2B_R28/ksu_module_susfs_1.5.2+.zip",
-          "changelog": "Release v1.5.2"
+          "changelog": "Release v1.5.2",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -347,7 +353,8 @@
           "version": "4.0",
           "versionCode": 56,
           "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-56/TEESimulator-v4.0-56-936a941-Release.zip",
-          "changelog": "Canary 56"
+          "changelog": "Canary 56",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -388,7 +395,8 @@
           "version": "6.0.1",
           "versionCode": 307,
           "zipUrl": "https://github.com/Enginex0/TEESimulator-RS/releases/download/v6.0.1-307/TEESimulator-RS-v6.0.1-307-Release.zip",
-          "changelog": "Release v6.0.1"
+          "changelog": "Release v6.0.1",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -438,7 +446,8 @@
           "version": "v5.53.1",
           "versionCode": 5531,
           "zipUrl": "https://github.com/Enginex0/tricky-addon-enhanced/releases/download/v5.53.1/TA_enhanced-v5.53.1-debug.zip",
-          "changelog": "Release v5.0-beta.4"
+          "changelog": "Release v5.0-beta.4",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -486,7 +495,8 @@
           "version": "5.0-beta.4",
           "versionCode": 5004,
           "zipUrl": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases/download/v5.0-beta.4/TrickyAddonModule-v5.0-beta.4.zip",
-          "changelog": "Release v5.0-beta.4"
+          "changelog": "Release v5.0-beta.4",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -531,7 +541,8 @@
           "version": "2.2",
           "versionCode": 3090,
           "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3090/Vector-v2.2-3090-Release.zip",
-          "changelog": "Canary 3090"
+          "changelog": "Canary 3090",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -571,7 +582,8 @@
           "version": "21.04.223",
           "versionCode": 2104223,
           "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/youtube-morphe-module-v21.04.223-all.zip",
-          "changelog": "Initial release"
+          "changelog": "Initial release",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -611,7 +623,8 @@
           "version": "2.1.4",
           "versionCode": 1013,
           "zipUrl": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.4/Zygisk-Assistant-v2.1.4-1013f8a-release.zip",
-          "changelog": "Release v2.1.4"
+          "changelog": "Release v2.1.4",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -651,7 +664,8 @@
           "version": "1.23.2",
           "versionCode": 1232,
           "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.23.2/zygisk-detach-v1.23.2.zip",
-          "changelog": "Release v1.23.2"
+          "changelog": "Release v1.23.2",
+          "timestamp": 1786750000
         }
       ]
     },
@@ -695,7 +709,8 @@
           "version": "1.4.5",
           "versionCode": 836,
           "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.4.5/Zygisk-Next-1.4.5-836-b13d58a-release.zip",
-          "changelog": "Release v1.4.5"
+          "changelog": "Release v1.4.5",
+          "timestamp": 1786750000
         }
       ]
     }

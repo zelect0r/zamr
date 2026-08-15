@@ -2,7 +2,7 @@
   "name": "zelect0r Android Modules Repo",
   "description": "Custom Android root modules compatible with APatch, Magisk and MMRL",
   "author": "zelect0r",
-  "homepage": "https://github.com/zelect0r/zelect0rs-android-modules-repo",
+  "homepage": "https://zelect0r.github.io/zelect0rs-android-modules-repo/repo.json",
   "license": "Apache-2.0",
   "modules": [
     {

@@ -1,0 +1,11 @@
+{
+  "id": "tricky-addon-target-list",
+  "versions": [
+    {
+      "version": "5.0-beta.4",
+      "versionCode": 5004,
+      "zipUrl": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases/download/v5.0-beta.4/TrickyAddonModule-v5.0-beta.4.zip",
+      "changelog": "Release v5.0-beta.4"
+    }
+  ]
+}

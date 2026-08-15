@@ -1,10 +1,15 @@
 {
   "id": "zygisk-assistant",
-  "name": "Zygisk Assistant",
-  "version": "2.1.4",
-  "versionCode": 1013,
-  "author": "snake-4",
-  "description": "Root hiding assistant",
-  "zipUrl": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.4/Zygisk-Assistant-v2.1.4-1013f8a-release.zip",
-  "changelog": "Release v2.1.4"
+  "update_to": "update.json",
+  "enable": true,
+  "verified": true,
+  "added": 1786750000,
+  "homepage": "https://github.com/snake-4/Zygisk-Assistant",
+  "source": "https://github.com/snake-4/Zygisk-Assistant",
+  "license": "GPL-3.0",
+  "category": "Root Hide",
+  "maxApi": 36,
+  "arch": [
+    "arm64-v8a"
+  ]
 }

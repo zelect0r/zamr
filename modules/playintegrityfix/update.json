@@ -1,0 +1,11 @@
+{
+  "id": "playintegrityfix",
+  "versions": [
+    {
+      "version": "4.7",
+      "versionCode": 47,
+      "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
+      "changelog": "Release v4.7"
+    }
+  ]
+}

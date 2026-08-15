@@ -1,10 +1,15 @@
 {
   "id": "vector",
-  "name": "Vector",
-  "version": "2.2",
-  "versionCode": 3090,
-  "author": "JingMatrix",
-  "description": "Modern Xposed framework",
-  "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3090/Vector-v2.2-3090-Release.zip",
-  "changelog": "Canary 3090"
+  "update_to": "update.json",
+  "enable": true,
+  "verified": true,
+  "added": 1786750000,
+  "homepage": "https://github.com/JingMatrix/Vector",
+  "source": "https://github.com/JingMatrix/Vector",
+  "license": "GPL-3.0",
+  "category": "Xposed",
+  "maxApi": 36,
+  "arch": [
+    "arm64-v8a"
+  ]
 }

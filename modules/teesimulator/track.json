@@ -1,10 +1,15 @@
 {
   "id": "teesimulator",
-  "name": "TEESimulator",
-  "version": "4.0",
-  "versionCode": 56,
-  "author": "JingMatrix",
-  "description": "TEE simulation module",
-  "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-56/TEESimulator-v4.0-56-936a941-Release.zip",
-  "changelog": "Canary 56"
+  "update_to": "update.json",
+  "enable": true,
+  "verified": true,
+  "added": 1786750000,
+  "homepage": "https://github.com/JingMatrix/TEESimulator",
+  "source": "https://github.com/JingMatrix/TEESimulator",
+  "license": "GPL-3.0",
+  "category": "Integrity",
+  "maxApi": 36,
+  "arch": [
+    "arm64-v8a"
+  ]
 }

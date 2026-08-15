@@ -1,10 +1,15 @@
 {
   "id": "susfs4ksu",
-  "name": "SUSFS4KSU",
-  "version": "1.5.2",
-  "versionCode": 152,
-  "author": "sidex15",
-  "description": "SUSFS module",
-  "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2%2B_R28/ksu_module_susfs_1.5.2+.zip",
-  "changelog": "Release v1.5.2"
+  "update_to": "update.json",
+  "enable": true,
+  "verified": true,
+  "added": 1786750000,
+  "homepage": "https://github.com/sidex15/susfs4ksu-module",
+  "source": "https://github.com/sidex15/susfs4ksu-module",
+  "license": "GPL-3.0",
+  "category": "KernelSU",
+  "maxApi": 36,
+  "arch": [
+    "arm64-v8a"
+  ]
 }

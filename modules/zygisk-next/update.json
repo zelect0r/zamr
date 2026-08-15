@@ -1,0 +1,11 @@
+{
+  "id": "zygisk-next",
+  "versions": [
+    {
+      "version": "1.4.5",
+      "versionCode": 836,
+      "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.4.5/Zygisk-Next-1.4.5-836-b13d58a-release.zip",
+      "changelog": "Release v1.4.5"
+    }
+  ]
+}

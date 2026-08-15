@@ -1,7 +1,7 @@
 {
-  "id": "zelect0r-android-modules",
-  "name": "zelect0r Android Modules Repo",
-  "description": "Custom Android root modules compatible with APatch, Magisk and MMRL",
-  "author": "zelect0r",
-  "base_url": "https://zelect0r.github.io/zelect0rs-android-modules-repo/"
+  "name": "zelect0rs Android Modules Repository",
+  "base_url": "https://zelect0r.github.io/zelect0rs-android-modules-repo/",
+  "max_num": 3,
+  "enable_log": true,
+  "log_dir": "log"
 }

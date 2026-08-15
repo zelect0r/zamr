@@ -1,10 +1,15 @@
 {
   "id": "music-morphe",
-  "name": "Music Morphe",
-  "version": "9.15.51",
-  "versionCode": 91551,
-  "author": "j-hc",
-  "description": "YouTube Music ReVanced Magisk module",
-  "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/music-morphe-module-v9.15.51-arm64-v8a.zip",
-  "changelog": "Initial release"
+  "update_to": "update.json",
+  "enable": true,
+  "verified": true,
+  "added": 1786750000,
+  "homepage": "https://github.com/j-hc/revanced-magisk-module",
+  "source": "https://github.com/j-hc/revanced-magisk-module",
+  "license": "GPL-3.0",
+  "category": "Apps",
+  "maxApi": 36,
+  "arch": [
+    "arm64-v8a"
+  ]
 }

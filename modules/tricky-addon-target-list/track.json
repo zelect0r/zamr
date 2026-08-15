@@ -1,10 +1,15 @@
 {
   "id": "tricky-addon-target-list",
-  "name": "Tricky Addon Update Target List",
-  "version": "5.0-beta.4",
-  "versionCode": 5004,
-  "author": "KOWX712",
-  "description": "Tricky Store addon",
-  "zipUrl": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases/download/v5.0-beta.4/TrickyAddonModule-v5.0-beta.4.zip",
-  "changelog": "Release v5.0-beta.4"
+  "update_to": "update.json",
+  "enable": true,
+  "verified": true,
+  "added": 1786750000,
+  "homepage": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+  "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+  "license": "GPL-3.0",
+  "category": "Integrity",
+  "maxApi": 36,
+  "arch": [
+    "arm64-v8a"
+  ]
 }

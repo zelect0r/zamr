@@ -28,7 +28,10 @@ jobs:
       - name: Fetch releases and rebuild the MMRL index
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: mmrl-util sync --size 300 --single
+        run: |
+          mmrl-util sync --size 300 --single
+          jq 'del(.id)' json/modules.json > /tmp/modules.json
+          mv /tmp/modules.json json/modules.json
 
       - name: Commit updated modules
         run: |

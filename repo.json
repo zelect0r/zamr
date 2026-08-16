@@ -25,6 +25,7 @@
     {"id":"music-morphe","name":"Music Morphe","author":"j-hc","description":"Patched YouTube Music module.","updateJson":"https://zelect0r.github.io/zamr/modules/music-morphe/update.json"},
     {"id":"youtube-morphe","name":"YouTube Morphe","author":"j-hc","description":"Patched YouTube module.","updateJson":"https://zelect0r.github.io/zamr/modules/youtube-morphe/update.json"},
     {"id":"hma_oss_zygisk","name":"HMA-OSS Zygisk","author":"frknkrc44","description":"A Zygisk backend for HMA-OSS.","updateJson":"https://zelect0r.github.io/zamr/modules/hma_oss_zygisk/update.json"},
-    {"id":"hybrid_mount","name":"Hybrid Mount","author":"Hybrid Mount Developers","description":"Mount orchestration metamodule for KernelSU and APatch.","updateJson":"https://zelect0r.github.io/zamr/modules/hybrid_mount/update.json"}
+    {"id":"hybrid_mount","name":"Hybrid Mount","author":"Hybrid Mount Developers","description":"Mount orchestration metamodule for KernelSU and APatch.","updateJson":"https://zelect0r.github.io/zamr/modules/hybrid_mount/update.json"},
+    {"id":"bindhosts","name":"bindhosts","author":"xx, KOWX712","description":"Systemless hosts for APatch, KernelSU and Magisk.","updateJson":"https://zelect0r.github.io/zamr/modules/bindhosts/update.json"}
   ]
 }

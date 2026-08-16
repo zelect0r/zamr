@@ -21,14 +21,14 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | Integrity | Play Integrity Fix/Fork, TEESimulator, Tricky Addons |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
-| Utility | zygisk-detach |
+| Utility | zygisk-detach, bindhosts |
 | Xposed | Vector |
 | Zygisk | Zygisk Next, NeoZygisk, ReZygisk |
 | WebUI | Tricky Addon modules |
 
 ## Included modules
 
-The MMRL index currently publishes 18 modules:
+The MMRL index currently publishes 19 modules:
 
 - Zygisk Next, NeoZygisk, and ReZygisk
 - Zygisk Assistant and zygisk-detach
@@ -41,6 +41,7 @@ The MMRL index currently publishes 18 modules:
 - YouTube Morphe and Music Morphe
 - HMA-OSS Zygisk
 - Hybrid Mount
+- bindhosts
 
 The complete index is available at [`json/modules.json`](json/modules.json).
 

@@ -1,45 +1,67 @@
-# zamr Android Modules Repository
+# zamr · Android Modules Repository
 
-Private Android root modules for APatch, Magisk and MMRL.
+Eine kuratierte Sammlung von Root-Modulen für **Magisk**, **KernelSU**, **APatch** und **MMRL**.
 
-## About
+## MMRL hinzufügen
 
-This repository contains Android root modules maintained by zamr.
+In MMRL unter **Repositories → Hinzufügen** diese Basis-URL eintragen:
 
-Supported root solutions:
-
-- APatch
-- Magisk
-- MMRL (Module Manager for Root)
-
-## Modules
-
-| Module | Description |
-|--------|-------------|
-| Coming soon | - |
-
-## Installation
-
-Add this repository to MMRL:
-
-```
+```text
 https://zelect0r.github.io/zamr/
 ```
 
-## Compatibility
+Nicht `repo.json` oder `json/modules.json` eintragen – MMRL lädt den Modulindex automatisch von dort.
 
-Tested with:
+## Kategorien
 
-- Android 16
-- APatch
-- OnePlus 8T
+| Kategorie | Inhalt |
+| --- | --- |
+| Apps | YouTube Morphe, Music Morphe |
+| Customization | iOS Emoji |
+| Integrity | Play Integrity Fix/Fork, TEESimulator, Tricky Addons |
+| KernelSU | SUSFS for KernelSU |
+| Root Hide | Zygisk Assistant |
+| Utility | zygisk-detach |
+| Xposed | Vector |
+| Zygisk | Zygisk Next, NeoZygisk, ReZygisk |
+| WebUI | Tricky Addon-Module |
 
-## Disclaimer
+## Enthaltene Module
 
-Use these modules at your own risk.
+16 Module werden über den MMRL-Index veröffentlicht:
 
-Always create a backup before installing root modifications.
+- Zygisk Next, NeoZygisk, ReZygisk
+- Zygisk Assistant und zygisk-detach
+- Play Integrity Fix und Play Integrity Fork
+- TEESimulator und TEESimulator-RS
+- Tricky Addon Enhanced und Tricky Addon Target List
+- SUSFS for KernelSU
+- Vector
+- iOS Emoji
+- YouTube Morphe und Music Morphe
 
-## License
+Der vollständige Index ist unter [`json/modules.json`](json/modules.json) verfügbar.
 
-Personal use only unless otherwise stated.
+## Aktualisierungen
+
+GitHub Actions prüft alle sechs Stunden die neuesten GitHub-Releases. Neue ZIPs werden übernommen, der MMRL-Index wird neu erzeugt und automatisch veröffentlicht. Dadurch kann es nach einem Upstream-Release einige Minuten dauern, bis die Version in MMRL sichtbar ist.
+
+## Voraussetzungen
+
+- Android 8 oder neuer (je nach Modul)
+- kompatibler Root-Manager: Magisk, KernelSU oder APatch
+- unterstützte Architektur und Android-API des jeweiligen Moduls beachten
+
+## Sicherheit
+
+Root-Module verändern Systemverhalten. Vor jeder Installation ein vollständiges Backup erstellen und die Hinweise des jeweiligen Projekts lesen. Nutzung auf eigene Verantwortung.
+
+## Lizenz
+
+Die Lizenz kann je Modul abweichen und steht in den jeweiligen `track.json`- und Modulmetadaten. Repository-Metadaten stehen unter Apache-2.0, sofern nicht anders angegeben.
+
+## Links
+
+- [MMRL-Repository](https://zelect0r.github.io/zamr/)
+- [Modulindex](json/modules.json)
+- [GitHub Issues](https://github.com/zelect0r/zamr/issues)

@@ -8,6 +8,7 @@
   "source": "https://github.com/Enginex0/TEESimulator-RS",
   "license": "GPL-3.0",
   "category": "Integrity",
+  "categories": ["Integrity"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

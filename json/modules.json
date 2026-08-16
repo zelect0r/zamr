@@ -8,7 +8,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1786912865.104198
+    "timestamp": 1786913269.545252
   },
   "modules": [
     {
@@ -21,6 +21,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Customization",
+      "categories": [
+        "Customization"
+      ],
       "homepage": "https://github.com/Keinta15/Magisk-iOS-Emoji",
       "license": "Apache-2.0",
       "verified": true,
@@ -60,6 +63,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Apps",
+      "categories": [
+        "Apps"
+      ],
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
@@ -101,6 +107,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Zygisk",
+      "categories": [
+        "Zygisk"
+      ],
       "homepage": "https://github.com/JingMatrix/NeoZygisk",
       "license": "GPL-3.0",
       "verified": true,
@@ -145,6 +154,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
       "homepage": "https://github.com/KOWX712/PlayIntegrityFix",
       "license": "GPL-3.0",
       "verified": true,
@@ -190,6 +202,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
       "homepage": "https://github.com/osm0sis/PlayIntegrityFork",
       "license": "GPL-3.0",
       "verified": true,
@@ -232,6 +247,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Zygisk",
+      "categories": [
+        "Zygisk"
+      ],
       "homepage": "https://github.com/PerformanC/ReZygisk",
       "license": "GPL-3.0",
       "verified": true,
@@ -275,6 +293,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "KernelSU",
+      "categories": [
+        "KernelSU"
+      ],
       "homepage": "https://github.com/sidex15/susfs4ksu-module",
       "license": "GPL-3.0",
       "verified": true,
@@ -325,6 +346,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
       "homepage": "https://github.com/JingMatrix/TEESimulator",
       "license": "GPL-3.0",
       "verified": true,
@@ -367,6 +391,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
       "homepage": "https://github.com/Enginex0/TEESimulator-RS",
       "license": "GPL-3.0",
       "verified": true,
@@ -409,13 +436,13 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
+      "categories": [
+        "WebUI"
+      ],
       "homepage": "https://github.com/Enginex0/tricky-addon-enhanced",
       "license": " GPL-3.0",
       "verified": true,
       "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
-      "categories": [
-        "WebUI"
-      ],
       "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
       "note": {
         "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
@@ -460,13 +487,13 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
+      "categories": [
+        "WebUI"
+      ],
       "homepage": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
       "license": "Apache-2.0",
       "verified": true,
       "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
-      "categories": [
-        "WebUI"
-      ],
       "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
       "note": {
         "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
@@ -509,6 +536,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Xposed",
+      "categories": [
+        "Xposed"
+      ],
       "homepage": "https://github.com/JingMatrix/Vector",
       "license": "GPL-3.0",
       "verified": true,
@@ -555,6 +585,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Apps",
+      "categories": [
+        "Apps"
+      ],
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
@@ -596,6 +629,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Root Hide",
+      "categories": [
+        "Root Hide"
+      ],
       "homepage": "https://github.com/snake-4/Zygisk-Assistant",
       "license": "GPL-3.0",
       "verified": true,
@@ -637,6 +673,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Utility",
+      "categories": [
+        "Utility"
+      ],
       "homepage": "https://github.com/j-hc/zygisk-detach",
       "license": "GPL-3.0",
       "verified": true,
@@ -678,6 +717,9 @@
       "added": 1786750000,
       "maxApi": 36,
       "category": "Zygisk",
+      "categories": [
+        "Zygisk"
+      ],
       "homepage": "https://github.com/Dr-TSNG/ZygiskNext",
       "license": "GPL-3.0",
       "verified": true,

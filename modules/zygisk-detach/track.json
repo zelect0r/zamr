@@ -8,6 +8,7 @@
   "source": "https://github.com/j-hc/zygisk-detach",
   "license": "GPL-3.0",
   "category": "Utility",
+  "categories": ["Utility"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

@@ -8,6 +8,7 @@
   "source": "https://github.com/JingMatrix/Vector",
   "license": "GPL-3.0",
   "category": "Xposed",
+  "categories": ["Xposed"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

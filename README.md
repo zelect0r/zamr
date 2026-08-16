@@ -1,10 +1,10 @@
-# zelect0r Android Modules Repo
+# zamr Android Modules Repository
 
 Private Android root modules for APatch, Magisk and MMRL.
 
 ## About
 
-This repository contains custom Android modules developed and maintained by zelect0r.
+This repository contains Android root modules maintained by zamr.
 
 Supported root solutions:
 
@@ -23,7 +23,7 @@ Supported root solutions:
 Add this repository to MMRL:
 
 ```
-https://zelect0r.github.io/zelect0rs-android-modules-repo/repo.json
+https://zelect0r.github.io/zamr/
 ```
 
 ## Compatibility

@@ -1,10 +1,10 @@
 {
-  "id": "zelect0rs",
-  "name": "zelect0r Android Modules Repository",
+  "id": "zamr",
+  "name": "zamr Android Modules Repository",
   "description": "Custom Android root modules compatible with APatch, Magisk and MMRL",
   "author": "zelect0r",
-  "website": "https://github.com/zelect0r/zelect0rs-android-modules-repo",
-  "homepage": "https://zelect0r.github.io/zelect0rs-android-modules-repo/",
+  "website": "https://github.com/zelect0r/zamr",
+  "homepage": "https://zelect0r.github.io/zamr/",
   "license": "Apache-2.0",
   "version": 1,
   "modules": [

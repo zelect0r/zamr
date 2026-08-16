@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1786912485.675439
+    "timestamp": 1786912865.104198
   },
   "modules": [
     {
@@ -127,7 +127,7 @@
       },
       "versions": [
         {
-          "timestamp": null,
+          "timestamp": 1786750000,
           "version": "2.4",
           "versionCode": 289,
           "zipUrl": "https://github.com/JingMatrix/NeoZygisk/releases/download/v2.4/NeoZygisk-v2.4-289-release.zip",

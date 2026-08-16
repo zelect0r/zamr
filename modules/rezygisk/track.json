@@ -8,6 +8,7 @@
   "source": "https://github.com/PerformanC/ReZygisk",
   "license": "GPL-3.0",
   "category": "Zygisk",
+  "categories": ["Zygisk"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

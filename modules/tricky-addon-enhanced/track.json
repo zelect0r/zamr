@@ -8,6 +8,7 @@
   "source": "https://github.com/Enginex0/tricky-addon-enhanced",
   "license": "GPL-3.0",
   "category": "Integrity",
+  "categories": ["Integrity", "WebUI"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

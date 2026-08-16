@@ -8,6 +8,7 @@
   "source": "https://github.com/Keinta15/Magisk-iOS-Emoji",
   "license": "Apache-2.0",
   "category": "Customization",
+  "categories": ["Customization"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

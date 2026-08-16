@@ -8,6 +8,7 @@
   "source": "https://github.com/sidex15/susfs4ksu-module",
   "license": "GPL-3.0",
   "category": "KernelSU",
+  "categories": ["KernelSU"],
   "maxApi": 36,
   "arch": [
     "arm64-v8a"

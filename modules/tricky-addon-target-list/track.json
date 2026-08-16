@@ -1,6 +1,6 @@
 {
   "id": "tricky-addon-target-list",
-  "update_to": "update.json",
+  "update_to": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List.git",
   "enable": true,
   "verified": true,
   "added": 1786750000,
@@ -11,5 +11,6 @@
   "maxApi": 36,
   "arch": [
     "arm64-v8a"
-  ]
+  ],
+  "options": { "github": { "source": "releases" } }
 }

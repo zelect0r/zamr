@@ -1,6 +1,6 @@
 {
-  "id": "zelect0rs",
-  "name": "zelect0rs Android Modules Repository",
+  "id": "zelgitamr",
+  "name": "zamr Android Modules Repository",
   "website": null,
   "support": null,
   "donate": null,
@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1786831926.410499
+    "timestamp": 1786912485.675439
   },
   "modules": [
     {
@@ -35,11 +35,11 @@
         "action": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/Keinta15/Magisk-iOS-Emoji",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/ios-emoji/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/ios-emoji/track.json"
       },
       "versions": [
         {
@@ -76,11 +76,11 @@
         "apks": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/j-hc/revanced-magisk-module",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/music-morphe/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/music-morphe/track.json"
       },
       "versions": [
         {
@@ -119,11 +119,11 @@
         "action": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/JingMatrix/NeoZygisk",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/neozygisk/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/neozygisk/track.json"
       },
       "versions": [
         {
@@ -165,11 +165,11 @@
         "webroot": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/KOWX712/PlayIntegrityFix",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/playintegrityfix/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/playintegrityfix/track.json"
       },
       "versions": [
         {
@@ -207,11 +207,11 @@
         "action": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/osm0sis/PlayIntegrityFork",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/playintegrityfork/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/playintegrityfork/track.json"
       },
       "versions": [
         {
@@ -250,11 +250,11 @@
         "webroot": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/PerformanC/ReZygisk",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/rezygisk/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/rezygisk/track.json"
       },
       "versions": [
         {
@@ -300,11 +300,11 @@
         "boot_completed": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/sidex15/susfs4ksu-module",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/susfs4ksu/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/susfs4ksu/track.json"
       },
       "versions": [
         {
@@ -342,11 +342,11 @@
         "webroot": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/JingMatrix/TEESimulator",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/teesimulator/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/teesimulator/track.json"
       },
       "versions": [
         {
@@ -384,11 +384,11 @@
         "action": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/Enginex0/TEESimulator-RS",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/teesimulator-rs/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/teesimulator-rs/track.json"
       },
       "versions": [
         {
@@ -435,11 +435,11 @@
         "apks": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/Enginex0/tricky-addon-enhanced",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/tricky-addon-enhanced/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/tricky-addon-enhanced/track.json"
       },
       "versions": [
         {
@@ -484,11 +484,11 @@
         "action": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/tricky-addon-target-list/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/tricky-addon-target-list/track.json"
       },
       "versions": [
         {
@@ -530,11 +530,11 @@
         "apks": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/JingMatrix/Vector",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/vector/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/vector/track.json"
       },
       "versions": [
         {
@@ -571,11 +571,11 @@
         "apks": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/j-hc/revanced-magisk-module",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/youtube-morphe/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/youtube-morphe/track.json"
       },
       "versions": [
         {
@@ -612,11 +612,11 @@
         "zygisk": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/snake-4/Zygisk-Assistant",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/zygisk-assistant/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/zygisk-assistant/track.json"
       },
       "versions": [
         {
@@ -653,11 +653,11 @@
         "webroot": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/j-hc/zygisk-detach",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/zygisk-detach/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/zygisk-detach/track.json"
       },
       "versions": [
         {
@@ -698,11 +698,11 @@
         "webroot": true
       },
       "track": {
-        "type": "LOCAL_JSON",
+        "type": "GIT",
         "added": 1786750000,
         "source": "https://github.com/Dr-TSNG/ZygiskNext",
         "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zelect0rs-android-modules-repo/modules/zygisk-next/track.json"
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/zygisk-next/track.json"
       },
       "versions": [
         {

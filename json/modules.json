@@ -8,9 +8,55 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1786913968.971963
+    "timestamp": 1786914250.95191
   },
   "modules": [
+    {
+      "id": "hma_oss_zygisk",
+      "name": "HMA-OSS Zygisk",
+      "version": "oss-166",
+      "versionCode": 7304649,
+      "author": "frknkrc44",
+      "description": "A Zygisk backend for HMA-OSS",
+      "added": 1786275967,
+      "maxApi": 36,
+      "category": "Root Hide",
+      "categories": [
+        "Root Hide",
+        "Zygisk"
+      ],
+      "homepage": "https://github.com/frknkrc44/HMA-OSS",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 2588471,
+      "permissions": [
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "zygisk": true,
+        "action": true,
+        "apks": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1786275967,
+        "source": "https://github.com/frknkrc44/HMA-OSS",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/hma_oss_zygisk/track.json"
+      },
+      "versions": [
+        {
+          "version": "oss-166",
+          "versionCode": 7304649,
+          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-166/HMA-OSS-ZYGISK-oss-166-release.zip",
+          "changelog": "New Zygisk version and bug fixes.",
+          "timestamp": 1786275967
+        }
+      ]
+    },
     {
       "id": "ios-emoji",
       "name": "iOS 26.4 Emoji font",

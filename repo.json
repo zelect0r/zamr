@@ -23,6 +23,7 @@
     {"id":"tricky-addon-target-list","name":"Tricky Addon Target List","author":"KOWX712","description":"TrickyStore target list WebUI.","updateJson":"https://zelect0r.github.io/zamr/modules/tricky-addon-target-list/update.json"},
     {"id":"tricky-addon-enhanced","name":"Tricky Addon Enhanced","author":"Enginex0","description":"Enhanced TrickyStore addon.","updateJson":"https://zelect0r.github.io/zamr/modules/tricky-addon-enhanced/update.json"},
     {"id":"music-morphe","name":"Music Morphe","author":"j-hc","description":"Patched YouTube Music module.","updateJson":"https://zelect0r.github.io/zamr/modules/music-morphe/update.json"},
-    {"id":"youtube-morphe","name":"YouTube Morphe","author":"j-hc","description":"Patched YouTube module.","updateJson":"https://zelect0r.github.io/zamr/modules/youtube-morphe/update.json"}
+    {"id":"youtube-morphe","name":"YouTube Morphe","author":"j-hc","description":"Patched YouTube module.","updateJson":"https://zelect0r.github.io/zamr/modules/youtube-morphe/update.json"},
+    {"id":"hma_oss_zygisk","name":"HMA-OSS Zygisk","author":"frknkrc44","description":"A Zygisk backend for HMA-OSS.","updateJson":"https://zelect0r.github.io/zamr/modules/hma_oss_zygisk/update.json"}
   ]
 }

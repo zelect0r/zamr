@@ -1,0 +1,15 @@
+{
+  "id": "hma_oss_zygisk",
+  "update_to": "https://github.com/frknkrc44/HMA-OSS.git",
+  "enable": true,
+  "verified": true,
+  "added": 1786275967,
+  "homepage": "https://github.com/frknkrc44/HMA-OSS",
+  "source": "https://github.com/frknkrc44/HMA-OSS",
+  "license": "GPL-3.0",
+  "category": "Root Hide",
+  "categories": ["Root Hide", "Zygisk"],
+  "maxApi": 36,
+  "arch": ["arm64-v8a"],
+  "options": { "github": { "source": "releases" } }
+}

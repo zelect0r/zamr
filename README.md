@@ -1,20 +1,20 @@
-# zamr · Android Modules Repository
+# zelect0rs Android Modules Repository
 
-Eine kuratierte Sammlung von Root-Modulen für **Magisk**, **KernelSU**, **APatch** und **MMRL**.
+A curated collection of root modules for **Magisk**, **KernelSU**, **APatch**, and **MMRL**.
 
-## MMRL hinzufügen
+## Add to MMRL
 
-In MMRL unter **Repositories → Hinzufügen** diese Basis-URL eintragen:
+In MMRL, open **Repositories → Add** and enter this base URL:
 
 ```text
 https://zelect0r.github.io/zamr/
 ```
 
-Nicht `repo.json` oder `json/modules.json` eintragen – MMRL lädt den Modulindex automatisch von dort.
+Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index from the base URL automatically.
 
-## Kategorien
+## Categories
 
-| Kategorie | Inhalt |
+| Category | Modules |
 | --- | --- |
 | Apps | YouTube Morphe, Music Morphe |
 | Customization | iOS Emoji |
@@ -24,44 +24,44 @@ Nicht `repo.json` oder `json/modules.json` eintragen – MMRL lädt den Modulind
 | Utility | zygisk-detach |
 | Xposed | Vector |
 | Zygisk | Zygisk Next, NeoZygisk, ReZygisk |
-| WebUI | Tricky Addon-Module |
+| WebUI | Tricky Addon modules |
 
-## Enthaltene Module
+## Included modules
 
-16 Module werden über den MMRL-Index veröffentlicht:
+The MMRL index currently publishes 16 modules:
 
-- Zygisk Next, NeoZygisk, ReZygisk
-- Zygisk Assistant und zygisk-detach
-- Play Integrity Fix und Play Integrity Fork
-- TEESimulator und TEESimulator-RS
-- Tricky Addon Enhanced und Tricky Addon Target List
+- Zygisk Next, NeoZygisk, and ReZygisk
+- Zygisk Assistant and zygisk-detach
+- Play Integrity Fix and Play Integrity Fork
+- TEESimulator and TEESimulator-RS
+- Tricky Addon Enhanced and Tricky Addon Target List
 - SUSFS for KernelSU
 - Vector
 - iOS Emoji
-- YouTube Morphe und Music Morphe
+- YouTube Morphe and Music Morphe
 
-Der vollständige Index ist unter [`json/modules.json`](json/modules.json) verfügbar.
+The complete index is available at [`json/modules.json`](json/modules.json).
 
-## Aktualisierungen
+## Automatic updates
 
-GitHub Actions prüft alle sechs Stunden die neuesten GitHub-Releases. Neue ZIPs werden übernommen, der MMRL-Index wird neu erzeugt und automatisch veröffentlicht. Dadurch kann es nach einem Upstream-Release einige Minuten dauern, bis die Version in MMRL sichtbar ist.
+GitHub Actions checks for new upstream GitHub releases every six hours. New ZIP files are imported, the MMRL index is rebuilt, and the result is published automatically. After an upstream release, it can take a few minutes before the new version appears in MMRL.
 
-## Voraussetzungen
+## Requirements
 
-- Android 8 oder neuer (je nach Modul)
-- kompatibler Root-Manager: Magisk, KernelSU oder APatch
-- unterstützte Architektur und Android-API des jeweiligen Moduls beachten
+- Android 8 or newer (depending on the module)
+- A compatible root manager: Magisk, KernelSU, or APatch
+- Check each module's supported architecture and Android API level before installing
 
-## Sicherheit
+## Safety
 
-Root-Module verändern Systemverhalten. Vor jeder Installation ein vollständiges Backup erstellen und die Hinweise des jeweiligen Projekts lesen. Nutzung auf eigene Verantwortung.
+Root modules modify system behavior. Create a full backup before installation and read the upstream project's notes. Use at your own risk.
 
-## Lizenz
+## License
 
-Die Lizenz kann je Modul abweichen und steht in den jeweiligen `track.json`- und Modulmetadaten. Repository-Metadaten stehen unter Apache-2.0, sofern nicht anders angegeben.
+Licenses may differ between modules and are listed in their `track.json` and module metadata. Repository metadata is Apache-2.0 unless stated otherwise.
 
 ## Links
 
-- [MMRL-Repository](https://zelect0r.github.io/zamr/)
-- [Modulindex](json/modules.json)
+- [MMRL repository](https://zelect0r.github.io/zamr/)
+- [Module index](json/modules.json)
 - [GitHub Issues](https://github.com/zelect0r/zamr/issues)

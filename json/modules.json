@@ -8,7 +8,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1786914250.95191
+    "timestamp": 1786914535.529108
   },
   "modules": [
     {
@@ -54,6 +54,52 @@
           "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-166/HMA-OSS-ZYGISK-oss-166-release.zip",
           "changelog": "New Zygisk version and bug fixes.",
           "timestamp": 1786275967
+        }
+      ]
+    },
+    {
+      "id": "hybrid_mount",
+      "name": "Hybrid Mount",
+      "version": "4.2.0-1815",
+      "versionCode": 402000,
+      "author": "Hybrid Mount Developers",
+      "description": "Mount orchestration metamodule for KernelSU and APatch",
+      "added": 1782579917,
+      "metamodule": "1",
+      "maxApi": 36,
+      "category": "KernelSU",
+      "categories": [
+        "KernelSU",
+        "Utility"
+      ],
+      "homepage": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 2161504,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "sepolicy": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1782579917,
+        "source": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/hybrid_mount/track.json"
+      },
+      "versions": [
+        {
+          "version": "4.2.0-1815",
+          "versionCode": 402000,
+          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v4.2.0/Hybrid-Mount-4.2.0-1815.zip",
+          "changelog": "Hybrid Mount 4.2.0",
+          "timestamp": 1782579917
         }
       ]
     },

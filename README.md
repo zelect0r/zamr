@@ -49,6 +49,14 @@ The complete index is available at [`json/modules.json`](json/modules.json).
 
 GitHub Actions checks for new upstream GitHub releases every six hours. New ZIP files are imported, the MMRL index is rebuilt, and the result is published automatically. After an upstream release, it can take a few minutes before the new version appears in MMRL.
 
+## Support
+
+If you find ZAMR useful and would like to support its development and maintenance, you can support me on Ko-fi.
+
+[☕ Support zelect0r/zamr on Ko-fi](https://ko-fi.com/zelect0r)
+
+Your support helps me continue developing and maintaining ZAMR. Thank you! ❤️
+
 ## Requirements
 
 - Android 8 or newer (depending on the module)

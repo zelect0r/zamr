@@ -18,13 +18,14 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | --- | --- |
 | Apps | YouTube Morphe, Music Morphe |
 | Customization | iOS Emoji |
-| Integrity | Play Integrity Fix/Fork, TEESimulator, Tricky Addons |
+| Integrity | Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Store |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
 | Utility | zygisk-detach, bindhosts |
 | Xposed | Vector |
 | Zygisk | Zygisk Next, NeoZygisk, ReZygisk |
-| WebUI | Tricky Addon modules |
+| WebUI | Tricky Addon Target List |
+| **ZAMR** | **DT2W Fix** |
 
 ## Included modules
 

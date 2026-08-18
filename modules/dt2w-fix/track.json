@@ -1,0 +1,15 @@
+{
+  "id": "dt2w-fix",
+  "update_to": "https://github.com/zelect0r/dt2w-fix.git",
+  "enable": true,
+  "verified": true,
+  "added": 1782357243,
+  "homepage": "https://github.com/zelect0r/dt2w-fix",
+  "source": "https://github.com/zelect0r/dt2w-fix",
+  "license": "GPL-3.0",
+  "category": "Utility",
+  "categories": ["Utility"],
+  "maxApi": 36,
+  "arch": ["arm64-v8a"],
+  "options": { "github": { "source": "releases" } }
+}

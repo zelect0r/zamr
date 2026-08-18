@@ -905,6 +905,47 @@
           "timestamp": 1786750000
         }
       ]
+    },
+    {
+      "id": "dt2w-fix",
+      "name": "DT2W Fix for OnePlus 8T",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "zelect0r",
+      "description": "Restores Double Tap to Wake by enabling the touchpanel DT2W proc interface during boot.",
+      "added": 1782357243,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/zelect0r/dt2w-fix",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 606,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1782357243,
+        "source": "https://github.com/zelect0r/dt2w-fix",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/dt2w-fix/track.json"
+      },
+      "versions": [
+        {
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/zelect0r/dt2w-fix/releases/download/v1.0/dt2w-fix-v1.0.zip",
+          "changelog": "Initial release of DT2W Fix for OnePlus 8T.",
+          "timestamp": 1782357243,
+          "size": 606
+        }
+      ]
     }
   ]
 }

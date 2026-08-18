@@ -26,6 +26,6 @@
     {"id":"youtube-morphe","name":"YouTube Morphe","author":"j-hc","description":"Patched YouTube module.","updateJson":"https://zelect0r.github.io/zamr/modules/youtube-morphe/update.json"},
     {"id":"hma_oss_zygisk","name":"HMA-OSS Zygisk","author":"frknkrc44","description":"A Zygisk backend for HMA-OSS.","updateJson":"https://zelect0r.github.io/zamr/modules/hma_oss_zygisk/update.json"},
     {"id":"hybrid_mount","name":"Hybrid Mount","author":"Hybrid Mount Developers","description":"Mount orchestration metamodule for KernelSU and APatch.","updateJson":"https://zelect0r.github.io/zamr/modules/hybrid_mount/update.json"},
-    {"id":"bindhosts","name":"bindhosts","author":"xx, KOWX712","description":"Systemless hosts for APatch, KernelSU and Magisk.","updateJson":"https://zelect0r.github.io/zamr/modules/bindhosts/update.json"}
-  ]
+    {"id":"bindhosts","name":"bindhosts","author":"xx, KOWX712","description":"Systemless hosts for APatch, KernelSU and Magisk.","updateJson":"https://zelect0r.github.io/zamr/modules/bindhosts/update.json"},
+    {"id":"dt2w-fix","name":"DT2W Fix for OnePlus 8T","author":"zelect0r","description":"Restores Double Tap to Wake by enabling the touchpanel DT2W proc interface during boot.","updateJson":"https://zelect0r.github.io/zamr/modules/dt2w-fix/update.json"}  ]
 }

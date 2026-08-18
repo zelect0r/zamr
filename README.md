@@ -42,6 +42,7 @@ The MMRL index currently publishes 19 modules:
 - HMA-OSS Zygisk
 - Hybrid Mount
 - bindhosts
+- DT2W_Fix
 
 The complete index is available at [`json/modules.json`](json/modules.json).
 

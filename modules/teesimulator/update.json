@@ -7,6 +7,14 @@
       "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-56/TEESimulator-v4.0-56-936a941-Release.zip",
       "changelog": "Canary 56",
       "timestamp": 1786750000
+    },
+    {
+      "timestamp": 1787030835.0,
+      "version": "v4.0 (59-53f306c-release)",
+      "versionCode": 59,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/teesimulator/v4.0_59-53f306c-release.zip",
+      "changelog": "",
+      "size": 16960476
     }
   ]
 }

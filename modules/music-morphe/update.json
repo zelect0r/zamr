@@ -7,6 +7,14 @@
       "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/music-morphe-module-v9.15.51-arm64-v8a.zip",
       "changelog": "Initial release",
       "timestamp": 1786750000
+    },
+    {
+      "timestamp": 1787071084.0,
+      "version": "v7.88.0.966185373 (patches 1.2.2.mpp)",
+      "versionCode": 20221074,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/music-morphe/v7.88.0.966185373_patches_1.2.2.mpp_20221074.zip",
+      "changelog": "",
+      "size": 228334762
     }
   ]
 }

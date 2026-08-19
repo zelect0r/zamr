@@ -1,17 +1,25 @@
 {
   "id": "susfs4ksu",
-  "update_to": "https://github.com/sidex15/susfs4ksu-module.git",
   "enable": true,
   "verified": true,
-  "added": 1786750000,
+  "update_to": "https://github.com/sidex15/susfs4ksu-module.git",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/sidex15/susfs4ksu-module",
   "source": "https://github.com/sidex15/susfs4ksu-module",
-  "license": "GPL-3.0",
-  "category": "KernelSU",
-  "categories": ["KernelSU"],
   "maxApi": 36,
+  "category": "KernelSU",
+  "categories": [
+    "KernelSU"
+  ],
   "arch": [
     "arm64-v8a"
   ],
-  "options": { "github": { "source": "releases" } }
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1786750000,
+  "last_update": 1785057061.0,
+  "versions": 2
 }

@@ -1,17 +1,26 @@
 {
   "id": "tricky-addon-enhanced",
-  "update_to": "https://github.com/Enginex0/tricky-addon-enhanced.git",
   "enable": true,
   "verified": true,
-  "added": 1786750000,
+  "update_to": "https://github.com/Enginex0/tricky-addon-enhanced.git",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/Enginex0/tricky-addon-enhanced",
   "source": "https://github.com/Enginex0/tricky-addon-enhanced",
-  "license": "GPL-3.0",
-  "category": "Integrity",
-  "categories": ["Integrity", "WebUI"],
   "maxApi": 36,
+  "category": "Integrity",
+  "categories": [
+    "Integrity",
+    "WebUI"
+  ],
   "arch": [
     "arm64-v8a"
   ],
-  "options": { "github": { "source": "releases" } }
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1786750000,
+  "last_update": 1777653186.0,
+  "versions": 2
 }

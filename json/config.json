@@ -2,6 +2,9 @@
   "id": "zamr",
   "name": "zelect0rs Android Modules Repository",
   "base_url": "https://zelect0r.github.io/zamr/",
+  "website": "https://github.com/zelect0r/zamr",
+  "donate": "https://ko-fi.com/zelect0r",
+  "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "max_num": 3,
   "enable_log": true,
   "log_dir": "log"

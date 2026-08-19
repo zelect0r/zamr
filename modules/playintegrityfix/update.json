@@ -7,6 +7,14 @@
       "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
       "changelog": "Release v4.7",
       "timestamp": 1786750000
+    },
+    {
+      "timestamp": 1783763923.0,
+      "version": "v4.7-1-inject-s",
+      "versionCode": 471,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/playintegrityfix/v4.7-1-inject-s_471.zip",
+      "changelog": "",
+      "size": 660329
     }
   ]
 }

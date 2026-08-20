@@ -15,6 +15,14 @@
       "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3098-38d3f136-JingMatrix-Vector.zip",
       "changelog": "",
       "size": 9382646
+    },
+    {
+      "timestamp": 1787243057.0,
+      "version": "v2.2 (3102-961f538e-JingMatrix-Vector)",
+      "versionCode": 3102,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3102-961f538e-JingMatrix-Vector.zip",
+      "changelog": "",
+      "size": 9387844
     }
   ]
 }

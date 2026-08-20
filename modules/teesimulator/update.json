@@ -15,6 +15,14 @@
       "zipUrl": "https://zelect0r.github.io/zamr/modules/teesimulator/v4.0_59-53f306c-release.zip",
       "changelog": "",
       "size": 16960476
+    },
+    {
+      "timestamp": 1787201714.0,
+      "version": "v4.0 (61-700a1eb-release)",
+      "versionCode": 61,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/teesimulator/v4.0_61-700a1eb-release.zip",
+      "changelog": "",
+      "size": 17010686
     }
   ]
 }

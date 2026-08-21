@@ -2,14 +2,6 @@
   "id": "vector",
   "versions": [
     {
-      "timestamp": 1787079589.0,
-      "version": "v2.2 (3098-38d3f136-JingMatrix-Vector)",
-      "versionCode": 3098,
-      "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3098-38d3f136-JingMatrix-Vector.zip",
-      "changelog": "",
-      "size": 9382646
-    },
-    {
       "timestamp": 1787243057.0,
       "version": "v2.2 (3102-961f538e-JingMatrix-Vector)",
       "versionCode": 3102,
@@ -24,6 +16,14 @@
       "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3104-8c83ab5a-JingMatrix-Vector.zip",
       "changelog": "",
       "size": 9388307
+    },
+    {
+      "timestamp": 1787314754.0,
+      "version": "v2.2 (3105-d2c101a3-JingMatrix-Vector)",
+      "versionCode": 3105,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3105-d2c101a3-JingMatrix-Vector.zip",
+      "changelog": "",
+      "size": 9388643
     }
   ]
 }

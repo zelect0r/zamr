@@ -15,6 +15,14 @@
       "zipUrl": "https://zelect0r.github.io/zamr/modules/music-morphe/v7.88.0.966185373_patches_1.2.2.mpp_20221074.zip",
       "changelog": "",
       "size": 228334762
+    },
+    {
+      "timestamp": 1787588536.0,
+      "version": "v21.04.223 (patches 1.40.0.mpp)",
+      "versionCode": 20221075,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/music-morphe/v21.04.223_patches_1.40.0.mpp_20221075.zip",
+      "changelog": "",
+      "size": 199865532
     }
   ]
 }

@@ -1,15 +1,26 @@
 {
   "id": "bindhosts",
-  "update_to": "https://github.com/bindhosts/bindhosts.git",
   "enable": true,
   "verified": true,
-  "added": 1782357243,
+  "update_to": "https://github.com/bindhosts/bindhosts.git",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/bindhosts/bindhosts",
   "source": "https://github.com/bindhosts/bindhosts",
-  "license": "GPL-3.0",
-  "category": "Utility",
-  "categories": ["Utility", "Privacy"],
   "maxApi": 36,
-  "arch": ["arm64-v8a"],
-  "options": { "github": { "source": "releases" } }
+  "category": "Utility",
+  "categories": [
+    "Utility",
+    "Privacy"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1782357243,
+  "last_update": 1787535828.0,
+  "versions": 2
 }

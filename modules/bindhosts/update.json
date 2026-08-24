@@ -7,6 +7,14 @@
       "zipUrl": "https://github.com/bindhosts/bindhosts/releases/download/v2.1.4/bindhosts.zip",
       "changelog": "bindhosts v2.1.4",
       "timestamp": 1782357243
+    },
+    {
+      "timestamp": 1787535828.0,
+      "version": "v2.1.5",
+      "versionCode": 215,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/bindhosts/v2.1.5_215.zip",
+      "changelog": "",
+      "size": 258454
     }
   ]
 }

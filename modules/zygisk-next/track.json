@@ -1,17 +1,25 @@
 {
   "id": "zygisk-next",
-  "update_to": "https://github.com/Dr-TSNG/ZygiskNext.git",
   "enable": true,
   "verified": true,
-  "added": 1786750000,
+  "update_to": "https://github.com/Dr-TSNG/ZygiskNext.git",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/Dr-TSNG/ZygiskNext",
   "source": "https://github.com/Dr-TSNG/ZygiskNext",
-  "license": "GPL-3.0",
-  "category": "Zygisk",
-  "categories": ["Zygisk"],
   "maxApi": 36,
+  "category": "Zygisk",
+  "categories": [
+    "Zygisk"
+  ],
   "arch": [
     "arm64-v8a"
   ],
-  "options": { "github": { "source": "releases" } }
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1786750000,
+  "last_update": 1787705669.0,
+  "versions": 2
 }

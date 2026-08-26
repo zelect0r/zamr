@@ -7,6 +7,14 @@
       "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v4.2.0/Hybrid-Mount-4.2.0-1815.zip",
       "changelog": "Hybrid Mount 4.2.0",
       "timestamp": 1782579917
+    },
+    {
+      "timestamp": 1787747450.0,
+      "version": "6.0.1",
+      "versionCode": 600001,
+      "zipUrl": "https://zelect0r.github.io/zamr/modules/hybrid_mount/6.0.1_600001.zip",
+      "changelog": "",
+      "size": 2803762
     }
   ]
 }

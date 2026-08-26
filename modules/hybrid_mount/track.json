@@ -1,15 +1,26 @@
 {
   "id": "hybrid_mount",
-  "update_to": "https://github.com/Hybrid-Mount/meta-hybrid_mount.git",
   "enable": true,
   "verified": true,
-  "added": 1782579917,
+  "update_to": "https://github.com/Hybrid-Mount/meta-hybrid_mount.git",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
   "source": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
-  "license": "GPL-3.0",
-  "category": "KernelSU",
-  "categories": ["KernelSU", "Utility"],
   "maxApi": 36,
-  "arch": ["arm64-v8a"],
-  "options": { "github": { "source": "releases" } }
+  "category": "KernelSU",
+  "categories": [
+    "KernelSU",
+    "Utility"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1782579917,
+  "last_update": 1787747450.0,
+  "versions": 2
 }

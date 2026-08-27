@@ -35,7 +35,9 @@ jobs:
 
       - name: Fetch releases and rebuild the MMRL index
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          # MMRL-Util reads this exact variable for authenticated GitHub
+          # release discovery; without it it falls back to cloning sources.
+          GITHUB_API_TOKEN: ${{ github.token }}
         run: |
           # Sync writes the newest compatible upstream release to each module
           # metadata file and rebuilds the public MMRL index.
@@ -46,7 +48,7 @@ jobs:
           # rebuilding the public index.
           for update_file in modules/*/update.json; do
             sorted_file="$(mktemp)"
-            jq '.versions |= sort_by(.timestamp // 0) | reverse' "$update_file" > "$sorted_file"
+            jq '.versions |= (sort_by(.timestamp // 0) | reverse)' "$update_file" > "$sorted_file"
             mv "$sorted_file" "$update_file"
           done
           mmrl-util index
@@ -61,6 +63,16 @@ jobs:
             (($expected - $published) | length == 0) and
             all(.modules[]; (.versions[0].zipUrl? | type) == "string")
           ' json/modules.json
+
+          # Assert that MMRL will install the same newest artifact that was
+          # written by sync for every individual module.
+          for update_file in modules/*/update.json; do
+            module_id="$(jq -r '.id' "$update_file")"
+            latest_zip_url="$(jq -r '.versions[0].zipUrl' "$update_file")"
+            jq -e --arg id "$module_id" --arg url "$latest_zip_url" \
+              'any(.modules[]; .id == $id and .versions[0].zipUrl == $url)' \
+              json/modules.json > /dev/null
+          done
 
       - name: Commit updated modules
         run: |

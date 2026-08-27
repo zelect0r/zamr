@@ -40,6 +40,16 @@ jobs:
           # Sync writes the newest compatible upstream release to each module
           # metadata file and rebuilds the public MMRL index.
           mmrl-util sync --size 300 --single
+
+          # MMRL installs the first entry in `versions`. Some upstream syncs
+          # append a release, so normalize every history newest-first before
+          # rebuilding the public index.
+          for update_file in modules/*/update.json; do
+            sorted_file="$(mktemp)"
+            jq '.versions |= sort_by(.timestamp // 0) | reverse' "$update_file" > "$sorted_file"
+            mv "$sorted_file" "$update_file"
+          done
+          mmrl-util index
           jq 'del(.id)' json/modules.json > /tmp/modules.json
           mv /tmp/modules.json json/modules.json
 

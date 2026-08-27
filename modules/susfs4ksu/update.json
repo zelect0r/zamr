@@ -2,19 +2,19 @@
   "id": "susfs4ksu",
   "versions": [
     {
+      "timestamp": 1785057061.0,
+      "version": "v1.5.2-R28",
+      "versionCode": 105002028,
+      "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2+_R28/ksu_module_susfs_1.5.2+.zip",
+      "changelog": "",
+      "size": 911798
+    },
+    {
       "version": "1.5.2",
       "versionCode": 152,
       "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2%2B_R28/ksu_module_susfs_1.5.2+.zip",
       "changelog": "Release v1.5.2",
       "timestamp": 1786750000
-    },
-    {
-      "timestamp": 1785057061.0,
-      "version": "v1.5.2-R28",
-      "versionCode": 105002028,
-      "zipUrl": "https://zelect0r.github.io/zamr/modules/susfs4ksu/v1.5.2-R28_105002028.zip",
-      "changelog": "",
-      "size": 911798
     }
   ]
 }

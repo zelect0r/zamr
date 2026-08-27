@@ -96,6 +96,10 @@ def pick_asset(module_id: str, assets, hint: str = ""):
             score += 100
         if "release" in name:
             score += 10
+        elif "debug" in name:
+            # Prefer release builds; debug zips can be much larger than the
+            # release artifact for the very same tag (e.g. TA_enhanced).
+            score -= 10
         if module_id in ("music-morphe", "youtube-morphe") and ("-all" in name or "arm64" in name):
             score += 5
         scored.append((score, asset.get("updated_at", ""), asset))

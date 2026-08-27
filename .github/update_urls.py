@@ -23,6 +23,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -66,19 +67,27 @@ def module_keywords(module_id: str):
 
     Handles the common case where several modules are built from one upstream
     repository/release (e.g. j-hc/revanced-magisk-module serves both
-    `music-morphe` and `youtube-morphe`).
+    `music-morphe` and `youtube-morphe`), as well as ids that use underscores
+    while upstream assets use hyphens (e.g. `hma_oss_zygisk`).
     """
-    base = {module_id, module_id.replace("-", "_"), module_id.replace("-", "")}
-    return [k.lower() for k in base if k]
+    candidates = {
+        module_id,
+        module_id.replace("-", "_"),
+        module_id.replace("_", "-"),
+        module_id.replace("-", "").replace("_", ""),
+    }
+    return [k.lower() for k in candidates if k]
 
 
-def pick_asset(module_id: str, assets):
+def pick_asset(module_id: str, assets, hint: str = ""):
     """Choose the best release asset for a module, preferring a brand match."""
     zips = [a for a in assets if (a.get("name") or "").lower().endswith(".zip")]
     if not zips:
         return None
 
     keywords = module_keywords(module_id)
+    if hint:
+        keywords.append(hint.lower())
     scored = []
     for asset in zips:
         name = asset["name"].lower()
@@ -95,7 +104,7 @@ def pick_asset(module_id: str, assets):
     return scored[0][2]
 
 
-def fetch_latest_release(gh: str, repo: str, module_id: str, token: str):
+def fetch_latest_release(gh: str, repo: str, module_id: str, token: str, hint: str = ""):
     url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
     try:
         releases = api_get(url, token)
@@ -107,19 +116,37 @@ def fetch_latest_release(gh: str, repo: str, module_id: str, token: str):
         return None
     if not releases:
         return None
-    asset = pick_asset(module_id, releases[0].get("assets") or [])
+    asset = pick_asset(module_id, releases[0].get("assets") or [], hint)
     if asset is None:
         return None
     return {"zipUrl": asset["browser_download_url"], "size": asset.get("size", 0)}
 
 
 def patch_versions(versions):
-    """Locate the newest version entry and clear a possibly stale `size`."""
+    """Locate the newest version entry (MMRL reads `versions[0]`).
+
+    MMRL treats the FIRST entry of `versions` as the current release, while
+    mmrl-util writes histories oldest-first (newest last). Reorder newest-first
+    and return the newest entry so the caller can fix its download URL.
+    """
     if not versions:
         return None
-    newest = max(versions, key=lambda v: v.get("versionCode", 0))
-    newest.pop("size", None)
-    return newest
+    versions.sort(key=lambda v: v.get("versionCode", 0) or 0, reverse=True)
+    return versions[0]
+
+
+def commit_time(root):
+    """Timestamp of `json/modules.json` in `HEAD`, if available."""
+    try:
+        out = subprocess.check_output(
+            ["git", "show", "HEAD:json/modules.json"],
+            text=True,
+            cwd=str(root),
+            stderr=subprocess.DEVNULL,
+        )
+        return json.loads(out).get("metadata", {}).get("timestamp")
+    except Exception:
+        return None
 
 
 def main():
@@ -134,6 +161,7 @@ def main():
         sys.exit(f"modules dir not found: {modules_dir}")
 
     token = os.getenv("GITHUB_TOKEN") or os.getenv("GITHUB_API_TOKEN") or ""
+    changed = False
 
     index_file = root / "json" / "modules.json"
     index = load_json(index_file) if index_file.is_file() else None
@@ -156,7 +184,17 @@ def main():
             continue
 
         owner, repo = pair
-        release = fetch_latest_release(owner, repo, module_id, token)
+        # The previously published ZIP name is a good hint when upstream asset
+        # names do not obviously match the module id (e.g. TrickyAddonModule).
+        hint = ""
+        prev = load_json(update_file)
+        prev_versions = prev.get("versions") or []
+        if prev_versions:
+            prev_url = prev_versions[-1].get("zipUrl") or ""
+            hint = prev_url.rstrip("/").rsplit("/", 1)[-1]
+            if hint.lower().endswith(".zip"):
+                hint = hint[:-4]
+        release = fetch_latest_release(owner, repo, module_id, token, hint)
         # Be gentle with the unauthenticated rate limit (60 req/h).
         if not token:
             time.sleep(3)
@@ -170,23 +208,47 @@ def main():
         update_json = load_json(update_file)
         entry = patch_versions(update_json.get("versions"))
         if entry is not None:
-            entry["zipUrl"] = url
-            entry["size"] = size
-            dump_json(update_file, update_json)
-            print(f"[{module_id}] update.json  -> {url}")
+            if entry.get("zipUrl") != url or entry.get("size") != size:
+                changed = True
+                entry["zipUrl"] = url
+                entry["size"] = size
+                dump_json(update_file, update_json)
+                print(f"[{module_id}] update.json  -> {url}")
+            else:
+                print(f"[{module_id}] update.json   unchanged")
 
         mod = index_modules.get(module_id)
-        if mod is not None:
-            mentry = patch_versions(mod.get("versions"))
-            if mentry is not None:
-                mentry["zipUrl"] = url
-                mentry["size"] = size
+        if mod is not None and entry is not None:
+            # mmrl-util's index snapshots whatever versions existed at build
+            # time, which can lag behind update.json (e.g. freshly synced
+            # releases). Mirror the full newest-first history from update.json
+            # so the published index always exposes the current artifact.
+            new_versions = update_json.get("versions", [])
+            old_versions = mod.get("versions", [])
+            meta_flip = (
+                mod.get("version") != entry.get("version")
+                or mod.get("versionCode") != entry.get("versionCode")
+                or mod.get("size") != entry.get("size")
+            )
+            if meta_flip or old_versions != new_versions:
+                changed = True
+            mod["versions"] = new_versions
+            mod["version"] = entry.get("version", mod.get("version"))
+            mod["versionCode"] = entry.get("versionCode", mod.get("versionCode"))
+            mod["size"] = entry.get("size", mod.get("size"))
             print(f"[{module_id}] modules.json -> {url}")
 
     if index is not None:
-        index["metadata"] = {"version": 1, "timestamp": time.time()}
+        if changed:
+            index["metadata"] = {"version": 1, "timestamp": time.time()}
+        else:
+            # Keep the previously published timestamp so no-op runs produce no
+            # commit, otherwise every hourly run would re-commit and re-trigger.
+            prev = commit_time(root)
+            if prev is not None:
+                index.setdefault("metadata", {})["timestamp"] = prev
         dump_json(index_file, index)
-        print("modules.json metadata timestamp updated")
+        print("modules.json metadata timestamp updated" if changed else "modules.json metadata timestamp preserved")
 
     print("done")
 

@@ -48,8 +48,6 @@ jobs:
           # could never be committed to this repository.
           mmrl-util sync --force --size 300 --single
           mmrl-util index
-          jq 'del(.id)' json/modules.json > /tmp/modules.json
-          mv /tmp/modules.json json/modules.json
 
           # Replace the self-hosted (broken 404) download links with direct
           # links to the canonical upstream GitHub release asset.
@@ -57,19 +55,36 @@ jobs:
 
           # Do not publish a partial repository: every enabled track must be
           # represented in MMRL's index and expose its newest ZIP download.
+          # MMRL installs the FIRST entry of `versions`, so the newest release
+          # must be the first one (update_urls.py enforces newest-first order).
           expected_ids="$(jq -s '[.[] | select(.enable == true) | .id] | sort' modules/*/track.json)"
-          jq -e --argjson expected "$expected_ids" '
-            (.modules | map(.id)) as $published |
-            (($expected - $published) | length == 0) and
-            all(.modules[]; (.versions[-1].zipUrl? | type) == "string")
+          published_ids="$(jq -r '[.modules[].id] | sort | join(" ")' json/modules.json)"
+          missing="$(python - "$expected_ids" "$published_ids" <<'PY'
+            import json, sys
+            expected = json.loads(sys.argv[1])
+            published = sys.argv[2].split()
+            print(json.dumps(sorted(set(expected) - set(published))))
+            PY
+            )"
+          if [ "$missing" != "[]" ]; then
+            echo "::error::Modules missing from json/modules.json: $missing"
+            exit 1
+          fi
+          jq -e 'all(.modules[]; (.versions[0].zipUrl? | type) == "string")' json/modules.json
+
+          # The newest release must be first, so MMRL installs it.
+          jq -e '
+            all(.modules[];
+              (.versions[0].versionCode // 0) >= (.versions[-1].versionCode // 0)
+            )
           ' json/modules.json
 
           # Every module must install from a direct upstream release, never a
           # self-hosted link on this repository's Pages (those do not exist).
           jq -e '
             all(.modules[];
-              (.versions[-1].zipUrl? | type) == "string" and
-              ((.versions[-1].zipUrl | ascii_downcase) | contains("github.io") | not)
+              (.versions[0].zipUrl? | type) == "string" and
+              ((.versions[0].zipUrl | ascii_downcase) | contains("github.io") | not)
             )
           ' json/modules.json || {
             echo "::error::Self-hosted github.io download link found in json/modules.json"
@@ -79,9 +94,9 @@ jobs:
           # Assert that MMRL will install the current artifact for every module.
           for update_file in modules/*/update.json; do
             module_id="$(jq -r '.id' "$update_file")"
-            latest_zip_url="$(jq -r '.versions[-1].zipUrl' "$update_file")"
+            latest_zip_url="$(jq -r '.versions[0].zipUrl' "$update_file")"
             jq -e --arg id "$module_id" --arg url "$latest_zip_url" \
-              'any(.modules[]; .id == $id and .versions[-1].zipUrl == $url)' \
+              'any(.modules[]; .id == $id and .versions[0].zipUrl == $url)' \
               json/modules.json > /dev/null
           done
 

@@ -1,6 +1,13 @@
 name: Update module repository
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-modules.yml"
+      - "json/config.json"
+      - "modules/**"
   schedule:
     # The offset avoids the busiest point of the hour.
     - cron: "17 * * * *"

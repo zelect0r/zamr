@@ -3,29 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="zamr – Android-Root-Module für Magisk, KernelSU, APatch und MMRL.">
+  <meta name="description" content="zamr – aktuelle Android-Root-Module für Magisk, KernelSU, APatch und MMRL.">
   <title>zamr · Android Modules Repository</title>
   <style>
-    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2d; --line:#263451; --text:#edf3ff; --muted:#aab7d0; --accent:#73a7ff; --accent2:#8cf0c5; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:radial-gradient(circle at top right,#1a315b 0,#0b1020 42rem); color:var(--text); font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; }
-    main { width:min(1080px,calc(100% - 32px)); margin:auto; padding:72px 0 56px; }
-    .eyebrow { color:var(--accent2); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.78rem; }
-    h1 { font-size:clamp(2.5rem,7vw,5rem); line-height:1; margin:14px 0 20px; letter-spacing:-.06em; }
-    h2 { margin:0 0 12px; font-size:1.35rem; }
-    p { color:var(--muted); margin:0 0 18px; }
-    .hero { max-width:760px; }
-    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0 54px; }
-    a.button { display:inline-block; padding:11px 17px; border:1px solid var(--line); border-radius:10px; color:var(--text); text-decoration:none; font-weight:650; background:#17233d; }
-    a.button.primary { background:var(--accent); border-color:var(--accent); color:#081225; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; }
-    .card { background:color-mix(in srgb,var(--panel) 92%,transparent); border:1px solid var(--line); border-radius:14px; padding:22px; }
-    .card p { font-size:.94rem; }
-    .tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
-    .tag { border:1px solid #31517f; border-radius:999px; color:#c8dcff; padding:4px 10px; font-size:.82rem; }
-    code { display:block; overflow:auto; padding:14px 16px; border-radius:10px; background:#080d19; color:#c8dcff; border:1px solid var(--line); }
-    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:48px; padding-top:22px; font-size:.9rem; }
-    @media (max-width:600px) { main { padding-top:44px; } }
+    :root { color-scheme:dark; --bg:#0b1020; --panel:#121a2d; --line:#263451; --text:#edf3ff; --muted:#aab7d0; --accent:#73a7ff; --accent2:#8cf0c5; }
+    * { box-sizing:border-box; } body { margin:0; background:radial-gradient(circle at top right,#1a315b 0,#0b1020 42rem); color:var(--text); font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; }
+    main { width:min(1120px,calc(100% - 32px)); margin:auto; padding:72px 0 56px; } .eyebrow { color:var(--accent2); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-size:clamp(2.5rem,7vw,5rem); line-height:1; margin:14px 0 20px; letter-spacing:-.06em; } h2 { margin:0; font-size:1.35rem; } p { color:var(--muted); margin:0 0 18px; } .hero { max-width:780px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0 54px; } .button { display:inline-block; padding:11px 17px; border:1px solid var(--line); border-radius:10px; color:var(--text); text-decoration:none; font-weight:650; background:#17233d; } .button.primary { background:var(--accent); border-color:var(--accent); color:#081225; }
+    .info { display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:0 0 16px; } #release-status { color:var(--muted); font-size:.9rem; }
+    .modules { display:grid; grid-template-columns:repeat(auto-fit,minmax(265px,1fr)); gap:16px; } .module { display:flex; flex-direction:column; min-height:220px; background:color-mix(in srgb,var(--panel) 92%,transparent); border:1px solid var(--line); border-radius:14px; padding:20px; } .module h3 { font-size:1.12rem; line-height:1.25; margin:0 0 7px; } .version { color:var(--accent2); font-size:.9rem; font-weight:700; } .module p { font-size:.92rem; margin:12px 0; } .meta { color:var(--muted); font-size:.8rem; margin-top:auto; } .links { display:flex; gap:10px; margin-top:16px; } .links a { color:var(--text); text-decoration:none; font-weight:650; font-size:.9rem; } .links a.download { color:var(--accent2); }
+    .error { border:1px solid #a9576a; border-radius:12px; padding:18px; color:#ffd9df; background:#351b28; } footer { color:var(--muted); border-top:1px solid var(--line); margin-top:48px; padding-top:22px; font-size:.9rem; } @media (max-width:600px) { main { padding-top:44px; } }
   </style>
 </head>
 <body>
@@ -33,23 +21,51 @@
     <section class="hero">
       <div class="eyebrow">Android Modules Repository</div>
       <h1>zamr</h1>
-      <p>Eine kuratierte Sammlung von Root-Modulen für Magisk, KernelSU, APatch und MMRL. Der Index wird automatisch aus den neuesten GitHub-Releases aktualisiert.</p>
-      <div class="actions">
-        <a class="button primary" href="https://zelect0r.github.io/zamr/" onclick="navigator.clipboard?.writeText(this.href); return true">MMRL-Repository</a>
-        <a class="button" href="https://github.com/zelect0r/zamr">Quellcode auf GitHub</a>
-        <a class="button" href="json/modules.json">Modulindex (JSON)</a>
-      </div>
+      <p>Aktuelle Root-Module für Magisk, KernelSU, APatch und MMRL. Die Liste und die Download-Links werden direkt aus dem veröffentlichten Release-Index geladen.</p>
+      <div class="actions"><a class="button primary" href="https://zelect0r.github.io/zamr/">MMRL-Repository</a><a class="button" href="https://github.com/zelect0r/zamr">Quellcode auf GitHub</a><a class="button" href="json/modules.json">Modulindex (JSON)</a></div>
     </section>
-
-    <section class="grid">
-      <article class="card"><h2>Installation in MMRL</h2><p>In MMRL unter „Repositories“ hinzufügen:</p><code>https://zelect0r.github.io/zamr/</code></article>
-      <article class="card"><h2>Automatische Updates</h2><p>Der Updater prüft alle sechs Stunden die neuesten Releases. Nach dem Pages-Deployment stehen neue Versionen im Index bereit.</p></article>
-      <article class="card"><h2>Kompatibilität</h2><p>Module sind für Android-Root-Umgebungen gedacht. Prüfe vor der Installation die Anforderungen des jeweiligen Moduls und erstelle ein Backup.</p></article>
+    <section aria-labelledby="releases-heading">
+      <div class="info"><h2 id="releases-heading">Aktuelle Releases</h2><span id="release-status" role="status">Releases werden geladen …</span></div>
+      <div id="modules" class="modules" aria-live="polite"></div>
     </section>
-
-    <section style="margin-top:48px"><h2>Kategorien</h2><div class="tags"><span class="tag">Apps</span><span class="tag">Customization</span><span class="tag">Integrity</span><span class="tag">KernelSU</span><span class="tag">Root Hide</span><span class="tag">Utility</span><span class="tag">Xposed</span><span class="tag">Zygisk</span><span class="tag">WebUI</span></div></section>
-
-    <footer>zamr wird privat gepflegt. Nutzung auf eigene Verantwortung. Lizenzen und Hinweise stehen in den jeweiligen Modulmetadaten.</footer>
+    <footer>Die Release-Daten werden stündlich mit den Upstream-Releases synchronisiert. Root-Module verändern das System: Bitte vorher ein Backup erstellen.</footer>
   </main>
+  <script>
+    const modulesElement = document.querySelector('#modules');
+    const statusElement = document.querySelector('#release-status');
+    const asText = value => value == null ? '' : String(value);
+    const formatDate = timestamp => timestamp ? new Intl.DateTimeFormat('de-DE', { dateStyle: 'medium' }).format(new Date(timestamp * 1000)) : '';
+    const externalLink = (label, url, className = '') => {
+      const anchor = document.createElement('a'); anchor.textContent = label; anchor.href = url; anchor.className = className;
+      anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; return anchor;
+    };
+    function renderModule(module) {
+      const release = module.versions?.[0];
+      if (!release?.zipUrl) return;
+      const card = document.createElement('article'); card.className = 'module';
+      const heading = document.createElement('h3'); heading.textContent = asText(module.name || module.id);
+      const version = document.createElement('div'); version.className = 'version'; version.textContent = asText(release.version || module.version || 'Aktuelle Version');
+      const description = document.createElement('p'); description.textContent = asText(module.description || 'Keine Beschreibung verfügbar.');
+      const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = [module.author, formatDate(release.timestamp || module.added)].filter(Boolean).join(' · ');
+      const links = document.createElement('div'); links.className = 'links'; links.append(externalLink('Download', release.zipUrl, 'download'));
+      if (module.homepage) links.append(externalLink('Projekt', module.homepage));
+      card.append(heading, version, description, meta, links); modulesElement.append(card);
+    }
+    async function loadReleases() {
+      try {
+        // Avoid showing a stale Pages/browser cache after a fresh index deployment.
+        const response = await fetch(`json/modules.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const index = await response.json();
+        const modules = [...(index.modules || [])].sort((a, b) => asText(a.name).localeCompare(asText(b.name), 'de'));
+        modules.forEach(renderModule);
+        statusElement.textContent = `${modules.length} Module · Indexstand ${formatDate(index.metadata?.timestamp) || 'aktuell'}`;
+      } catch (_) {
+        modulesElement.innerHTML = '<p class="error">Der Release-Index konnte gerade nicht geladen werden. Bitte später erneut versuchen oder den JSON-Index direkt öffnen.</p>';
+        statusElement.textContent = 'Release-Index nicht verfügbar';
+      }
+    }
+    loadReleases();
+  </script>
 </body>
 </html>

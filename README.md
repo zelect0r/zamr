@@ -49,7 +49,7 @@ The complete index is available at [`json/modules.json`](json/modules.json).
 
 ## Automatic updates
 
-GitHub Actions checks for new upstream GitHub releases every six hours. New ZIP files are imported, the MMRL index is rebuilt, and the result is published automatically. After an upstream release, it can take a few minutes before the new version appears in MMRL.
+GitHub Actions checks for new upstream GitHub releases every hour. The MMRL index and each module's update metadata are rebuilt automatically. After an upstream release, it can take a few minutes before the new version appears in MMRL and on the repository page.
 
 ## Support
 

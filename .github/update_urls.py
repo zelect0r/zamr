@@ -109,7 +109,7 @@ def pick_asset(module_id: str, assets, hint: str = ""):
 
 
 def fetch_latest_release(gh: str, repo: str, module_id: str, token: str, hint: str = ""):
-    url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
+    url = f"https://api.github.com/repos/{gh}/{repo}/releases?per_page=1"
     try:
         releases = api_get(url, token)
     except HTTPError as exc:
@@ -194,7 +194,7 @@ def main():
         prev = load_json(update_file)
         prev_versions = prev.get("versions") or []
         if prev_versions:
-            prev_url = prev_versions[-1].get("zipUrl") or ""
+            prev_url = prev_versions[0].get("zipUrl") or ""
             hint = prev_url.rstrip("/").rsplit("/", 1)[-1]
             if hint.lower().endswith(".zip"):
                 hint = hint[:-4]

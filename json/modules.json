@@ -8,7 +8,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1787865723.9076319
+    "timestamp": 1787905054.9316733
   },
   "modules": [
     {
@@ -547,7 +547,7 @@
           "timestamp": 1785057061.0,
           "version": "v1.5.2-R28",
           "versionCode": 105002028,
-          "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2+_R28/ksu_module_susfs_1.5.2+.zip",
+          "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2%2B_R28/ksu_module_susfs_1.5.2%2B.zip",
           "changelog": "",
           "size": 911798
         },

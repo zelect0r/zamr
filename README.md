@@ -1,4 +1,4 @@
-# zelect0rs Android Modules Repository
+# zelect0r's Android Modules Repository
 
 A curated collection of root modules for **Magisk**, **KernelSU**, **APatch**, and **MMRL**.
 

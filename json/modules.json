@@ -79,6 +79,47 @@
       ]
     },
     {
+      "id": "dt2w-fix",
+      "name": "DT2W Fix for OnePlus 8T",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "zelect0r",
+      "description": "Restores Double Tap to Wake by enabling the touchpanel DT2W proc interface during boot.",
+      "added": 1782357243,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/zelect0r/dt2w-fix",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 606,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1782357243,
+        "source": "https://github.com/zelect0r/dt2w-fix",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/dt2w-fix/track.json"
+      },
+      "versions": [
+        {
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/zelect0r/dt2w-fix/releases/download/v1.0/dt2w-fix-v1.0.zip",
+          "changelog": "dt2w-fix v1.0",
+          "timestamp": 1782357243,
+          "size": 606
+        }
+      ]
+    },
+    {
       "id": "hma_oss_zygisk",
       "name": "HMA-OSS Zygisk",
       "version": "oss-166",
@@ -219,6 +260,52 @@
           "zipUrl": "https://github.com/Keinta15/Magisk-iOS-Emoji/releases/download/v26.4/Magisk_iOS_Emoji_26.4.zip",
           "changelog": "Release v26.4",
           "timestamp": 1786750000
+        }
+      ]
+    },
+    {
+      "id": "msd",
+      "name": "MSD",
+      "version": "v2.4",
+      "versionCode": 132096,
+      "author": "chenxiaolong",
+      "description": "Emulate mass storage devices over USB",
+      "added": 1785000000,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Utility",
+        "System"
+      ],
+      "homepage": "https://github.com/chenxiaolong/MSD",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 4154880,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "apks": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1785000000,
+        "source": "https://github.com/chenxiaolong/MSD",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/msd/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1784338011.0,
+          "version": "v2.4",
+          "versionCode": 132096,
+          "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.4/MSD-2.4-release.zip",
+          "changelog": "",
+          "size": 4154880
         }
       ]
     },
@@ -986,47 +1073,6 @@
           "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.4.5/Zygisk-Next-1.4.5-836-b13d58a-release.zip",
           "changelog": "Release v1.4.5",
           "timestamp": 1786750000
-        }
-      ]
-    },
-    {
-      "id": "dt2w-fix",
-      "name": "DT2W Fix for OnePlus 8T",
-      "version": "v1.0",
-      "versionCode": 1,
-      "author": "zelect0r",
-      "description": "Restores Double Tap to Wake by enabling the touchpanel DT2W proc interface during boot.",
-      "added": 1782357243,
-      "maxApi": 36,
-      "category": "Utility",
-      "categories": [
-        "Utility"
-      ],
-      "homepage": "https://github.com/zelect0r/dt2w-fix",
-      "license": "GPL-3.0",
-      "verified": true,
-      "size": 606,
-      "permissions": [
-        "magisk.permission.SERVICE"
-      ],
-      "features": {
-        "service": true
-      },
-      "track": {
-        "type": "GIT",
-        "added": 1782357243,
-        "source": "https://github.com/zelect0r/dt2w-fix",
-        "antifeatures": null,
-        "build_metadata": "https://zelect0r.github.io/zamr/modules/dt2w-fix/track.json"
-      },
-      "versions": [
-        {
-          "version": "v1.0",
-          "versionCode": 1,
-          "zipUrl": "https://github.com/zelect0r/dt2w-fix/releases/download/v1.0/dt2w-fix-v1.0.zip",
-          "changelog": "dt2w-fix v1.0",
-          "timestamp": 1782357243,
-          "size": 606
         }
       ]
     }

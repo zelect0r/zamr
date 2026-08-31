@@ -1,0 +1,14 @@
+{
+  "id": "msd",
+  "timestamp": 1784338011.0,
+  "versions": [
+    {
+      "timestamp": 1784338011.0,
+      "version": "v2.4",
+      "versionCode": 132096,
+      "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.4/MSD-2.4-release.zip",
+      "changelog": "",
+      "size": 4154880
+    }
+  ]
+}

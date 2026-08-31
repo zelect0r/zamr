@@ -1,5 +1,5 @@
 # zelect0r's Android Modules Repository
-![](./assets/cover.webp)
+![](./assets/banner.webp)
 
 A curated collection of root modules for **Magisk**, **KernelSU**, **APatch**, and **MMRL**.
 

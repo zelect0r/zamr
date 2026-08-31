@@ -8,7 +8,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1787905054.9316733
+    "timestamp": 1788211041.1206844
   },
   "modules": [
     {
@@ -128,8 +128,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "6.0.1",
-      "versionCode": 600001,
+      "version": "6.1.3",
+      "versionCode": 601003,
       "author": "Hybrid Mount Developers",
       "description": "Mount orchestration metamodule for KernelSU and APatch",
       "added": 1782579917,
@@ -143,7 +143,7 @@
       "homepage": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 2803762,
+      "size": 3417721,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -163,19 +163,12 @@
       },
       "versions": [
         {
-          "timestamp": 1787747450.0,
-          "version": "6.0.1",
-          "versionCode": 600001,
-          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.0.1/Hybrid-Mount-6.0.1-1860.zip",
+          "timestamp": 1788086435.0,
+          "version": "6.1.3",
+          "versionCode": 601003,
+          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.1.3/Hybrid-Mount-6.1.3-1907.zip",
           "changelog": "",
-          "size": 2803762
-        },
-        {
-          "version": "4.2.0-1815",
-          "versionCode": 402000,
-          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v4.2.0/Hybrid-Mount-4.2.0-1815.zip",
-          "changelog": "Hybrid Mount 4.2.0",
-          "timestamp": 1782579917
+          "size": 3417721
         }
       ]
     },
@@ -232,8 +225,8 @@
     {
       "id": "music-morphe",
       "name": "Music Morphe",
-      "version": "v21.04.223 (patches 1.40.0.mpp)",
-      "versionCode": 20221075,
+      "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
+      "versionCode": 20221076,
       "author": "j-hc",
       "description": "Music Morphe module",
       "added": 1786750000,
@@ -245,7 +238,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 67698312,
+      "size": 232986386,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -265,27 +258,12 @@
       },
       "versions": [
         {
-          "timestamp": 1787588536.0,
-          "version": "v21.04.223 (patches 1.40.0.mpp)",
-          "versionCode": 20221075,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221075/music-morphe-module-v9.15.51-arm64-v8a.zip",
+          "timestamp": 1788193234.0,
+          "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
+          "versionCode": 20221076,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221076/googlephotos-revanced-module-v7.90.0.971743778-all.zip",
           "changelog": "",
-          "size": 67698312
-        },
-        {
-          "timestamp": 1787071084.0,
-          "version": "v7.88.0.966185373 (patches 1.2.2.mpp)",
-          "versionCode": 20221074,
-          "zipUrl": "https://zelect0r.github.io/zamr/modules/music-morphe/v7.88.0.966185373_patches_1.2.2.mpp_20221074.zip",
-          "changelog": "",
-          "size": 228334762
-        },
-        {
-          "version": "9.15.51",
-          "versionCode": 91551,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/music-morphe-module-v9.15.51-arm64-v8a.zip",
-          "changelog": "Initial release",
-          "timestamp": 1786750000
+          "size": 232986386
         }
       ]
     },
@@ -395,8 +373,8 @@
     {
       "id": "playintegrityfork",
       "name": "Play Integrity Fork",
-      "version": "v17",
-      "versionCode": 170000,
+      "version": "v18",
+      "versionCode": 180000,
       "author": "osm0sis & chiteroman @ xda-developers",
       "description": "Fix <A13 Play Integrity DEVICE verdict",
       "added": 1786750000,
@@ -408,7 +386,7 @@
       "homepage": "https://github.com/osm0sis/PlayIntegrityFork",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 285020,
+      "size": 227895,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -429,19 +407,12 @@
       },
       "versions": [
         {
-          "timestamp": 1781984220.0,
-          "version": "v17",
-          "versionCode": 170000,
-          "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v17/PlayIntegrityFork-v17.zip",
+          "timestamp": 1788024836.0,
+          "version": "v18",
+          "versionCode": 180000,
+          "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v18/PlayIntegrityFork-v18.zip",
           "changelog": "",
-          "size": 285020
-        },
-        {
-          "version": "17",
-          "versionCode": 17,
-          "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v17/PlayIntegrityFork-v17.zip",
-          "changelog": "Release v17",
-          "timestamp": 1786750000
+          "size": 227895
         }
       ]
     },
@@ -563,8 +534,8 @@
     {
       "id": "teesimulator",
       "name": "TEESimulator",
-      "version": "v4.0 (62-fa2f863-release)",
-      "versionCode": 62,
+      "version": "v4.0 (63-123d8ba-release)",
+      "versionCode": 63,
       "author": "JingMatrix",
       "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
       "added": 1786750000,
@@ -576,7 +547,7 @@
       "homepage": "https://github.com/JingMatrix/TEESimulator",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 17169304,
+      "size": 17248352,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -597,28 +568,12 @@
       },
       "versions": [
         {
-          "timestamp": 1787230619.0,
-          "version": "v4.0 (62-fa2f863-release)",
-          "versionCode": 62,
-          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-62/TEESimulator-v4.0-62-fa2f863-Release.zip",
+          "timestamp": 1787992674.0,
+          "version": "v4.0 (63-123d8ba-release)",
+          "versionCode": 63,
+          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-63/TEESimulator-v4.0-63-123d8ba-Release.zip",
           "changelog": "",
-          "size": 17169304
-        },
-        {
-          "timestamp": 1787201714.0,
-          "version": "v4.0 (61-700a1eb-release)",
-          "versionCode": 61,
-          "zipUrl": "https://zelect0r.github.io/zamr/modules/teesimulator/v4.0_61-700a1eb-release.zip",
-          "changelog": "",
-          "size": 17010686
-        },
-        {
-          "timestamp": 1787030835.0,
-          "version": "v4.0 (59-53f306c-release)",
-          "versionCode": 59,
-          "zipUrl": "https://zelect0r.github.io/zamr/modules/teesimulator/v4.0_59-53f306c-release.zip",
-          "changelog": "",
-          "size": 16960476
+          "size": 17248352
         }
       ]
     },
@@ -846,8 +801,8 @@
     {
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
-      "version": "v21.04.223 (patches 1.40.0.mpp)",
-      "versionCode": 20221075,
+      "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
+      "versionCode": 20221076,
       "author": "j-hc",
       "description": "YouTube Morphe module",
       "added": 1786750000,
@@ -859,7 +814,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 199865532,
+      "size": 232986386,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -879,27 +834,12 @@
       },
       "versions": [
         {
-          "timestamp": 1787588536.0,
-          "version": "v21.04.223 (patches 1.40.0.mpp)",
-          "versionCode": 20221075,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221075/youtube-morphe-module-v21.04.223-all.zip",
+          "timestamp": 1788193234.0,
+          "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
+          "versionCode": 20221076,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221076/googlephotos-revanced-module-v7.90.0.971743778-all.zip",
           "changelog": "",
-          "size": 199865532
-        },
-        {
-          "timestamp": 1787071084.0,
-          "version": "v7.88.0.966185373 (patches 1.2.2.mpp)",
-          "versionCode": 20221074,
-          "zipUrl": "https://zelect0r.github.io/zamr/modules/youtube-morphe/v7.88.0.966185373_patches_1.2.2.mpp_20221074.zip",
-          "changelog": "",
-          "size": 228334762
-        },
-        {
-          "version": "21.04.223",
-          "versionCode": 2104223,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/youtube-morphe-module-v21.04.223-all.zip",
-          "changelog": "Initial release",
-          "timestamp": 1786750000
+          "size": 232986386
         }
       ]
     },

@@ -1,28 +1,14 @@
 {
   "id": "music-morphe",
+  "timestamp": 1788193234.0,
   "versions": [
     {
-      "timestamp": 1787588536.0,
-      "version": "v21.04.223 (patches 1.40.0.mpp)",
-      "versionCode": 20221075,
-      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221075/music-morphe-module-v9.15.51-arm64-v8a.zip",
+      "timestamp": 1788193234.0,
+      "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
+      "versionCode": 20221076,
+      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221076/googlephotos-revanced-module-v7.90.0.971743778-all.zip",
       "changelog": "",
-      "size": 67698312
-    },
-    {
-      "timestamp": 1787071084.0,
-      "version": "v7.88.0.966185373 (patches 1.2.2.mpp)",
-      "versionCode": 20221074,
-      "zipUrl": "https://zelect0r.github.io/zamr/modules/music-morphe/v7.88.0.966185373_patches_1.2.2.mpp_20221074.zip",
-      "changelog": "",
-      "size": 228334762
-    },
-    {
-      "version": "9.15.51",
-      "versionCode": 91551,
-      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221072/music-morphe-module-v9.15.51-arm64-v8a.zip",
-      "changelog": "Initial release",
-      "timestamp": 1786750000
+      "size": 232986386
     }
   ]
 }

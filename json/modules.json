@@ -1,11 +1,11 @@
 {
   "name": "zelect0rs Android Modules Repository",
-  "website": null,
+  "website": "https://github.com/zelect0r/zamr",
   "support": null,
-  "donate": null,
+  "donate": "https://ko-fi.com/zelect0r",
   "submission": null,
   "cover": "https://zelect0r.github.io/zamr/assets/cover.webp",
-  "description": null,
+  "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
     "timestamp": 1788211041.1206844

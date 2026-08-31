@@ -40,17 +40,25 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_API_TOKEN: ${{ github.token }}
         run: |
-          # mmrl-util parses each module ZIP to extract its metadata and the
-          # current version/versionCode, and rebuilds the public MMRL index.
-          # The ZIPs it downloads are only used transiently for parsing: the
-          # resulting update.json/modules.json do NOT reference them, because
-          # several modules are larger than GitHub's 100 MB per-file limit and
-          # could never be committed to this repository.
+          # mmrl-util downloads each module's latest release ZIP and parses it
+          # to refresh update.json with the current version/versionCode. The
+          # release ZIPs are not committed (several exceed GitHub's 100 MB
+          # per-file limit), so they exist only transiently during this step.
           mmrl-util sync --force --size 300 --single
-          mmrl-util index
 
-          # Replace the self-hosted (broken 404) download links with direct
-          # links to the canonical upstream GitHub release asset.
+          # NOTE: we intentionally do NOT run `mmrl-util index` anymore. It
+          # rebuilds json/modules.json from scratch but SKIPS every module whose
+          # release ZIP is not on disk (see sync/core/Index.py). Since those
+          # ZIPs are gitignored, a fresh checkout has none of them, so `index`
+          # would silently drop all but the modules that got a new release in
+          # this run, breaking the "every enabled track must be published"
+          # invariant below. Instead we keep the committed (complete)
+          # json/modules.json and have update_urls.py refresh it below.
+
+          # Refresh the published index from the freshly synced update.json:
+          # reorder versions newest-first and point every module's newest
+          # download at the canonical upstream GitHub release asset (instead of
+          # the self-hosted 404 links that mmrl-util would emit).
           python .github/update_urls.py --root "$GITHUB_WORKSPACE"
 
           # Do not publish a partial repository: every enabled track must be

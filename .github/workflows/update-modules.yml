@@ -57,17 +57,15 @@ jobs:
           # represented in MMRL's index and expose its newest ZIP download.
           # MMRL installs the FIRST entry of `versions`, so the newest release
           # must be the first one (update_urls.py enforces newest-first order).
-          expected_ids="$(jq -s '[.[] | select(.enable == true) | .id] | sort' modules/*/track.json)"
-          published_ids="$(jq -r '[.modules[].id] | sort | join(" ")' json/modules.json)"
-          missing="$(python - "$expected_ids" "$published_ids" <<'PY'
-            import json, sys
-            expected = json.loads(sys.argv[1])
-            published = sys.argv[2].split()
-            print(json.dumps(sorted(set(expected) - set(published))))
-            PY
-            )"
-          if [ "$missing" != "[]" ]; then
-            echo "::error::Modules missing from json/modules.json: $missing"
+          expected_ids="$(mktemp)"
+          published_ids="$(mktemp)"
+          jq -s -r '[.[] | select(.enable == true) | .id] | sort | join("\n")' \
+            modules/*/track.json > "$expected_ids"
+          jq -r '[.modules[].id] | sort | join("\n")' json/modules.json > "$published_ids"
+          missing="$(comm -23 "$expected_ids" "$published_ids" | tr '\n' ' ' | sed 's/ *$//')"
+          rm -f "$expected_ids" "$published_ids"
+          if [ -n "$missing" ]; then
+            echo "::error::Modules missing from json/modules.json: [$missing]"
             exit 1
           fi
           jq -e 'all(.modules[]; (.versions[0].zipUrl? | type) == "string")' json/modules.json

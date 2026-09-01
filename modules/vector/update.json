@@ -1,29 +1,14 @@
 {
   "id": "vector",
+  "timestamp": 1788263302.0,
   "versions": [
     {
-      "timestamp": 1787401843.0,
-      "version": "v2.2 (3107-5e4dcb92-JingMatrix-Vector)",
-      "versionCode": 3107,
-      "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3107/Vector-v2.2-3107-Release.zip",
+      "timestamp": 1788263302.0,
+      "version": "v2.2 (3108-8239245d-JingMatrix-Vector)",
+      "versionCode": 3108,
+      "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3108/Vector-v2.2-3108-Release.zip",
       "changelog": "",
-      "size": 9392047
-    },
-    {
-      "timestamp": 1787314754.0,
-      "version": "v2.2 (3105-d2c101a3-JingMatrix-Vector)",
-      "versionCode": 3105,
-      "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3105-d2c101a3-JingMatrix-Vector.zip",
-      "changelog": "",
-      "size": 9388643
-    },
-    {
-      "timestamp": 1787282824.0,
-      "version": "v2.2 (3104-8c83ab5a-JingMatrix-Vector)",
-      "versionCode": 3104,
-      "zipUrl": "https://zelect0r.github.io/zamr/modules/vector/v2.2_3104-8c83ab5a-JingMatrix-Vector.zip",
-      "changelog": "",
-      "size": 9388307
+      "size": 9391970
     }
   ]
 }

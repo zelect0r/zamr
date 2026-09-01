@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1788269460.93231
+    "timestamp": 1788287840.2222276
   },
   "modules": [
     {
@@ -312,8 +312,8 @@
     {
       "id": "music-morphe",
       "name": "Music Morphe",
-      "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
-      "versionCode": 20221076,
+      "version": "v21.07.247 (patches 1.41.0.mpp)",
+      "versionCode": 20221078,
       "author": "j-hc",
       "description": "Music Morphe module",
       "added": 1786750000,
@@ -325,7 +325,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 232986386,
+      "size": 67766332,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -345,12 +345,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788193234.0,
-          "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
-          "versionCode": 20221076,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221076/googlephotos-revanced-module-v7.90.0.971743778-all.zip",
+          "timestamp": 1788286673.0,
+          "version": "v21.07.247 (patches 1.41.0.mpp)",
+          "versionCode": 20221078,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221078/music-morphe-module-v9.15.51-arm64-v8a.zip",
           "changelog": "",
-          "size": 232986386
+          "size": 67766332
         }
       ]
     },
@@ -872,8 +872,8 @@
     {
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
-      "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
-      "versionCode": 20221076,
+      "version": "v21.07.247 (patches 1.41.0.mpp)",
+      "versionCode": 20221078,
       "author": "j-hc",
       "description": "YouTube Morphe module",
       "added": 1786750000,
@@ -885,7 +885,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 232986386,
+      "size": 201765318,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -905,12 +905,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788193234.0,
-          "version": "v7.90.0.971743778 (patches 1.3.0.mpp)",
-          "versionCode": 20221076,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221076/googlephotos-revanced-module-v7.90.0.971743778-all.zip",
+          "timestamp": 1788286673.0,
+          "version": "v21.07.247 (patches 1.41.0.mpp)",
+          "versionCode": 20221078,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221078/youtube-morphe-module-v21.07.247-all.zip",
           "changelog": "",
-          "size": 232986386
+          "size": 201765318
         }
       ]
     },

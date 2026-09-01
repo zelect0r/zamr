@@ -1,0 +1,14 @@
+{
+  "id": "livebootmodule",
+  "timestamp": 1788171006.0,
+  "versions": [
+    {
+      "timestamp": 1788171006.0,
+      "version": "v6.0.0",
+      "versionCode": 60000,
+      "zipUrl": "https://github.com/symbuzzer/livebootmodule/releases/download/v6.0.0/livebootmodule.zip",
+      "changelog": "",
+      "size": 2251965
+    }
+  ]
+}

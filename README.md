@@ -18,6 +18,7 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | Category | Modules |
 | --- | --- |
 | Apps | YouTube Morphe, Music Morphe |
+| Battery | Frosty |
 | Customization | iOS Emoji |
 | Integrity | Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
@@ -29,7 +30,7 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 
 ## Included modules
 
-The MMRL index currently publishes 21 modules:
+The MMRL index currently publishes 22 modules:
 
 - Zygisk Next, NeoZygisk, and ReZygisk
 - Zygisk Assistant and zygisk-detach
@@ -45,6 +46,7 @@ The MMRL index currently publishes 21 modules:
 - bindhosts
 - DT2W Fix
 - MSD
+- Frosty
 
 The complete index is available at [`json/modules.json`](json/modules.json).
 

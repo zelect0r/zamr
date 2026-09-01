@@ -1075,6 +1075,53 @@
           "timestamp": 1786750000
         }
       ]
+    },
+    {
+      "id": "frosty",
+      "name": "Frosty - Battery Saver",
+      "version": "4.3",
+      "versionCode": 43,
+      "author": "DrSexo",
+      "description": "Maximum battery saving and GMS optimization. Freeze GMS services, enable doze, nuke logs, apply kernel tweaks. Use WebUI button to edit settings.",
+      "added": 1788211041,
+      "maxApi": 36,
+      "category": "Battery",
+      "categories": [
+        "Battery"
+      ],
+      "homepage": "https://github.com/Drsexo/Frosty",
+      "license": "GPL-3.0",
+      "verified": true,
+      "readme": "https://raw.githubusercontent.com/Drsexo/Frosty/main/README.md",
+      "screenshots": [],
+      "size": 321321,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1788211041,
+        "source": "https://github.com/Drsexo/Frosty",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/frosty/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1751671017,
+          "version": "4.3",
+          "versionCode": 43,
+          "zipUrl": "https://github.com/Drsexo/Frosty/releases/download/4.3/Frosty-4.3.zip",
+          "changelog": "",
+          "size": 321321
+        }
+      ]
     }
   ]
 }

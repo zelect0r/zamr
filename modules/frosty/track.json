@@ -1,0 +1,20 @@
+{
+  "id": "frosty",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/Drsexo/Frosty.git",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/Drsexo/Frosty",
+  "source": "https://github.com/Drsexo/Frosty",
+  "maxApi": 36,
+  "category": "Battery",
+  "categories": [
+    "Battery"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1788211041
+}

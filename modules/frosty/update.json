@@ -1,15 +1,14 @@
 {
   "id": "frosty",
-  "version": "4.3",
-  "versionCode": 43,
+  "timestamp": 1788426658.0,
   "versions": [
     {
-      "version": "4.3",
-      "versionCode": 43,
-      "zipUrl": "https://github.com/Drsexo/Frosty/releases/download/4.3/Frosty-4.3.zip",
+      "timestamp": 1788426658.0,
+      "version": "4.4",
+      "versionCode": 44,
+      "zipUrl": "https://github.com/Drsexo/Frosty/releases/download/4.4/Frosty-4.4.zip",
       "changelog": "",
-      "size": 321321,
-      "timestamp": 1751671017
+      "size": 347878
     }
   ]
 }

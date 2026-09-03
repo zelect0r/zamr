@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1788287840.2222276
+    "timestamp": 1788397829.485418
   },
   "modules": [
     {
@@ -621,8 +621,8 @@
     {
       "id": "teesimulator",
       "name": "TEESimulator",
-      "version": "v4.0 (63-123d8ba-release)",
-      "versionCode": 63,
+      "version": "v4.0 (66-5e59714-release)",
+      "versionCode": 66,
       "author": "JingMatrix",
       "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
       "added": 1786750000,
@@ -634,7 +634,7 @@
       "homepage": "https://github.com/JingMatrix/TEESimulator",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 17248352,
+      "size": 17306905,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -655,12 +655,12 @@
       },
       "versions": [
         {
-          "timestamp": 1787992674.0,
-          "version": "v4.0 (63-123d8ba-release)",
-          "versionCode": 63,
-          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-63/TEESimulator-v4.0-63-123d8ba-Release.zip",
+          "timestamp": 1788381314.0,
+          "version": "v4.0 (66-5e59714-release)",
+          "versionCode": 66,
+          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-66/TEESimulator-v4.0-66-5e59714-Release.zip",
           "changelog": "",
-          "size": 17248352
+          "size": 17306905
         }
       ]
     },
@@ -822,8 +822,8 @@
     {
       "id": "vector",
       "name": "Vector",
-      "version": "v2.2 (3108-8239245d-JingMatrix-Vector)",
-      "versionCode": 3108,
+      "version": "v2.2 (3110-c4a701aa-JingMatrix-Vector)",
+      "versionCode": 3110,
       "author": "JingMatrix",
       "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 17)",
       "added": 1786750000,
@@ -835,7 +835,7 @@
       "homepage": "https://github.com/JingMatrix/Vector",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 9391970,
+      "size": 9395184,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.RESETPROP",
@@ -860,12 +860,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788263302.0,
-          "version": "v2.2 (3108-8239245d-JingMatrix-Vector)",
-          "versionCode": 3108,
-          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3108/Vector-v2.2-3108-Release.zip",
+          "timestamp": 1788384399.0,
+          "version": "v2.2 (3110-c4a701aa-JingMatrix-Vector)",
+          "versionCode": 3110,
+          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3110/Vector-v2.2-3110-Release.zip",
           "changelog": "",
-          "size": 9391970
+          "size": 9395184
         }
       ]
     },

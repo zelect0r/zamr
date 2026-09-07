@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1788776836.5871117
+    "timestamp": 1788798709.330234
   },
   "modules": [
     {
@@ -81,8 +81,8 @@
     {
       "id": "dt2w-fix",
       "name": "DT2W Fix for OnePlus 8T",
-      "version": "v1.0",
-      "versionCode": 1,
+      "version": "1.1",
+      "versionCode": 2,
       "author": "zelect0r",
       "description": "Restores Double Tap to Wake by enabling the touchpanel DT2W proc interface during boot.",
       "added": 1782357243,
@@ -94,7 +94,7 @@
       "homepage": "https://github.com/zelect0r/dt2w-fix",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 606,
+      "size": 889,
       "permissions": [
         "magisk.permission.SERVICE"
       ],
@@ -110,12 +110,12 @@
       },
       "versions": [
         {
-          "version": "v1.0",
-          "versionCode": 1,
-          "zipUrl": "https://github.com/zelect0r/dt2w-fix/releases/download/v1.0/dt2w-fix-v1.0.zip",
-          "changelog": "dt2w-fix v1.0",
-          "timestamp": 1782357243,
-          "size": 606
+          "timestamp": 1788783312.0,
+          "version": "1.1",
+          "versionCode": 2,
+          "zipUrl": "https://github.com/zelect0r/dt2w-fix/releases/download/v1.1/dt2w-fix-v1.1.zip",
+          "changelog": "",
+          "size": 889
         }
       ]
     },

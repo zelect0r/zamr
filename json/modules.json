@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1788893167.4014685
+    "timestamp": 1789057847.8115838
   },
   "modules": [
     {
@@ -37,7 +37,7 @@
         "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/manager_action.png"
       ],
       "support": "https://github.com/bindhosts/bindhosts/issues",
-      "size": 258451,
+      "size": 258303,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -67,7 +67,7 @@
           "versionCode": 215,
           "zipUrl": "https://github.com/bindhosts/bindhosts/releases/download/v2.1.5/bindhosts.zip",
           "changelog": "",
-          "size": 258451
+          "size": 258303
         },
         {
           "version": "v2.1.4",
@@ -312,8 +312,8 @@
     {
       "id": "music-morphe",
       "name": "Music Morphe",
-      "version": "v21.07.247 (patches 1.41.0.mpp)",
-      "versionCode": 20221083,
+      "version": "v21.13.164 (patches 1.42.0.mpp)",
+      "versionCode": 20221085,
       "author": "j-hc",
       "description": "Music Morphe module",
       "added": 1786750000,
@@ -325,7 +325,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 67766825,
+      "size": 67798356,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -345,12 +345,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788885145.0,
-          "version": "v21.07.247 (patches 1.41.0.mpp)",
-          "versionCode": 20221083,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221083/music-morphe-module-v9.15.51-arm64-v8a.zip",
+          "timestamp": 1789057595.0,
+          "version": "v21.13.164 (patches 1.42.0.mpp)",
+          "versionCode": 20221085,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221085/music-morphe-module-v9.15.51-arm64-v8a.zip",
           "changelog": "",
-          "size": 67766825
+          "size": 67798356
         }
       ]
     },
@@ -872,8 +872,8 @@
     {
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
-      "version": "v21.07.247 (patches 1.41.0.mpp)",
-      "versionCode": 20221083,
+      "version": "v21.13.164 (patches 1.42.0.mpp)",
+      "versionCode": 20221085,
       "author": "j-hc",
       "description": "YouTube Morphe module",
       "added": 1786750000,
@@ -885,7 +885,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 201763001,
+      "size": 212098675,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -905,12 +905,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788885145.0,
-          "version": "v21.07.247 (patches 1.41.0.mpp)",
-          "versionCode": 20221083,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221083/youtube-morphe-module-v21.07.247-all.zip",
+          "timestamp": 1789057595.0,
+          "version": "v21.13.164 (patches 1.42.0.mpp)",
+          "versionCode": 20221085,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221085/youtube-morphe-module-v21.13.164-all.zip",
           "changelog": "",
-          "size": 201763001
+          "size": 212098675
         }
       ]
     },

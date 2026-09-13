@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1789233326.8406613
+    "timestamp": 1789338538.2209144
   },
   "modules": [
     {
@@ -122,8 +122,8 @@
     {
       "id": "hma_oss_zygisk",
       "name": "HMA-OSS Zygisk",
-      "version": "oss-166",
-      "versionCode": 7304649,
+      "version": "oss-168",
+      "versionCode": 7304651,
       "author": "frknkrc44",
       "description": "A Zygisk backend for HMA-OSS",
       "added": 1786275967,
@@ -136,7 +136,7 @@
       "homepage": "https://github.com/frknkrc44/HMA-OSS",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 2588471,
+      "size": 2584181,
       "permissions": [
         "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
@@ -157,12 +157,12 @@
       },
       "versions": [
         {
-          "version": "oss-166",
-          "versionCode": 7304649,
-          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-166/HMA-OSS-ZYGISK-oss-166-release.zip",
-          "changelog": "New Zygisk version and bug fixes.",
-          "timestamp": 1786275967,
-          "size": 2588471
+          "timestamp": 1789329809.0,
+          "version": "oss-168",
+          "versionCode": 7304651,
+          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-168/HMA-OSS-ZYGISK-oss-168-release.zip",
+          "changelog": "",
+          "size": 2584181
         }
       ]
     },

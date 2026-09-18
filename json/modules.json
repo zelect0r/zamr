@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1789589616.4598784
+    "timestamp": 1789771168.3621175
   },
   "modules": [
     {
@@ -266,8 +266,8 @@
     {
       "id": "msd",
       "name": "MSD",
-      "version": "v2.4",
-      "versionCode": 132096,
+      "version": "v2.5",
+      "versionCode": 132352,
       "author": "chenxiaolong",
       "description": "Emulate mass storage devices over USB",
       "added": 1785000000,
@@ -280,7 +280,7 @@
       "homepage": "https://github.com/chenxiaolong/MSD",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 4154880,
+      "size": 4146040,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -300,12 +300,12 @@
       },
       "versions": [
         {
-          "timestamp": 1784338011.0,
-          "version": "v2.4",
-          "versionCode": 132096,
-          "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.4/MSD-2.4-release.zip",
+          "timestamp": 1789768956.0,
+          "version": "v2.5",
+          "versionCode": 132352,
+          "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.5/MSD-2.5-release.zip",
           "changelog": "",
-          "size": 4154880
+          "size": 4146040
         }
       ]
     },

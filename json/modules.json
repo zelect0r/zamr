@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1789923144.0595207
+    "timestamp": 1789943515.4082887
   },
   "modules": [
     {
@@ -975,7 +975,7 @@
       "homepage": "https://github.com/j-hc/zygisk-detach",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 370351,
+      "size": 371409,
       "permissions": [
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.ZYGISK",
@@ -997,10 +997,10 @@
         {
           "version": "1.23.2",
           "versionCode": 1232,
-          "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.23.2/zygisk-detach-v1.23.2.zip",
+          "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
           "changelog": "Release v1.23.2",
           "timestamp": 1786750000,
-          "size": 370351
+          "size": 371409
         }
       ]
     },

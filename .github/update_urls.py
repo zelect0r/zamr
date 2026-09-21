@@ -94,6 +94,14 @@ def pick_asset(module_id: str, assets, hint: str = ""):
         score = 0
         if any(k in name for k in keywords):
             score += 100
+        if module_id == "alwaysstrong":
+            # Every release ships three variants (default, -inject, -nopif)
+            # that only differ in the fingerprint engine. Ship the default
+            # build (no suffix), as recommended upstream.
+            if re.fullmatch(r"alwaysstrong-v?[\d.]+\.zip", name):
+                score += 50
+            elif "-inject" in name or "-nopif" in name:
+                score -= 50
         if "release" in name:
             score += 10
         elif "debug" in name:

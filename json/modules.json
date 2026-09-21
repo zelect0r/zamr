@@ -1151,6 +1151,63 @@
           "size": 2253060
         }
       ]
+    },
+    {
+      "id": "alwaysstrong",
+      "name": "AlwaysStrong",
+      "version": "v1.0.4",
+      "versionCode": 104,
+      "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
+      "description": "Strong Play Integrity in one drop-in module. TEE-Simulator-RS + PlayIntegrityFork, auto-refreshed. Tap Action.",
+      "added": 1790014583,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://github.com/evoker0/AlwaysStrong",
+      "license": "GPL-3.0",
+      "verified": true,
+      "support": "https://github.com/evoker0/AlwaysStrong/issues",
+      "readme": "https://raw.githubusercontent.com/evoker0/AlwaysStrong/main/README.md",
+      "screenshots": [
+        "https://raw.githubusercontent.com/evoker0/AlwaysStrong/main/screenshots/webui.jpg"
+      ],
+      "size": 4902582,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1790014583,
+        "source": "https://github.com/evoker0/AlwaysStrong",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1788691190,
+          "version": "v1.0.4",
+          "versionCode": 104,
+          "zipUrl": "https://github.com/evoker0/AlwaysStrong/releases/download/v1.0.4/AlwaysStrong-v1.0.4.zip",
+          "changelog": "",
+          "size": 4902582
+        }
+      ]
     }
   ]
 }

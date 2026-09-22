@@ -106,6 +106,36 @@ jobs:
               json/modules.json > /dev/null
           done
 
+      - name: Verify published download links resolve
+        # MMRL installs versions[0]; if that upstream link is dead (repository
+        # moved or release deleted), the module cannot be installed at all and
+        # no other assertion in this workflow would notice. Fail before the
+        # commit so a broken index never reaches GitHub Pages.
+        shell: bash
+        run: |
+          # Capture the list first: inside `bash -e` a failing jq must fail
+          # this step, otherwise a broken index would silently verify nothing.
+          entries=$(jq -r '.modules[] | [.id, .versions[0].zipUrl] | @tsv' json/modules.json)
+          if [ -z "$entries" ]; then
+            echo "::error::json/modules.json contains no modules to verify"
+            exit 1
+          fi
+          failed=0
+          while IFS=$'\t' read -r id url; do
+            code="000"
+            code=$(curl -sSIL -o /dev/null -w '%{http_code}' \
+              --retry 3 --retry-delay 5 --connect-timeout 15 --max-time 90 \
+              "$url") || code="000"
+            case "$code" in
+              200|206) echo "$id: HTTP $code" ;;
+              *)
+                echo "::error::Module $id: download link not reachable (HTTP $code): $url"
+                failed=1
+                ;;
+            esac
+          done <<< "$entries"
+          exit "$failed"
+
       - name: Commit updated modules
         run: |
           if git diff --quiet; then

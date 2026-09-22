@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="zamr – aktuelle Android-Root-Module für Magisk, KernelSU, APatch und MMRL.">
+  <meta name="description" content="zamr – current Android root modules for Magisk, KernelSU, APatch and MMRL.">
   <title>zamr · Android Modules Repository</title>
   <style>
     :root { color-scheme:dark; --bg:#0b1020; --panel:#121a2d; --line:#263451; --text:#edf3ff; --muted:#aab7d0; --accent:#73a7ff; --accent2:#8cf0c5; }
@@ -21,20 +21,20 @@
     <section class="hero">
       <div class="eyebrow">Android Modules Repository</div>
       <h1>zamr</h1>
-      <p>Aktuelle Root-Module für Magisk, KernelSU, APatch und MMRL. Die Liste und die Download-Links werden direkt aus dem veröffentlichten Release-Index geladen.</p>
-      <div class="actions"><a class="button primary" href="https://zelect0r.github.io/zamr/">MMRL-Repository</a><a class="button" href="https://github.com/zelect0r/zamr">Quellcode auf GitHub</a><a class="button" href="json/modules.json">Modulindex (JSON)</a></div>
+      <p>Current root modules for Magisk, KernelSU, APatch and MMRL. The list and the download links are loaded directly from the published release index.</p>
+      <div class="actions"><a class="button primary" href="https://zelect0r.github.io/zamr/">MMRL repository</a><a class="button" href="https://github.com/zelect0r/zamr">Source code on GitHub</a><a class="button" href="json/modules.json">Module index (JSON)</a></div>
     </section>
     <section aria-labelledby="releases-heading">
-      <div class="info"><h2 id="releases-heading">Aktuelle Releases</h2><span id="release-status" role="status">Releases werden geladen …</span></div>
+      <div class="info"><h2 id="releases-heading">Latest releases</h2><span id="release-status" role="status">Loading releases …</span></div>
       <div id="modules" class="modules" aria-live="polite"></div>
     </section>
-    <footer>Die Release-Daten werden stündlich mit den Upstream-Releases synchronisiert. Root-Module verändern das System: Bitte vorher ein Backup erstellen.</footer>
+    <footer>Release data is synchronized hourly with the upstream releases. Root modules modify your system: please create a backup first.</footer>
   </main>
   <script>
     const modulesElement = document.querySelector('#modules');
     const statusElement = document.querySelector('#release-status');
     const asText = value => value == null ? '' : String(value);
-    const formatDate = timestamp => timestamp ? new Intl.DateTimeFormat('de-DE', { dateStyle: 'medium' }).format(new Date(timestamp * 1000)) : '';
+    const formatDate = timestamp => timestamp ? new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(new Date(timestamp * 1000)) : '';
     const externalLink = (label, url, className = '') => {
       const anchor = document.createElement('a'); anchor.textContent = label; anchor.href = url; anchor.className = className;
       anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; return anchor;
@@ -44,11 +44,11 @@
       if (!release?.zipUrl) return;
       const card = document.createElement('article'); card.className = 'module';
       const heading = document.createElement('h3'); heading.textContent = asText(module.name || module.id);
-      const version = document.createElement('div'); version.className = 'version'; version.textContent = asText(release.version || module.version || 'Aktuelle Version');
-      const description = document.createElement('p'); description.textContent = asText(module.description || 'Keine Beschreibung verfügbar.');
+      const version = document.createElement('div'); version.className = 'version'; version.textContent = asText(release.version || module.version || 'Latest version');
+      const description = document.createElement('p'); description.textContent = asText(module.description || 'No description available.');
       const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = [module.author, formatDate(release.timestamp || module.added)].filter(Boolean).join(' · ');
       const links = document.createElement('div'); links.className = 'links'; links.append(externalLink('Download', release.zipUrl, 'download'));
-      if (module.homepage) links.append(externalLink('Projekt', module.homepage));
+      if (module.homepage) links.append(externalLink('Project', module.homepage));
       card.append(heading, version, description, meta, links); modulesElement.append(card);
     }
     async function loadReleases() {
@@ -57,12 +57,12 @@
         const response = await fetch(`json/modules.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const index = await response.json();
-        const modules = [...(index.modules || [])].sort((a, b) => asText(a.name).localeCompare(asText(b.name), 'de'));
+        const modules = [...(index.modules || [])].sort((a, b) => asText(a.name).localeCompare(asText(b.name), 'en'));
         modules.forEach(renderModule);
-        statusElement.textContent = `${modules.length} Module · Indexstand ${formatDate(index.metadata?.timestamp) || 'aktuell'}`;
+        statusElement.textContent = `${modules.length} modules · index updated ${formatDate(index.metadata?.timestamp) || 'just now'}`;
       } catch (_) {
-        modulesElement.innerHTML = '<p class="error">Der Release-Index konnte gerade nicht geladen werden. Bitte später erneut versuchen oder den JSON-Index direkt öffnen.</p>';
-        statusElement.textContent = 'Release-Index nicht verfügbar';
+        modulesElement.innerHTML = '<p class="error">The release index could not be loaded right now. Please try again later or open the JSON index directly.</p>';
+        statusElement.textContent = 'Release index unavailable';
       }
     }
     loadReleases();

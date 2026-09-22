@@ -6,7 +6,7 @@
   "added": 1786750000,
   "homepage": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
   "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
-  "license": "GPL-3.0",
+  "license": "Apache-2.0",
   "category": "Integrity",
   "categories": ["Integrity", "WebUI"],
   "maxApi": 36,

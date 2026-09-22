@@ -14,7 +14,8 @@
       "versionCode": 100,
       "zipUrl": "https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0/ReZygisk-v1.0.0-release.zip",
       "changelog": "Release v1.0.0",
-      "timestamp": 1786750000
+      "timestamp": 1786750000,
+      "size": 506334
     }
   ]
 }

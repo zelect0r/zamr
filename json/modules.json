@@ -17,7 +17,7 @@
       "version": "v2.1.5",
       "versionCode": 215,
       "author": "xx, KOWX712",
-      "description": "Systemless hosts for APatch, KernelSU and Magisk ",
+      "description": "Systemless hosts for APatch, KernelSU and Magisk",
       "added": 1782357243,
       "maxApi": 36,
       "category": "Utility",
@@ -74,7 +74,8 @@
           "versionCode": 214,
           "zipUrl": "https://github.com/bindhosts/bindhosts/releases/download/v2.1.4/bindhosts.zip",
           "changelog": "bindhosts v2.1.4",
-          "timestamp": 1782357243
+          "timestamp": 1782357243,
+          "size": 169325
         }
       ]
     },
@@ -259,7 +260,8 @@
           "versionCode": 264,
           "zipUrl": "https://github.com/Keinta15/Magisk-iOS-Emoji/releases/download/v26.4/Magisk_iOS_Emoji_26.4.zip",
           "changelog": "Release v26.4",
-          "timestamp": 1786750000
+          "timestamp": 1786750000,
+          "size": 34470804
         }
       ]
     },
@@ -453,7 +455,8 @@
           "versionCode": 47,
           "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
           "changelog": "Release v4.7",
-          "timestamp": 1786750000
+          "timestamp": 1786750000,
+          "size": 660329
         }
       ]
     },
@@ -553,7 +556,8 @@
           "versionCode": 100,
           "zipUrl": "https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0/ReZygisk-v1.0.0-release.zip",
           "changelog": "Release v1.0.0",
-          "timestamp": 1786750000
+          "timestamp": 1786750000,
+          "size": 506334
         }
       ]
     },
@@ -614,7 +618,8 @@
           "versionCode": 152,
           "zipUrl": "https://github.com/sidex15/susfs4ksu-module/releases/download/v1.5.2%2B_R28/ksu_module_susfs_1.5.2+.zip",
           "changelog": "Release v1.5.2",
-          "timestamp": 1786750000
+          "timestamp": 1786750000,
+          "size": 911798
         }
       ]
     },
@@ -724,7 +729,7 @@
         "WebUI"
       ],
       "homepage": "https://github.com/Enginex0/tricky-addon-enhanced",
-      "license": " GPL-3.0",
+      "license": "GPL-3.0",
       "verified": true,
       "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
       "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
@@ -765,7 +770,8 @@
           "versionCode": 5531,
           "zipUrl": "https://github.com/Enginex0/tricky-addon-enhanced/releases/download/v5.53.1/TA_enhanced-v5.53.1-debug.zip",
           "changelog": "Release v5.0-beta.4",
-          "timestamp": 1786750000
+          "timestamp": 1786750000,
+          "size": 103059350
         }
       ]
     },
@@ -775,7 +781,7 @@
       "version": "5.0-beta.4",
       "versionCode": 5004,
       "author": "KOWX712",
-      "description": "A WebUI to conifgure tricky store target.txt ",
+      "description": "A WebUI to conifgure tricky store target.txt",
       "added": 1786750000,
       "maxApi": 36,
       "category": "Integrity",
@@ -1017,8 +1023,8 @@
       "categories": [
         "Zygisk"
       ],
-      "homepage": "https://github.com/Dr-TSNG/ZygiskNext",
-      "license": "GPL-3.0",
+      "homepage": "https://github.com/LSPosed/ZygiskNext",
+      "license": "Proprietary",
       "verified": true,
       "size": 7529581,
       "permissions": [
@@ -1038,7 +1044,7 @@
       "track": {
         "type": "GIT",
         "added": 1786750000,
-        "source": "https://github.com/Dr-TSNG/ZygiskNext",
+        "source": "https://github.com/LSPosed/ZygiskNext",
         "antifeatures": null,
         "build_metadata": "https://zelect0r.github.io/zamr/modules/zygisk-next/track.json"
       },
@@ -1047,16 +1053,9 @@
           "timestamp": 1787705669.0,
           "version": "1.5.0 (843-5217106-release)",
           "versionCode": 843,
-          "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.5.0/Zygisk-Next-1.5.0-843-5217106-release.zip",
+          "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/1.5.0/Zygisk-Next-1.5.0-843-5217106-release.zip",
           "changelog": "",
           "size": 7529581
-        },
-        {
-          "version": "1.4.5",
-          "versionCode": 836,
-          "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.4.5/Zygisk-Next-1.4.5-836-b13d58a-release.zip",
-          "changelog": "Release v1.4.5",
-          "timestamp": 1786750000
         }
       ]
     },

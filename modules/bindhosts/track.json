@@ -3,7 +3,7 @@
   "enable": true,
   "verified": true,
   "update_to": "https://github.com/bindhosts/bindhosts.git",
-  "license": "GPL-3.0",
+  "license": "WTFPL",
   "homepage": "https://github.com/bindhosts/bindhosts",
   "source": "https://github.com/bindhosts/bindhosts",
   "maxApi": 36,

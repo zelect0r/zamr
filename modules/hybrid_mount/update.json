@@ -1,14 +1,14 @@
 {
   "id": "hybrid_mount",
-  "timestamp": 1790709257.0,
+  "timestamp": 1790773917.0,
   "versions": [
     {
-      "timestamp": 1790709257.0,
-      "version": "6.2.3-rc.1",
-      "versionCode": 602003301,
-      "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.3-rc.1/Hybrid-Mount-6.2.3-rc.1-2055.zip",
+      "timestamp": 1790773917.0,
+      "version": "6.2.3-rc.2",
+      "versionCode": 602003302,
+      "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.3-rc.2/Hybrid-Mount-6.2.3-rc.2-2071.zip",
       "changelog": "",
-      "size": 6728704
+      "size": 4874366
     }
   ]
 }

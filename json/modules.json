@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1790776318.7570343
+    "timestamp": 1790861302.7727768
   },
   "modules": [
     {
@@ -828,8 +828,8 @@
     {
       "id": "vector",
       "name": "Vector",
-      "version": "v2.2 (3111-efb82883-JingMatrix-Vector)",
-      "versionCode": 3111,
+      "version": "v2.2 (3112-ddeed8ca-JingMatrix-Vector)",
+      "versionCode": 3112,
       "author": "JingMatrix",
       "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 17)",
       "added": 1786750000,
@@ -841,7 +841,7 @@
       "homepage": "https://github.com/JingMatrix/Vector",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 9403029,
+      "size": 7457613,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.RESETPROP",
@@ -866,12 +866,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788761880.0,
-          "version": "v2.2 (3111-efb82883-JingMatrix-Vector)",
-          "versionCode": 3111,
-          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3111/Vector-v2.2-3111-Release.zip",
+          "timestamp": 1790859299.0,
+          "version": "v2.2 (3112-ddeed8ca-JingMatrix-Vector)",
+          "versionCode": 3112,
+          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3112/Vector-v2.2-3112-Release.zip",
           "changelog": "",
-          "size": 9403029
+          "size": 7457613
         }
       ]
     },

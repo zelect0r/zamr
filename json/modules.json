@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1790861302.7727768
+    "timestamp": 1790945227.9034183
   },
   "modules": [
     {
@@ -626,8 +626,8 @@
     {
       "id": "teesimulator",
       "name": "TEESimulator",
-      "version": "v4.0 (70-b9812b5-release)",
-      "versionCode": 70,
+      "version": "v4.0 (71-17be1f0-release)",
+      "versionCode": 71,
       "author": "JingMatrix",
       "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
       "added": 1786750000,
@@ -639,7 +639,7 @@
       "homepage": "https://github.com/JingMatrix/TEESimulator",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 17473193,
+      "size": 17473317,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -660,12 +660,12 @@
       },
       "versions": [
         {
-          "timestamp": 1790694000.0,
-          "version": "v4.0 (70-b9812b5-release)",
-          "versionCode": 70,
-          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-70/TEESimulator-v4.0-70-b9812b5-Release.zip",
+          "timestamp": 1790932320.0,
+          "version": "v4.0 (71-17be1f0-release)",
+          "versionCode": 71,
+          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-71/TEESimulator-v4.0-71-17be1f0-Release.zip",
           "changelog": "",
-          "size": 17473193
+          "size": 17473317
         }
       ]
     },

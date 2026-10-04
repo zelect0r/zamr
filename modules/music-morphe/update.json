@@ -1,14 +1,14 @@
 {
   "id": "music-morphe",
-  "timestamp": 1791048297.0,
+  "timestamp": 1791134758.0,
   "versions": [
     {
-      "timestamp": 1791048297.0,
-      "version": "v7.92.0.977185651 (patches 1.5.0.mpp)",
-      "versionCode": 20221107,
-      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221107/googlephotos-devanced-module-v7.92.0.977185651-all.zip",
+      "timestamp": 1791134758.0,
+      "version": "v7.92.0.977185651 (patches 1.5.1.mpp)",
+      "versionCode": 20221108,
+      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221108/googlephotos-devanced-module-v7.92.0.977185651-all.zip",
       "changelog": "",
-      "size": 232286796
+      "size": 232286904
     }
   ]
 }

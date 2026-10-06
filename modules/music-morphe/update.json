@@ -1,14 +1,14 @@
 {
   "id": "music-morphe",
-  "timestamp": 1791134758.0,
+  "timestamp": 1791302995.0,
   "versions": [
     {
-      "timestamp": 1791134758.0,
-      "version": "v7.92.0.977185651 (patches 1.5.1.mpp)",
-      "versionCode": 20221108,
-      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221108/googlephotos-devanced-module-v7.92.0.977185651-all.zip",
+      "timestamp": 1791302995.0,
+      "version": "v2026.24.0 (patches 1.46.0.mpp)",
+      "versionCode": 20221109,
+      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221109/reddit-morphe-module-v2026.24.0-all.zip",
       "changelog": "",
-      "size": 232286904
+      "size": 139500003
     }
   ]
 }

@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1791307003.8351123
+    "timestamp": 1791323084.3366432
   },
   "modules": [
     {
@@ -327,7 +327,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 139500003,
+      "size": 139500013,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -352,7 +352,7 @@
           "versionCode": 20221109,
           "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221109/reddit-morphe-module-v2026.24.0-all.zip",
           "changelog": "",
-          "size": 139500003
+          "size": 139500013
         }
       ]
     },
@@ -891,7 +891,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 139500003,
+      "size": 215191828,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -914,9 +914,9 @@
           "timestamp": 1791302995.0,
           "version": "v2026.24.0 (patches 1.46.0.mpp)",
           "versionCode": 20221109,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221109/reddit-morphe-module-v2026.24.0-all.zip",
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221109/youtube-morphe-module-v21.16.256-all.zip",
           "changelog": "",
-          "size": 139500003
+          "size": 215191828
         }
       ]
     },

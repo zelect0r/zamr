@@ -62,7 +62,7 @@
       },
       "versions": [
         {
-          "timestamp": 1787535828.0,
+          "timestamp": 1791504000,
           "version": "v2.1.5",
           "versionCode": 215,
           "zipUrl": "https://github.com/bindhosts/bindhosts/releases/download/v2.1.5/bindhosts.zip",
@@ -205,7 +205,7 @@
       },
       "versions": [
         {
-          "timestamp": 1790988336.0,
+          "timestamp": 1791504000,
           "version": "6.2.3-rc.3",
           "versionCode": 602003303,
           "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.3-rc.3/Hybrid-Mount-6.2.3-rc.3-2083.zip",
@@ -968,8 +968,8 @@
     {
       "id": "zygisk-detach",
       "name": "zygisk-detach",
-      "version": "1.23.2",
-      "versionCode": 1232,
+      "version": "1.24.0",
+      "versionCode": 35,
       "author": "j-hc",
       "description": "Detaches installed apps from Play Store",
       "added": 1786750000,
@@ -1001,11 +1001,11 @@
       },
       "versions": [
         {
-          "version": "1.23.2",
-          "versionCode": 1232,
+          "version": "1.24.0",
+          "versionCode": 35,
           "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
-          "changelog": "Release v1.23.2",
-          "timestamp": 1789936239,
+          "changelog": "Release v1.24.0",
+          "timestamp": 1791504000,
           "size": 371409
         }
       ]

@@ -2,11 +2,11 @@
   "id": "zygisk-detach",
   "versions": [
     {
-      "version": "1.23.2",
-      "versionCode": 1232,
+      "version": "1.24.0",
+      "versionCode": 35,
       "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
-      "changelog": "Release v1.23.2",
-      "timestamp": 1789936239,
+      "changelog": "Release v1.24.0",
+      "timestamp": 1791504000,
       "size": 371409
     }
   ]

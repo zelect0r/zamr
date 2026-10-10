@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1791323084.3366432
+    "timestamp": 1791621421.9281468
   },
   "modules": [
     {
@@ -1062,8 +1062,8 @@
     {
       "id": "frosty",
       "name": "Frosty - Battery Saver",
-      "version": "4.4",
-      "versionCode": 44,
+      "version": "4.5",
+      "versionCode": 45,
       "author": "DrSexo",
       "description": "Maximum battery saving and GMS optimization. Freeze GMS services, enable doze, nuke logs, apply kernel tweaks. Use WebUI button to edit settings.",
       "added": 1788211041,
@@ -1077,7 +1077,7 @@
       "verified": true,
       "readme": "https://raw.githubusercontent.com/Drsexo/Frosty/main/README.md",
       "screenshots": [],
-      "size": 347878,
+      "size": 862117,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1097,12 +1097,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788426658.0,
-          "version": "4.4",
-          "versionCode": 44,
-          "zipUrl": "https://github.com/Drsexo/Frosty/releases/download/4.4/Frosty-4.4.zip",
+          "timestamp": 1791596955.0,
+          "version": "4.5",
+          "versionCode": 45,
+          "zipUrl": "https://github.com/Drsexo/Frosty/releases/download/4.5/Frosty-4.5.zip",
           "changelog": "",
-          "size": 347878
+          "size": 862117
         }
       ]
     },

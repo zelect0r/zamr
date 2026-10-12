@@ -1,21 +1,14 @@
 {
   "id": "playintegrityfix",
+  "timestamp": 1791813366.0,
   "versions": [
     {
-      "timestamp": 1783763923.0,
-      "version": "v4.7-1-inject-s",
-      "versionCode": 471,
-      "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
+      "timestamp": 1791813366.0,
+      "version": "v4.8-inject-s",
+      "versionCode": 480,
+      "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.8-inject-s/PlayIntegrityFix_v4.8-inject-s.zip",
       "changelog": "",
-      "size": 660329
-    },
-    {
-      "version": "4.7",
-      "versionCode": 47,
-      "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
-      "changelog": "Release v4.7",
-      "timestamp": 1786750000,
-      "size": 660329
+      "size": 691564
     }
   ]
 }

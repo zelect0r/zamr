@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1791742167.0114691
+    "timestamp": 1791834739.9571364
   },
   "modules": [
     {
@@ -406,8 +406,8 @@
     {
       "id": "playintegrityfix",
       "name": "Play Integrity Fix [INJECT]",
-      "version": "v4.7-1-inject-s",
-      "versionCode": 471,
+      "version": "v4.8-inject-s",
+      "versionCode": 480,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
       "added": 1786750000,
@@ -419,7 +419,7 @@
       "homepage": "https://github.com/KOWX712/PlayIntegrityFix",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 660329,
+      "size": 691564,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -443,20 +443,12 @@
       },
       "versions": [
         {
-          "timestamp": 1783763923.0,
-          "version": "v4.7-1-inject-s",
-          "versionCode": 471,
-          "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
+          "timestamp": 1791813366.0,
+          "version": "v4.8-inject-s",
+          "versionCode": 480,
+          "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.8-inject-s/PlayIntegrityFix_v4.8-inject-s.zip",
           "changelog": "",
-          "size": 660329
-        },
-        {
-          "version": "4.7",
-          "versionCode": 47,
-          "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.7-inject-s/PlayIntegrityFix_v4.7-1-inject-s.zip",
-          "changelog": "Release v4.7",
-          "timestamp": 1786750000,
-          "size": 660329
+          "size": 691564
         }
       ]
     },
@@ -1013,8 +1005,8 @@
     {
       "id": "zygisk-next",
       "name": "Zygisk Next",
-      "version": "1.5.0 (843-5217106-release)",
-      "versionCode": 843,
+      "version": "1.5.1 (862-56ae062-release)",
+      "versionCode": 862,
       "author": "5ec1cff, Nullptr, aviraxp",
       "description": "Standalone implementation of Zygisk.",
       "added": 1786750000,
@@ -1026,7 +1018,7 @@
       "homepage": "https://github.com/LSPosed/ZygiskNext",
       "license": "Proprietary",
       "verified": true,
-      "size": 7529581,
+      "size": 6682412,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1050,12 +1042,12 @@
       },
       "versions": [
         {
-          "timestamp": 1787705669.0,
-          "version": "1.5.0 (843-5217106-release)",
-          "versionCode": 843,
-          "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.0/Zygisk-Next-1.5.0-843-5217106-release.zip",
+          "timestamp": 1791815695.0,
+          "version": "1.5.1 (862-56ae062-release)",
+          "versionCode": 862,
+          "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.1/Zygisk-Next-1.5.1-862-56ae062-release.zip",
           "changelog": "",
-          "size": 7529581
+          "size": 6682412
         }
       ]
     },

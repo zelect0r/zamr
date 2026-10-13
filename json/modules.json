@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1791834739.9571364
+    "timestamp": 1791913186.4787917
   },
   "modules": [
     {
@@ -1005,8 +1005,8 @@
     {
       "id": "zygisk-next",
       "name": "Zygisk Next",
-      "version": "1.5.1 (862-56ae062-release)",
-      "versionCode": 862,
+      "version": "1.5.2 (864-a4a72ce-release)",
+      "versionCode": 864,
       "author": "5ec1cff, Nullptr, aviraxp",
       "description": "Standalone implementation of Zygisk.",
       "added": 1786750000,
@@ -1018,7 +1018,7 @@
       "homepage": "https://github.com/LSPosed/ZygiskNext",
       "license": "Proprietary",
       "verified": true,
-      "size": 6682412,
+      "size": 6714344,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1042,12 +1042,12 @@
       },
       "versions": [
         {
-          "timestamp": 1791815695.0,
-          "version": "1.5.1 (862-56ae062-release)",
-          "versionCode": 862,
-          "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.1/Zygisk-Next-1.5.1-862-56ae062-release.zip",
+          "timestamp": 1791901486.0,
+          "version": "1.5.2 (864-a4a72ce-release)",
+          "versionCode": 864,
+          "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.2/Zygisk-Next-1.5.2-864-a4a72ce-release.zip",
           "changelog": "",
-          "size": 6682412
+          "size": 6714344
         }
       ]
     },

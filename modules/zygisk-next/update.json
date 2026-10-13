@@ -1,14 +1,14 @@
 {
   "id": "zygisk-next",
-  "timestamp": 1791815695.0,
+  "timestamp": 1791901486.0,
   "versions": [
     {
-      "timestamp": 1791815695.0,
-      "version": "1.5.1 (862-56ae062-release)",
-      "versionCode": 862,
-      "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.1/Zygisk-Next-1.5.1-862-56ae062-release.zip",
+      "timestamp": 1791901486.0,
+      "version": "1.5.2 (864-a4a72ce-release)",
+      "versionCode": 864,
+      "zipUrl": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.2/Zygisk-Next-1.5.2-864-a4a72ce-release.zip",
       "changelog": "",
-      "size": 6682412
+      "size": 6714344
     }
   ]
 }

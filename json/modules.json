@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1791913186.4787917
+    "timestamp": 1792088554.8291607
   },
   "modules": [
     {
@@ -406,8 +406,8 @@
     {
       "id": "playintegrityfix",
       "name": "Play Integrity Fix [INJECT]",
-      "version": "v4.8-inject-s",
-      "versionCode": 480,
+      "version": "v4.9-inject-s",
+      "versionCode": 490,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
       "added": 1786750000,
@@ -419,7 +419,7 @@
       "homepage": "https://github.com/KOWX712/PlayIntegrityFix",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 691564,
+      "size": 692511,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -443,12 +443,12 @@
       },
       "versions": [
         {
-          "timestamp": 1791813366.0,
-          "version": "v4.8-inject-s",
-          "versionCode": 480,
-          "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.8-inject-s/PlayIntegrityFix_v4.8-inject-s.zip",
+          "timestamp": 1792073506.0,
+          "version": "v4.9-inject-s",
+          "versionCode": 490,
+          "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.9-inject-s/PlayIntegrityFix_v4.9-inject-s.zip",
           "changelog": "",
-          "size": 691564
+          "size": 692511
         }
       ]
     },

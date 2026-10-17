@@ -1,0 +1,15 @@
+{
+  "id": "integrity-box",
+  "update_to": "https://github.com/MeowDump/Integrity-Box.git",
+  "enable": true,
+  "verified": true,
+  "added": 1792260970,
+  "homepage": "https://github.com/MeowDump/Integrity-Box",
+  "source": "https://github.com/MeowDump/Integrity-Box",
+  "license": "GPL-3.0",
+  "category": "Integrity",
+  "categories": ["Integrity", "WebUI"],
+  "maxApi": 36,
+  "arch": ["arm64-v8a", "armeabi-v7a", "x86_64"],
+  "options": { "github": { "source": "releases" } }
+}

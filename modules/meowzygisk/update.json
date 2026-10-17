@@ -1,0 +1,14 @@
+{
+  "id": "meowzygisk",
+  "timestamp": 1790098367,
+  "versions": [
+    {
+      "timestamp": 1790098367,
+      "version": "v3",
+      "versionCode": 3000,
+      "zipUrl": "https://github.com/MeowDump/MeowZygisk/releases/download/v3/v3-MeowZygisk-22-09-2026.zip",
+      "changelog": "",
+      "size": 392413
+    }
+  ]
+}

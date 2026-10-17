@@ -1,0 +1,15 @@
+{
+  "id": "meowzygisk",
+  "update_to": "https://github.com/MeowDump/MeowZygisk.git",
+  "enable": true,
+  "verified": true,
+  "added": 1792260970,
+  "homepage": "https://github.com/MeowDump/MeowZygisk",
+  "source": "https://github.com/MeowDump/MeowZygisk",
+  "license": "GPL-3.0",
+  "category": "Zygisk",
+  "categories": ["Zygisk"],
+  "maxApi": 36,
+  "arch": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"],
+  "options": { "github": { "source": "releases" } }
+}

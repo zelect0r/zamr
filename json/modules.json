@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1792088554.8291607
+    "timestamp": 1792261235.5045614
   },
   "modules": [
     {
@@ -1140,6 +1140,156 @@
           "zipUrl": "https://github.com/symbuzzer/livebootmodule/releases/download/v6.0.1/livebootmodule.zip",
           "changelog": "",
           "size": 2253060
+        }
+      ]
+    },
+    {
+      "id": "integrity-box",
+      "name": ".𝙄𝙣𝙩𝙚𝙜𝙧𝙞𝙩𝙮 𝘽𝙤𝙭 📦",
+      "version": "v45",
+      "versionCode": 45000,
+      "author": "𝗠𝗘𝗢𝗪𝗻𝗮 💅",
+      "description": "A comprehensive suite designed to help apps remain compatible with compromised environments ",
+      "added": 1792260970,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity",
+        "WebUI"
+      ],
+      "homepage": "https://github.com/MeowDump/Integrity-Box",
+      "donate": "https://MeowDump.github.io",
+      "support": "https://t.me/MeowDump",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 1817729,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1792260970,
+        "source": "https://github.com/MeowDump/Integrity-Box",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/integrity-box/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1792260819,
+          "version": "v45",
+          "versionCode": 45000,
+          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v45/v45-Integrity-Box-18-10-2026.zip",
+          "changelog": "",
+          "size": 1817729
+        }
+      ]
+    },
+    {
+      "id": "meowzygisk",
+      "name": "Meow Zygisk",
+      "version": "v3",
+      "versionCode": 3000,
+      "author": "𝗠𝗘𝗢𝗪𝗻𝗮 💅 & @PerformanC",
+      "description": " ",
+      "added": 1792260970,
+      "maxApi": 36,
+      "category": "Zygisk",
+      "categories": [
+        "Zygisk"
+      ],
+      "homepage": "https://github.com/MeowDump/MeowZygisk",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 392413,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1792260970,
+        "source": "https://github.com/MeowDump/MeowZygisk",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/meowzygisk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1790098367,
+          "version": "v3",
+          "versionCode": 3000,
+          "zipUrl": "https://github.com/MeowDump/MeowZygisk/releases/download/v3/v3-MeowZygisk-22-09-2026.zip",
+          "changelog": "",
+          "size": 392413
+        }
+      ]
+    },
+    {
+      "id": "tricky_store",
+      "name": "Tricky Store OSS",
+      "version": "v3.1.0 (172-41383f5-release)",
+      "versionCode": 172,
+      "author": "beakthoven",
+      "description": "A trick of keystore but open source.",
+      "added": 1792260970,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://github.com/beakthoven/TrickyStoreOSS",
+      "license": "GPL-3.0",
+      "verified": true,
+      "size": 1289252,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1792260970,
+        "source": "https://github.com/beakthoven/TrickyStoreOSS",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/tricky_store/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1787691399,
+          "version": "v3.1.0 (172-41383f5-release)",
+          "versionCode": 172,
+          "zipUrl": "https://github.com/beakthoven/TrickyStoreOSS/releases/download/v3.1.0/Tricky-Store-OSS-v3.1.0-172-41383f5-Release.zip",
+          "changelog": "",
+          "size": 1289252
         }
       ]
     }

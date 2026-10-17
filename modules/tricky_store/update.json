@@ -1,0 +1,14 @@
+{
+  "id": "tricky_store",
+  "timestamp": 1787691399,
+  "versions": [
+    {
+      "timestamp": 1787691399,
+      "version": "v3.1.0 (172-41383f5-release)",
+      "versionCode": 172,
+      "zipUrl": "https://github.com/beakthoven/TrickyStoreOSS/releases/download/v3.1.0/Tricky-Store-OSS-v3.1.0-172-41383f5-Release.zip",
+      "changelog": "",
+      "size": 1289252
+    }
+  ]
+}

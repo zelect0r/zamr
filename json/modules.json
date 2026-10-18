@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1792261235.5045614
+    "timestamp": 1792347142.986255
   },
   "modules": [
     {
@@ -315,7 +315,7 @@
       "id": "music-morphe",
       "name": "Music Morphe",
       "version": "v21.20.405 (patches 1.47.0.mpp)",
-      "versionCode": 20221113,
+      "versionCode": 20221117,
       "author": "j-hc",
       "description": "Music Morphe module",
       "added": 1786750000,
@@ -327,7 +327,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 67165874,
+      "size": 67165952,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -347,12 +347,12 @@
       },
       "versions": [
         {
-          "timestamp": 1791740498.0,
+          "timestamp": 1792339893.0,
           "version": "v21.20.405 (patches 1.47.0.mpp)",
-          "versionCode": 20221113,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221113/music-morphe-module-v9.20.53-arm64-v8a.zip",
+          "versionCode": 20221117,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221117/music-morphe-module-v9.20.53-arm64-v8a.zip",
           "changelog": "",
-          "size": 67165874
+          "size": 67165952
         }
       ]
     },
@@ -871,7 +871,7 @@
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
       "version": "v21.20.405 (patches 1.47.0.mpp)",
-      "versionCode": 20221113,
+      "versionCode": 20221117,
       "author": "j-hc",
       "description": "YouTube Morphe module",
       "added": 1786750000,
@@ -883,7 +883,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 217917425,
+      "size": 217917602,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -903,12 +903,12 @@
       },
       "versions": [
         {
-          "timestamp": 1791740498.0,
+          "timestamp": 1792339893.0,
           "version": "v21.20.405 (patches 1.47.0.mpp)",
-          "versionCode": 20221113,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221113/youtube-morphe-module-v21.20.405-all.zip",
+          "versionCode": 20221117,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221117/youtube-morphe-module-v21.20.405-all.zip",
           "changelog": "",
-          "size": 217917425
+          "size": 217917602
         }
       ]
     },

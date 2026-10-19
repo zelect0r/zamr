@@ -1,14 +1,14 @@
 {
   "id": "teesimulator",
-  "timestamp": 1790932320.0,
+  "timestamp": 1792430898.0,
   "versions": [
     {
-      "timestamp": 1790932320.0,
-      "version": "v4.0 (71-17be1f0-release)",
-      "versionCode": 71,
-      "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-71/TEESimulator-v4.0-71-17be1f0-Release.zip",
+      "timestamp": 1792430898.0,
+      "version": "v4.0 (75-09ed792-release)",
+      "versionCode": 75,
+      "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-75/TEESimulator-v4.0-75-09ed792-Release.zip",
       "changelog": "",
-      "size": 17473317
+      "size": 17714253
     }
   ]
 }

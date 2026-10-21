@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1792568797.7006485
+    "timestamp": 1792590878.2538645
   },
   "modules": [
     {
@@ -631,7 +631,7 @@
       "homepage": "https://github.com/JingMatrix/TEESimulator",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 17714253,
+      "size": 18171694,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -655,9 +655,9 @@
           "timestamp": 1792430898.0,
           "version": "v4.0 (75-09ed792-release)",
           "versionCode": 75,
-          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-75/TEESimulator-v4.0-75-cb4044a-Release.zip",
+          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-75/TEESimulator-v4.0-75-fcf1738-Release.zip",
           "changelog": "",
-          "size": 17714253
+          "size": 18171694
         }
       ]
     },

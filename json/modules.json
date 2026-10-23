@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1792590878.2538645
+    "timestamp": 1792780046.8778286
   },
   "modules": [
     {
@@ -314,8 +314,8 @@
     {
       "id": "music-morphe",
       "name": "Music Morphe",
-      "version": "v21.20.405 (patches 1.47.0.mpp)",
-      "versionCode": 20221117,
+      "version": "v21.20.405 (patches 1.48.0.mpp)",
+      "versionCode": 20221118,
       "author": "j-hc",
       "description": "Music Morphe module",
       "added": 1786750000,
@@ -327,7 +327,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 67165952,
+      "size": 67724531,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -347,12 +347,12 @@
       },
       "versions": [
         {
-          "timestamp": 1792339893.0,
-          "version": "v21.20.405 (patches 1.47.0.mpp)",
-          "versionCode": 20221117,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221117/music-morphe-module-v9.20.53-arm64-v8a.zip",
+          "timestamp": 1792771840.0,
+          "version": "v21.20.405 (patches 1.48.0.mpp)",
+          "versionCode": 20221118,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221118/music-morphe-module-v9.20.53-arm64-v8a.zip",
           "changelog": "",
-          "size": 67165952
+          "size": 67724531
         }
       ]
     },
@@ -618,8 +618,8 @@
     {
       "id": "teesimulator",
       "name": "TEESimulator",
-      "version": "v4.0 (75-09ed792-release)",
-      "versionCode": 75,
+      "version": "v4.0 (76-06f9f2e-release)",
+      "versionCode": 76,
       "author": "JingMatrix",
       "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
       "added": 1786750000,
@@ -631,7 +631,7 @@
       "homepage": "https://github.com/JingMatrix/TEESimulator",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 18171694,
+      "size": 18160200,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -652,12 +652,12 @@
       },
       "versions": [
         {
-          "timestamp": 1792430898.0,
-          "version": "v4.0 (75-09ed792-release)",
-          "versionCode": 75,
-          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-75/TEESimulator-v4.0-75-fcf1738-Release.zip",
+          "timestamp": 1792777536.0,
+          "version": "v4.0 (76-06f9f2e-release)",
+          "versionCode": 76,
+          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/canary-76/TEESimulator-v4.0-76-06f9f2e-Release.zip",
           "changelog": "",
-          "size": 18171694
+          "size": 18160200
         }
       ]
     },
@@ -870,8 +870,8 @@
     {
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
-      "version": "v21.20.405 (patches 1.47.0.mpp)",
-      "versionCode": 20221117,
+      "version": "v21.20.405 (patches 1.48.0.mpp)",
+      "versionCode": 20221118,
       "author": "j-hc",
       "description": "YouTube Morphe module",
       "added": 1786750000,
@@ -883,7 +883,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 217917602,
+      "size": 219751944,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -903,12 +903,12 @@
       },
       "versions": [
         {
-          "timestamp": 1792339893.0,
-          "version": "v21.20.405 (patches 1.47.0.mpp)",
-          "versionCode": 20221117,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221117/youtube-morphe-module-v21.20.405-all.zip",
+          "timestamp": 1792771840.0,
+          "version": "v21.20.405 (patches 1.48.0.mpp)",
+          "versionCode": 20221118,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221118/youtube-morphe-module-v21.20.405-all.zip",
           "changelog": "",
-          "size": 217917602
+          "size": 219751944
         }
       ]
     },

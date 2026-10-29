@@ -1,14 +1,14 @@
 {
   "id": "integrity-box",
-  "timestamp": 1792260819,
+  "timestamp": 1793293093.0,
   "versions": [
     {
-      "timestamp": 1792260819,
-      "version": "v45",
-      "versionCode": 45000,
-      "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v45/v45-Integrity-Box-18-10-2026.zip",
+      "timestamp": 1793293093.0,
+      "version": "v46",
+      "versionCode": 46000,
+      "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v46/v46-Integrity-Box-29-10-2026.zip",
       "changelog": "",
-      "size": 1817729
+      "size": 1901270
     }
   ]
 }

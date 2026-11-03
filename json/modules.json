@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1793407972.0870569
+    "timestamp": 1793698898.2201219
   },
   "modules": [
     {
@@ -455,8 +455,8 @@
     {
       "id": "playintegrityfork",
       "name": "Play Integrity Fork",
-      "version": "v18",
-      "versionCode": 180000,
+      "version": "v19",
+      "versionCode": 190000,
       "author": "osm0sis & chiteroman @ xda-developers",
       "description": "Fix <A13 Play Integrity DEVICE verdict",
       "added": 1786750000,
@@ -468,7 +468,7 @@
       "homepage": "https://github.com/osm0sis/PlayIntegrityFork",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 227895,
+      "size": 341951,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -489,12 +489,12 @@
       },
       "versions": [
         {
-          "timestamp": 1788024836.0,
-          "version": "v18",
-          "versionCode": 180000,
-          "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v18/PlayIntegrityFork-v18.zip",
+          "timestamp": 1793671301.0,
+          "version": "v19",
+          "versionCode": 190000,
+          "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v19/PlayIntegrityFork-v19.zip",
           "changelog": "",
-          "size": 227895
+          "size": 341951
         }
       ]
     },

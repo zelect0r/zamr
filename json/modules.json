@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1793924631.9855387
+    "timestamp": 1793980810.0104063
   },
   "modules": [
     {
@@ -123,8 +123,8 @@
     {
       "id": "hma_oss_zygisk",
       "name": "HMA-OSS Zygisk",
-      "version": "oss-173",
-      "versionCode": 7304656,
+      "version": "oss-175",
+      "versionCode": 7304658,
       "author": "frknkrc44",
       "description": "A Zygisk backend for HMA-OSS",
       "added": 1786275967,
@@ -137,7 +137,7 @@
       "homepage": "https://github.com/frknkrc44/HMA-OSS",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 2743824,
+      "size": 2582384,
       "permissions": [
         "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
@@ -158,20 +158,20 @@
       },
       "versions": [
         {
-          "timestamp": 1790729004.0,
-          "version": "oss-173",
-          "versionCode": 7304656,
-          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-173/HMA-OSS-ZYGISK-oss-173-release.zip",
+          "timestamp": 1793961447.0,
+          "version": "oss-175",
+          "versionCode": 7304658,
+          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-175/HMA-OSS-ZYGISK-oss-175-release.zip",
           "changelog": "",
-          "size": 2743824
+          "size": 2582384
         }
       ]
     },
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "6.2.6-rc.1",
-      "versionCode": 602006301,
+      "version": "6.2.6-rc.2",
+      "versionCode": 602006302,
       "author": "Hybrid Mount Developers",
       "description": "Mount orchestration metamodule for KernelSU and APatch",
       "added": 1782579917,
@@ -185,7 +185,7 @@
       "homepage": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 5032123,
+      "size": 5430516,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -205,12 +205,12 @@
       },
       "versions": [
         {
-          "timestamp": 1793866555.0,
-          "version": "6.2.6-rc.1",
-          "versionCode": 602006301,
-          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.1/Hybrid-Mount-6.2.6-rc.1-2139.zip",
+          "timestamp": 1793957641.0,
+          "version": "6.2.6-rc.2",
+          "versionCode": 602006302,
+          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.2/Hybrid-Mount-6.2.6-rc.2-2154.zip",
           "changelog": "",
-          "size": 5032123
+          "size": 5430516
         }
       ]
     },

@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1793980810.0104063
+    "timestamp": 1794000946.343819
   },
   "modules": [
     {
@@ -314,8 +314,8 @@
     {
       "id": "music-morphe",
       "name": "Music Morphe",
-      "version": "v7.92.0.977185651 (patches 1.6.3.mpp)",
-      "versionCode": 20221125,
+      "version": "v21.30.216 (patches 2.1.0.mpp)",
+      "versionCode": 20221126,
       "author": "j-hc",
       "description": "Music Morphe module",
       "added": 1786750000,
@@ -327,7 +327,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 233802965,
+      "size": 69060403,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -347,12 +347,12 @@
       },
       "versions": [
         {
-          "timestamp": 1793721927.0,
-          "version": "v7.92.0.977185651 (patches 1.6.3.mpp)",
-          "versionCode": 20221125,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221125/googlephotos-devanced-module-v7.92.0.977185651-all.zip",
+          "timestamp": 1793984963.0,
+          "version": "v21.30.216 (patches 2.1.0.mpp)",
+          "versionCode": 20221126,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221126/music-morphe-module-v9.30.53-arm64-v8a.zip",
           "changelog": "",
-          "size": 233802965
+          "size": 69060403
         }
       ]
     },
@@ -820,8 +820,8 @@
     {
       "id": "vector",
       "name": "Vector",
-      "version": "v2.2 (3117-093ea599-JingMatrix-Vector)",
-      "versionCode": 3117,
+      "version": "v2.2 (3118-91e77e43-JingMatrix-Vector)",
+      "versionCode": 3118,
       "author": "JingMatrix",
       "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 17)",
       "added": 1786750000,
@@ -833,7 +833,7 @@
       "homepage": "https://github.com/JingMatrix/Vector",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 7478142,
+      "size": 7452170,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.RESETPROP",
@@ -858,20 +858,20 @@
       },
       "versions": [
         {
-          "timestamp": 1793911199.0,
-          "version": "v2.2 (3117-093ea599-JingMatrix-Vector)",
-          "versionCode": 3117,
-          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3117/Vector-v2.2-3117-Release.zip",
+          "timestamp": 1793995419.0,
+          "version": "v2.2 (3118-91e77e43-JingMatrix-Vector)",
+          "versionCode": 3118,
+          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3118/Vector-v2.2-3118-Release.zip",
           "changelog": "",
-          "size": 7478142
+          "size": 7452170
         }
       ]
     },
     {
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
-      "version": "v7.92.0.977185651 (patches 1.6.3.mpp)",
-      "versionCode": 20221125,
+      "version": "v21.30.216 (patches 2.1.0.mpp)",
+      "versionCode": 20221126,
       "author": "j-hc",
       "description": "YouTube Morphe module",
       "added": 1786750000,
@@ -883,7 +883,7 @@
       "homepage": "https://github.com/j-hc/revanced-magisk-module",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 233802965,
+      "size": 236749499,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -903,12 +903,12 @@
       },
       "versions": [
         {
-          "timestamp": 1793721927.0,
-          "version": "v7.92.0.977185651 (patches 1.6.3.mpp)",
-          "versionCode": 20221125,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221125/googlephotos-devanced-module-v7.92.0.977185651-all.zip",
+          "timestamp": 1793984963.0,
+          "version": "v21.30.216 (patches 2.1.0.mpp)",
+          "versionCode": 20221126,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221126/youtube-morphe-module-v21.30.216-all.zip",
           "changelog": "",
-          "size": 233802965
+          "size": 236749499
         }
       ]
     },

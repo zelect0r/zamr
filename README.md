@@ -6,7 +6,7 @@ A curated collection of root modules for **Magisk**, **KernelSU**, **APatch**, a
 ## Add to MMRL
 
 Finally this repo is added to the other repositories in MMRL.
-Open the tap "repos", tap "Explore more repos",scroll down to "zamr",
+Open the tap "repos", tap "Explore more repos", scroll down to "zamr",
 tap on it and add it.
 
 Or manually:

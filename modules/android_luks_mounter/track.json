@@ -1,7 +1,7 @@
 {
   "id": "android_luks_mounter",
   "enable": true,
-  "verified": true,
+  "verified": false,
   "update_to": "https://github.com/rexackermann/android-luks-mounter.git",
   "license": "MIT",
   "homepage": "https://github.com/rexackermann/android-luks-mounter",
@@ -18,5 +18,10 @@
   },
   "added": 1794104428,
   "last_update": 1793610351,
-  "versions": 1
+  "versions": 1,
+  "note": {
+    "color": "yellow",
+    "title": "Not tested",
+    "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+  }
 }

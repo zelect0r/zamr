@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794104470
+    "timestamp": 1794106565
   },
   "modules": [
     {
@@ -1308,7 +1308,7 @@
       ],
       "homepage": "https://github.com/rexackermann/magisk-cpu-disable-screenoff",
       "license": "MIT",
-      "verified": true,
+      "verified": false,
       "readme": "https://raw.githubusercontent.com/rexackermann/magisk-cpu-disable-screenoff/main/README.md",
       "size": 30183,
       "permissions": [
@@ -1337,7 +1337,12 @@
           "changelog": "",
           "size": 30183
         }
-      ]
+      ],
+      "note": {
+        "color": "yellow",
+        "title": "Not tested",
+        "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+      }
     },
     {
       "id": "android_luks_mounter",
@@ -1354,7 +1359,7 @@
       ],
       "homepage": "https://github.com/rexackermann/android-luks-mounter",
       "license": "MIT",
-      "verified": true,
+      "verified": false,
       "readme": "https://raw.githubusercontent.com/rexackermann/android-luks-mounter/main/README.md",
       "size": 47643,
       "permissions": [
@@ -1385,7 +1390,12 @@
           "changelog": "",
           "size": 47643
         }
-      ]
+      ],
+      "note": {
+        "color": "yellow",
+        "title": "Not tested",
+        "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+      }
     },
     {
       "id": "termuxsu",
@@ -1402,7 +1412,7 @@
       ],
       "homepage": "https://github.com/mariayuno/TermuxSu-Magisk",
       "license": "MIT",
-      "verified": true,
+      "verified": false,
       "readme": "https://raw.githubusercontent.com/mariayuno/TermuxSu-Magisk/main/README.md",
       "size": 25865,
       "track": {
@@ -1421,7 +1431,12 @@
           "changelog": "",
           "size": 25865
         }
-      ]
+      ],
+      "note": {
+        "color": "yellow",
+        "title": "Not tested",
+        "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+      }
     },
     {
       "id": "imgdrive",
@@ -1438,7 +1453,7 @@
       ],
       "homepage": "https://github.com/rexackermann/imgdrive",
       "license": "GPL-3.0",
-      "verified": true,
+      "verified": false,
       "readme": "https://raw.githubusercontent.com/rexackermann/imgdrive/main/README.md",
       "size": 180676,
       "permissions": [
@@ -1469,7 +1484,12 @@
           "changelog": "",
           "size": 180676
         }
-      ]
+      ],
+      "note": {
+        "color": "yellow",
+        "title": "Not tested",
+        "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+      }
     }
   ]
 }

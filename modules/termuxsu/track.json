@@ -1,7 +1,7 @@
 {
   "id": "termuxsu",
   "enable": true,
-  "verified": true,
+  "verified": false,
   "update_to": "https://github.com/mariayuno/TermuxSu-Magisk.git",
   "license": "MIT",
   "homepage": "https://github.com/mariayuno/TermuxSu-Magisk",
@@ -18,5 +18,10 @@
   },
   "added": 1794104428,
   "last_update": 1791036038,
-  "versions": 1
+  "versions": 1,
+  "note": {
+    "color": "yellow",
+    "title": "Not tested",
+    "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+  }
 }

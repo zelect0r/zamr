@@ -1,7 +1,7 @@
 {
   "id": "imgdrive",
   "enable": true,
-  "verified": true,
+  "verified": false,
   "update_to": "https://github.com/rexackermann/imgdrive.git",
   "license": "GPL-3.0",
   "homepage": "https://github.com/rexackermann/imgdrive",
@@ -18,5 +18,10 @@
   },
   "added": 1794104428,
   "last_update": 1790619601,
-  "versions": 1
+  "versions": 1,
+  "note": {
+    "color": "yellow",
+    "title": "Not tested",
+    "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+  }
 }

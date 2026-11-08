@@ -22,6 +22,6 @@
   "note": {
     "color": "yellow",
     "title": "Not tested",
-    "message": "This module has not been tested by the repository maintainer. Install and use at your own risk."
+    "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer mariayuno (@mariayuno)."
   }
 }

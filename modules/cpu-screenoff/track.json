@@ -1,0 +1,22 @@
+{
+  "id": "cpu-screenoff",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/rexackermann/magisk-cpu-disable-screenoff.git",
+  "license": "MIT",
+  "homepage": "https://github.com/rexackermann/magisk-cpu-disable-screenoff",
+  "source": "https://github.com/rexackermann/magisk-cpu-disable-screenoff",
+  "maxApi": 36,
+  "category": "Battery",
+  "categories": [
+    "Battery"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1794104428,
+  "last_update": 1790172847,
+  "versions": 1
+}

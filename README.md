@@ -24,19 +24,19 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | Category | Modules |
 | --- | --- |
 | Apps | YouTube Morphe, Music Morphe |
-| Battery | Frosty |
+| Battery | Frosty, CPU Screen Off |
 | Customization | iOS Emoji, LiveBoot |
 | Integrity | Integrity Box, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store OSS |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
-| Utility | zygisk-detach, bindhosts, MSD, DT2W Fix |
+| Utility | zygisk-detach, bindhosts, MSD, DT2W Fix, Android LUKS Mounter, TermuxSu, imgdrive |
 | Xposed | Vector |
 | Zygisk | Zygisk Next, NeoZygisk, ReZygisk, Meow Zygisk |
 | WebUI | Tricky Addon Enhanced, Tricky Addon Target List, Integrity Box |
 
 ## Included modules
 
-The MMRL index currently publishes 26 modules:
+The MMRL index currently publishes 30 modules:
 
 - Zygisk Next, NeoZygisk, ReZygisk, and Meow Zygisk
 - Zygisk Assistant and zygisk-detach
@@ -56,6 +56,10 @@ The MMRL index currently publishes 26 modules:
 - DT2W Fix
 - MSD
 - Frosty
+- CPU Screen Off
+- Android LUKS Mounter
+- TermuxSu
+- imgdrive
 
 The complete index is available at [`json/modules.json`](json/modules.json).
 

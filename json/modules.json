@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794095017.05151
+    "timestamp": 1794104470
   },
   "modules": [
     {
@@ -1290,6 +1290,184 @@
           "zipUrl": "https://github.com/beakthoven/TrickyStoreOSS/releases/download/v3.1.0/Tricky-Store-OSS-v3.1.0-172-41383f5-Release.zip",
           "changelog": "",
           "size": 1289252
+        }
+      ]
+    },
+    {
+      "id": "cpu-screenoff",
+      "name": "CPU Screen Off",
+      "version": "v3.7",
+      "versionCode": 37,
+      "author": "Rex Ackermann",
+      "description": "Parks CPU cores on screen off to save battery (default: cores 2-7, configurable). WebUI for live status, config, and log. Battery discharge stats, charger-aware drain tracking, hot-apply config via WebUI.",
+      "added": 1794104428,
+      "maxApi": 36,
+      "category": "Battery",
+      "categories": [
+        "Battery"
+      ],
+      "homepage": "https://github.com/rexackermann/magisk-cpu-disable-screenoff",
+      "license": "MIT",
+      "verified": true,
+      "readme": "https://raw.githubusercontent.com/rexackermann/magisk-cpu-disable-screenoff/main/README.md",
+      "size": 30183,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1794104428,
+        "source": "https://github.com/rexackermann/magisk-cpu-disable-screenoff",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/cpu-screenoff/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1790172847,
+          "version": "v3.7",
+          "versionCode": 37,
+          "zipUrl": "https://github.com/rexackermann/magisk-cpu-disable-screenoff/releases/download/v3.7/CPU-Screen-Off-v3.7-flashable.zip",
+          "changelog": "",
+          "size": 30183
+        }
+      ]
+    },
+    {
+      "id": "android_luks_mounter",
+      "name": "Android LUKS Mounter",
+      "version": "v1.5.84",
+      "versionCode": 1584,
+      "author": "Rex Ackermann",
+      "description": "Professional storage management for LUKS and plain drives on Android. Supports auto-mounting, Termux integration, and more.",
+      "added": 1794104428,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/rexackermann/android-luks-mounter",
+      "license": "MIT",
+      "verified": true,
+      "readme": "https://raw.githubusercontent.com/rexackermann/android-luks-mounter/main/README.md",
+      "size": 47643,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1794104428,
+        "source": "https://github.com/rexackermann/android-luks-mounter",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/android_luks_mounter/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1793610351,
+          "version": "v1.5.84",
+          "versionCode": 1584,
+          "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.84/android-luks-mounter-v1.5.84.zip",
+          "changelog": "",
+          "size": 47643
+        }
+      ]
+    },
+    {
+      "id": "termuxsu",
+      "name": "TermuxSu",
+      "version": "v2.7",
+      "versionCode": 18,
+      "author": "mariayuno",
+      "description": "Full native Termux shell from any root session. Correct UID/GID/groups, SELinux domain, MCS, mount namespace. Donorless architecture.",
+      "added": 1794104428,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/mariayuno/TermuxSu-Magisk",
+      "license": "MIT",
+      "verified": true,
+      "readme": "https://raw.githubusercontent.com/mariayuno/TermuxSu-Magisk/main/README.md",
+      "size": 25865,
+      "track": {
+        "type": "GIT",
+        "added": 1794104428,
+        "source": "https://github.com/mariayuno/TermuxSu-Magisk",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/termuxsu/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1791036038,
+          "version": "v2.7",
+          "versionCode": 18,
+          "zipUrl": "https://github.com/mariayuno/TermuxSu-Magisk/releases/download/v2.7/TermuxSu-v2.7.zip",
+          "changelog": "",
+          "size": 25865
+        }
+      ]
+    },
+    {
+      "id": "imgdrive",
+      "name": "imgdrive",
+      "version": "v4.0",
+      "versionCode": 31,
+      "author": "Rex Ackermann",
+      "description": "Two-stage encrypted image drive: LUKS2+F2FS local mount or raw USB export via isodrive",
+      "added": 1794104428,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/rexackermann/imgdrive",
+      "license": "GPL-3.0",
+      "verified": true,
+      "readme": "https://raw.githubusercontent.com/rexackermann/imgdrive/main/README.md",
+      "size": 180676,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1794104428,
+        "source": "https://github.com/rexackermann/imgdrive",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/imgdrive/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1790619601,
+          "version": "v4.0",
+          "versionCode": 31,
+          "zipUrl": "https://github.com/rexackermann/imgdrive/releases/download/v4.0/imgdrive-v4.0.zip",
+          "changelog": "",
+          "size": 180676
         }
       ]
     }

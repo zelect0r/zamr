@@ -1,0 +1,14 @@
+{
+  "id": "imgdrive",
+  "timestamp": 1790619601,
+  "versions": [
+    {
+      "timestamp": 1790619601,
+      "version": "v4.0",
+      "versionCode": 31,
+      "zipUrl": "https://github.com/rexackermann/imgdrive/releases/download/v4.0/imgdrive-v4.0.zip",
+      "changelog": "",
+      "size": 180676
+    }
+  ]
+}

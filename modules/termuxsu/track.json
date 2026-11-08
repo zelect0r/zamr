@@ -1,0 +1,22 @@
+{
+  "id": "termuxsu",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/mariayuno/TermuxSu-Magisk.git",
+  "license": "MIT",
+  "homepage": "https://github.com/mariayuno/TermuxSu-Magisk",
+  "source": "https://github.com/mariayuno/TermuxSu-Magisk",
+  "maxApi": 36,
+  "category": "Utility",
+  "categories": [
+    "Utility"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1794104428,
+  "last_update": 1791036038,
+  "versions": 1
+}

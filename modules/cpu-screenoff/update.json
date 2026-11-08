@@ -1,0 +1,14 @@
+{
+  "id": "cpu-screenoff",
+  "timestamp": 1790172847,
+  "versions": [
+    {
+      "timestamp": 1790172847,
+      "version": "v3.7",
+      "versionCode": 37,
+      "zipUrl": "https://github.com/rexackermann/magisk-cpu-disable-screenoff/releases/download/v3.7/CPU-Screen-Off-v3.7-flashable.zip",
+      "changelog": "",
+      "size": 30183
+    }
+  ]
+}

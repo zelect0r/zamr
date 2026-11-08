@@ -1,0 +1,14 @@
+{
+  "id": "termuxsu",
+  "timestamp": 1791036038,
+  "versions": [
+    {
+      "timestamp": 1791036038,
+      "version": "v2.7",
+      "versionCode": 18,
+      "zipUrl": "https://github.com/mariayuno/TermuxSu-Magisk/releases/download/v2.7/TermuxSu-v2.7.zip",
+      "changelog": "",
+      "size": 25865
+    }
+  ]
+}

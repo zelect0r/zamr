@@ -1,0 +1,27 @@
+{
+  "id": "oh_my_keymint",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/qwq233/OhMyKeymint.git",
+  "license": "custom",
+  "homepage": "https://github.com/qwq233/OhMyKeymint",
+  "source": "https://github.com/qwq233/OhMyKeymint",
+  "support": "https://github.com/qwq233/OhMyKeymint/issues",
+  "maxApi": 36,
+  "category": "Integrity",
+  "categories": [
+    "Integrity"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "readme": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/master/README.md",
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1794144662,
+  "last_update": 1793941233,
+  "versions": 1
+}

@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794106565
+    "timestamp": 1794144662
   },
   "modules": [
     {
@@ -1490,6 +1490,101 @@
         "title": "Not tested",
         "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer Rex Ackermann (@rexackermann)."
       }
+    },
+    {
+      "id": "tricky-store",
+      "name": "Tricky Store",
+      "version": "v1.4.1 (245-72b2e84-release)",
+      "versionCode": 245,
+      "author": "5ec1cff, aviraxp and Cyberenchanter",
+      "description": "A trick of keystore",
+      "added": 1794144503,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://github.com/5ec1cff/TrickyStore",
+      "verified": true,
+      "support": "https://github.com/5ec1cff/TrickyStore/issues",
+      "readme": "https://raw.githubusercontent.com/5ec1cff/TrickyStore/release/README.md",
+      "size": 2840600,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "apks": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1794144503,
+        "source": "https://github.com/5ec1cff/TrickyStore",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/tricky-store/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1762077397,
+          "version": "v1.4.1 (245-72b2e84-release)",
+          "versionCode": 245,
+          "zipUrl": "https://github.com/5ec1cff/TrickyStore/releases/download/1.4.1/Tricky-Store-v1.4.1-245-72b2e84-release.zip",
+          "changelog": "",
+          "size": 2840600
+        }
+      ]
+    },
+    {
+      "id": "oh_my_keymint",
+      "name": "Oh My Keymint",
+      "version": "1.2.6-9069c6c",
+      "versionCode": 180,
+      "author": "James Clef",
+      "description": "Custom keystore implementation for Android Keystore Spoofer",
+      "added": 1794144662,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://github.com/qwq233/OhMyKeymint",
+      "license": "custom",
+      "verified": true,
+      "support": "https://github.com/qwq233/OhMyKeymint/issues",
+      "readme": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/master/README.md",
+      "size": 4930351,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1794144662,
+        "source": "https://github.com/qwq233/OhMyKeymint",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/oh_my_keymint/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1793941233,
+          "version": "1.2.6-9069c6c",
+          "versionCode": 180,
+          "zipUrl": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.6-9069c6c/OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
+          "changelog": "",
+          "size": 4930351
+        }
+      ]
     }
   ]
 }

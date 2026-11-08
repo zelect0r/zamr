@@ -1,0 +1,14 @@
+{
+  "id": "tricky-store",
+  "timestamp": 1762077397,
+  "versions": [
+    {
+      "timestamp": 1762077397,
+      "version": "v1.4.1 (245-72b2e84-release)",
+      "versionCode": 245,
+      "zipUrl": "https://github.com/5ec1cff/TrickyStore/releases/download/1.4.1/Tricky-Store-v1.4.1-245-72b2e84-release.zip",
+      "changelog": "",
+      "size": 2840600
+    }
+  ]
+}

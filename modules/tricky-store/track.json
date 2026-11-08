@@ -1,0 +1,28 @@
+{
+  "id": "tricky-store",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/5ec1cff/TrickyStore.git",
+  "homepage": "https://github.com/5ec1cff/TrickyStore",
+  "source": "https://github.com/5ec1cff/TrickyStore",
+  "support": "https://github.com/5ec1cff/TrickyStore/issues",
+  "maxApi": 36,
+  "category": "Integrity",
+  "categories": [
+    "Integrity"
+  ],
+  "arch": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "readme": "https://raw.githubusercontent.com/5ec1cff/TrickyStore/release/README.md",
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1794144503,
+  "last_update": 1762077397,
+  "versions": 1
+}

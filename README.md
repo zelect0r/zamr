@@ -26,7 +26,7 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | Apps | YouTube Morphe, Music Morphe |
 | Battery | Frosty, CPU Screen Off |
 | Customization | iOS Emoji, LiveBoot |
-| Integrity | Integrity Box, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store OSS |
+| Integrity | Integrity Box, Oh My Keymint, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store, Tricky Store OSS |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
 | Utility | zygisk-detach, bindhosts, MSD, DT2W Fix, Android LUKS Mounter, TermuxSu, imgdrive |
@@ -36,15 +36,16 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 
 ## Included modules
 
-The MMRL index currently publishes 30 modules:
+The MMRL index currently publishes 32 modules:
 
 - Zygisk Next, NeoZygisk, ReZygisk, and Meow Zygisk
 - Zygisk Assistant and zygisk-detach
 - Play Integrity Fix and Play Integrity Fork
 - Integrity Box
+- Oh My Keymint
 - TEESimulator and TEESimulator-RS
 - Tricky Addon Enhanced and Tricky Addon Target List
-- Tricky Store OSS
+- Tricky Store and Tricky Store OSS
 - SUSFS for KernelSU
 - Vector
 - iOS Emoji

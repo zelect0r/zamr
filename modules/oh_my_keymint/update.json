@@ -1,0 +1,14 @@
+{
+  "id": "oh_my_keymint",
+  "timestamp": 1793941233,
+  "versions": [
+    {
+      "timestamp": 1793941233,
+      "version": "1.2.6-9069c6c",
+      "versionCode": 180,
+      "zipUrl": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.6-9069c6c/OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
+      "changelog": "",
+      "size": 4930351
+    }
+  ]
+}

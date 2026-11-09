@@ -1,0 +1,29 @@
+{
+  "id": "alwaysstrong",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/update.json",
+  "license": "GPL-3.0",
+  "homepage": "https://gitlab.com/Evokerr/AlwaysStrong",
+  "source": "https://gitlab.com/Evokerr/AlwaysStrong",
+  "support": "https://t.me/keyboxstrong",
+  "maxApi": 36,
+  "category": "Integrity",
+  "categories": [
+    "Integrity"
+  ],
+  "readme": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/README.md",
+  "screenshots": [
+    "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/webui.jpg",
+    "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
+    "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
+  ],
+  "options": {
+    "gitlab": {
+      "source": "releases",
+      "all_versions": true
+    }
+  },
+  "max_num": 100,
+  "added": 1790014583
+}

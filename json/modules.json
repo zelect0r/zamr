@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794224733.1393385
+    "timestamp": 1794228022
   },
   "modules": [
     {
@@ -1583,6 +1583,81 @@
           "zipUrl": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.6-9069c6c/OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
           "changelog": "",
           "size": 4930351
+        }
+      ]
+    },
+    {
+      "id": "alwaysstrong",
+      "name": "AlwaysStrong",
+      "version": "v1.0.5",
+      "versionCode": 105,
+      "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
+      "description": "Strong Play Integrity in one drop-in module. TEESimulator-RS + PlayIntegrityFork, auto-refreshed. Tap Action.",
+      "added": 1790014583,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://gitlab.com/Evokerr/AlwaysStrong",
+      "license": "GPL-3.0",
+      "verified": true,
+      "support": "https://t.me/keyboxstrong",
+      "readme": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/README.md",
+      "screenshots": [
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/webui.jpg",
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
+      ],
+      "size": 5289881,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1790014583,
+        "source": "https://gitlab.com/Evokerr/AlwaysStrong",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1792108800,
+          "version": "v1.0.5",
+          "versionCode": 105,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.5-r2/AlwaysStrong-v1.0.5.zip",
+          "changelog": "",
+          "size": 5289881
+        },
+        {
+          "timestamp": 1788652800,
+          "version": "v1.0.4",
+          "versionCode": 104,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.4/AlwaysStrong-v1.0.4.zip",
+          "changelog": "",
+          "size": 4803922
+        },
+        {
+          "timestamp": 1786752000,
+          "version": "v1.0.3",
+          "versionCode": 103,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.3/AlwaysStrong-v1.0.3.zip",
+          "changelog": "",
+          "size": 4808985
         }
       ]
     }

@@ -1,0 +1,31 @@
+{
+  "id": "alwaysstrong",
+  "version": "v1.0.5",
+  "versionCode": 105,
+  "versions": [
+    {
+      "timestamp": 1792108800,
+      "version": "v1.0.5",
+      "versionCode": 105,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.5-r2/AlwaysStrong-v1.0.5.zip",
+      "changelog": "",
+      "size": 5289881
+    },
+    {
+      "timestamp": 1788652800,
+      "version": "v1.0.4",
+      "versionCode": 104,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.4/AlwaysStrong-v1.0.4.zip",
+      "changelog": "",
+      "size": 4803922
+    },
+    {
+      "timestamp": 1786752000,
+      "version": "v1.0.3",
+      "versionCode": 103,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.3/AlwaysStrong-v1.0.3.zip",
+      "changelog": "",
+      "size": 4808985
+    }
+  ]
+}

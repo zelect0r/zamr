@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rewrite MMRL module download URLs to direct upstream GitHub release URLs.
+"""Rewrite MMRL module download URLs to direct upstream release URLs.
 
 mmrl-util's `sync` + `index` re-hosts every module ZIP on this repository's
 GitHub Pages (base_url/modules/<id>/<file>.zip). Those ZIPs are never
@@ -7,10 +7,14 @@ committed (they are *.zip and several exceed GitHub's 100 MB per-file limit),
 so the generated links are broken (404) and modules cannot be installed or
 updated.
 
-This script only mutates the `zipUrl`/`size` of each module's newest version in
+This script mutates the `zipUrl`/`size` of each module's newest version in
 `modules/<id>/update.json` and `json/modules.json`, pointing them at the
-canonical upstream GitHub release asset. Only version URLs are changed; all
-other metadata produced by mmrl-util is left untouched.
+canonical upstream release asset. Only version URLs are changed; all other
+metadata produced by mmrl-util is left untouched.
+
+Tracks that opt into `options.gitlab.all_versions` are rebuilt from their
+GitLab project's release history, so every published build stays installable
+instead of only the newest one.
 
 It performs one GitHub REST request per module and needs no third-party
 dependencies. Set GITHUB_TOKEN for a higher rate limit (the workflow provides
@@ -26,13 +30,18 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 REPO_URL_RE = re.compile(
     r"(?:https?://github\.com/|git@github\.com:)([^/]+)/([^/.]+)(?:\.git)?"
 )
+GITLAB_REPO_URL_RE = re.compile(r"https?://gitlab\.com/([^/]+)/([^/?#]+)")
+GITLAB_API = "https://gitlab.com/api/v4"
+USER_AGENT = "zamr-updater"
 
 
 def load_json(path: Path):
@@ -47,7 +56,7 @@ def dump_json(path: Path, obj):
 
 
 def api_get(url: str, token: str):
-    headers = {"Accept": "application/vnd.github+json", "User-Agent": "zamr-updater"}
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = Request(url, headers=headers)
@@ -60,6 +69,92 @@ def repo_pair(update_to: str):
     if not m:
         return None
     return m.group(1), m.group(2)
+
+
+def gitlab_repo_pair(url: str):
+    m = GITLAB_REPO_URL_RE.match(url or "")
+    if not m:
+        return None
+    repo = m.group(2)
+    if repo.endswith(".git"):
+        repo = repo[:-4]
+    return m.group(1), repo
+
+
+def version_code_from_tag(tag: str):
+    """Map a release tag like `v1.0.5` to the module's versionCode (105)."""
+    digits = re.findall(r"\d+", tag or "")
+    return int("".join(digits)) if digits else 0
+
+
+def parse_timestamp(value: str):
+    if not value:
+        return int(time.time())
+    try:
+        return int(datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp())
+    except ValueError:
+        return int(time.time())
+
+
+def head_size(url: str):
+    headers = {"User-Agent": USER_AGENT}
+    req = Request(url, method="HEAD", headers=headers)
+    try:
+        with urlopen(req, timeout=60) as resp:
+            length = resp.headers.get("Content-Length")
+            return int(length) if length else 0
+    except (HTTPError, URLError, OSError, ValueError) as exc:
+        print(f"  head error for {url}: {exc}")
+        return 0
+
+
+def fetch_gitlab_versions(owner: str, repo: str, module_id: str):
+    """Return every installable release of a GitLab project, newest first.
+
+    GitLab hosts the release ZIPs as generic package links, so there is no
+    GitHub-style release JSON to patch. We rebuild the full version list from
+    the project's releases API instead, which also keeps older releases
+    installable from MMRL.
+    """
+    project = quote(f"{owner}/{repo}", safe="")
+    url = f"{GITLAB_API}/projects/{project}/releases?per_page=100"
+    headers = {"Accept": "application/json", "User-Agent": USER_AGENT}
+    try:
+        with urlopen(Request(url, headers=headers), timeout=60) as resp:
+            releases = json.load(resp)
+    except (HTTPError, URLError, OSError) as exc:
+        print(f"  gitlab error for {owner}/{repo}: {exc}")
+        return []
+
+    versions = []
+    for release in releases:
+        tag = release.get("tag_name") or ""
+        links = (release.get("assets") or {}).get("links") or []
+        assets = [
+            {
+                "name": link.get("name") or "",
+                "url": link.get("url") or "",
+                "updated_at": release.get("released_at") or release.get("created_at") or "",
+            }
+            for link in links
+            if link.get("url")
+        ]
+        asset = pick_asset(module_id, assets)
+        if asset is None:
+            continue
+        versions.append(
+            {
+                "timestamp": parse_timestamp(asset["updated_at"]),
+                "version": tag,
+                "versionCode": version_code_from_tag(tag),
+                "zipUrl": asset["url"],
+                "changelog": "",
+                "size": head_size(asset["url"]),
+            }
+        )
+
+    versions.sort(key=lambda v: (v["versionCode"], v["timestamp"]), reverse=True)
+    return versions
 
 
 def module_keywords(module_id: str):
@@ -94,6 +189,13 @@ def pick_asset(module_id: str, assets, hint: str = ""):
         score = 0
         if any(k in name for k in keywords):
             score += 100
+        if module_id == "alwaysstrong":
+            # Releases ship three variants (default, -inject, -nopif) that
+            # only differ in the fingerprint engine. Publish the default build
+            # (no suffix), as recommended upstream, and keep it for every
+            # historical release too.
+            if "-inject" in name or "-nopif" in name:
+                score -= 50
         if "release" in name:
             score += 10
         elif "debug" in name:
@@ -177,14 +279,71 @@ def main():
         if not module_id or track.get("enable") is False:
             continue
 
-        pair = repo_pair(track.get("update_to") or "")
-        if not pair:
-            print(f"[{module_id}] not a GitHub repo, skipping")
-            continue
-
         update_file = track_file.parent / "update.json"
         if not update_file.is_file():
             print(f"[{module_id}] no update.json, skipping")
+            continue
+
+        # Some upstreams moved off GitHub. For tracks that opt into
+        # `options.gitlab.all_versions`, rebuild the complete release history
+        # from the GitLab releases API so older builds stay installable.
+        options = track.get("options") or {}
+        gitlab_options = options.get("gitlab") or {}
+        if gitlab_options.get("all_versions"):
+            gitlab_pair = gitlab_repo_pair(
+                track.get("source") or track.get("homepage") or track.get("update_to") or ""
+            )
+            if not gitlab_pair:
+                print(f"[{module_id}] no GitLab repository configured, skipping")
+                continue
+
+            versions = fetch_gitlab_versions(*gitlab_pair, module_id)
+            if not versions:
+                print(f"[{module_id}] no GitLab releases found, leaving as-is")
+                continue
+
+            update_json = load_json(update_file)
+            # A failed HEAD request yields size 0; keep the size we already
+            # published for that release instead of churning the index.
+            previous = {
+                version.get("version"): version
+                for version in (update_json.get("versions") or [])
+            }
+            for version in versions:
+                old = previous.get(version["version"])
+                if old and not version["size"]:
+                    version["size"] = old.get("size", 0)
+                if old and version["zipUrl"] == old.get("zipUrl") and not version["changelog"]:
+                    version["changelog"] = old.get("changelog", "")
+
+            latest = versions[0]
+            if update_json.get("versions") != versions:
+                changed = True
+                update_json["versions"] = versions
+                update_json["version"] = latest["version"]
+                update_json["versionCode"] = latest["versionCode"]
+                dump_json(update_file, update_json)
+                print(f"[{module_id}] update.json  -> {len(versions)} releases")
+
+            mod = index_modules.get(module_id)
+            if mod is not None:
+                if (
+                    mod.get("versions") != versions
+                    or mod.get("version") != latest["version"]
+                    or mod.get("versionCode") != latest["versionCode"]
+                    or mod.get("size") != latest["size"]
+                ):
+                    changed = True
+                mod["versions"] = versions
+                mod["version"] = latest["version"]
+                mod["versionCode"] = latest["versionCode"]
+                mod["size"] = latest["size"]
+                print(f"[{module_id}] modules.json -> {len(versions)} releases")
+            continue
+
+        pair = repo_pair(track.get("update_to") or "")
+        if not pair:
+            print(f"[{module_id}] not a GitHub repo, skipping")
             continue
 
         owner, repo = pair

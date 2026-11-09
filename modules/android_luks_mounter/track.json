@@ -11,17 +11,17 @@
   "categories": [
     "Utility"
   ],
+  "note": {
+    "color": "yellow",
+    "title": "Not tested",
+    "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer Rex Ackermann (@rexackermann)."
+  },
   "options": {
     "github": {
       "source": "releases"
     }
   },
   "added": 1794104428,
-  "last_update": 1793610351,
-  "versions": 1,
-  "note": {
-    "color": "yellow",
-    "title": "Not tested",
-    "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer Rex Ackermann (@rexackermann)."
-  }
+  "last_update": 1794216344.0,
+  "versions": 1
 }

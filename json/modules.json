@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794164022.1206276
+    "timestamp": 1794224733.1393385
   },
   "modules": [
     {
@@ -170,8 +170,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "6.2.6-rc.2",
-      "versionCode": 602006302,
+      "version": "6.2.6-rc.4",
+      "versionCode": 602006304,
       "author": "Hybrid Mount Developers",
       "description": "Mount orchestration metamodule for KernelSU and APatch",
       "added": 1782579917,
@@ -185,7 +185,7 @@
       "homepage": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 5430516,
+      "size": 5427969,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -205,12 +205,12 @@
       },
       "versions": [
         {
-          "timestamp": 1793957641.0,
-          "version": "6.2.6-rc.2",
-          "versionCode": 602006302,
-          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.2/Hybrid-Mount-6.2.6-rc.2-2154.zip",
+          "timestamp": 1794221348.0,
+          "version": "6.2.6-rc.4",
+          "versionCode": 602006304,
+          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.4/Hybrid-Mount-6.2.6-rc.4-2162.zip",
           "changelog": "",
-          "size": 5430516
+          "size": 5427969
         }
       ]
     },
@@ -1347,8 +1347,8 @@
     {
       "id": "android_luks_mounter",
       "name": "Android LUKS Mounter",
-      "version": "v1.5.84",
-      "versionCode": 1584,
+      "version": "v1.5.85",
+      "versionCode": 1585,
       "author": "Rex Ackermann",
       "description": "Professional storage management for LUKS and plain drives on Android. Supports auto-mounting, Termux integration, and more.",
       "added": 1794104428,
@@ -1361,7 +1361,7 @@
       "license": "MIT",
       "verified": false,
       "readme": "https://raw.githubusercontent.com/rexackermann/android-luks-mounter/main/README.md",
-      "size": 47643,
+      "size": 47641,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1383,12 +1383,12 @@
       },
       "versions": [
         {
-          "timestamp": 1793610351,
-          "version": "v1.5.84",
-          "versionCode": 1584,
-          "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.84/android-luks-mounter-v1.5.84.zip",
+          "timestamp": 1794216344.0,
+          "version": "v1.5.85",
+          "versionCode": 1585,
+          "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.85/android-luks-mounter-v1.5.85.zip",
           "changelog": "",
-          "size": 47643
+          "size": 47641
         }
       ],
       "note": {

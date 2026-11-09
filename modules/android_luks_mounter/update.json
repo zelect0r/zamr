@@ -1,14 +1,14 @@
 {
   "id": "android_luks_mounter",
-  "timestamp": 1793610351,
+  "timestamp": 1794216344.0,
   "versions": [
     {
-      "timestamp": 1793610351,
-      "version": "v1.5.84",
-      "versionCode": 1584,
-      "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.84/android-luks-mounter-v1.5.84.zip",
+      "timestamp": 1794216344.0,
+      "version": "v1.5.85",
+      "versionCode": 1585,
+      "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.85/android-luks-mounter-v1.5.85.zip",
       "changelog": "",
-      "size": 47643
+      "size": 47641
     }
   ]
 }

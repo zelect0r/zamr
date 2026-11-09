@@ -7,17 +7,18 @@
   "homepage": "https://gitlab.com/Evokerr/AlwaysStrong",
   "source": "https://gitlab.com/Evokerr/AlwaysStrong",
   "support": "https://t.me/keyboxstrong",
+  "max_num": 100,
   "maxApi": 36,
   "category": "Integrity",
   "categories": [
     "Integrity"
   ],
-  "readme": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/README.md",
   "screenshots": [
     "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/webui.jpg",
     "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
     "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
   ],
+  "readme": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/README.md",
   "options": {
     "gitlab": {
       "source": "releases",
@@ -27,6 +28,7 @@
       "description": "[PIF-less / Lite] Hardware attestation + auto keybox updates, no PlayIntegrityFork. For setups where the bundled PIF conflicts with Google Mobile Services."
     }
   },
-  "max_num": 100,
-  "added": 1794228497
+  "added": 1794228497,
+  "last_update": 1794261830.0,
+  "versions": 1
 }

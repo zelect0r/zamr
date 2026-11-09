@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794228531
+    "timestamp": 1794263397.8762968
   },
   "modules": [
     {
@@ -1201,8 +1201,8 @@
     {
       "id": "meowzygisk",
       "name": "Meow Zygisk",
-      "version": "v3",
-      "versionCode": 3000,
+      "version": "v4",
+      "versionCode": 4000,
       "author": "𝗠𝗘𝗢𝗪𝗻𝗮 💅 & @PerformanC",
       "description": " ",
       "added": 1792260970,
@@ -1214,7 +1214,7 @@
       "homepage": "https://github.com/MeowDump/MeowZygisk",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 392413,
+      "size": 693340,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1238,12 +1238,12 @@
       },
       "versions": [
         {
-          "timestamp": 1790098367,
-          "version": "v3",
-          "versionCode": 3000,
-          "zipUrl": "https://github.com/MeowDump/MeowZygisk/releases/download/v3/v3-MeowZygisk-22-09-2026.zip",
+          "timestamp": 1794236496.0,
+          "version": "v4",
+          "versionCode": 4000,
+          "zipUrl": "https://github.com/MeowDump/MeowZygisk/releases/download/v4/v4-MeowZygisk-09-11-2026.zip",
           "changelog": "",
-          "size": 392413
+          "size": 693340
         }
       ]
     },
@@ -1589,8 +1589,8 @@
     {
       "id": "alwaysstrong",
       "name": "AlwaysStrong",
-      "version": "v1.0.5",
-      "versionCode": 105,
+      "version": "v1.0.6",
+      "versionCode": 106,
       "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
       "description": "Strong Play Integrity in one drop-in module. TEESimulator-RS + PlayIntegrityFork, auto-refreshed. Tap Action.",
       "added": 1790014583,
@@ -1609,7 +1609,7 @@
         "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
         "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
       ],
-      "size": 5289881,
+      "size": 5307072,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1635,6 +1635,14 @@
         "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong/track.json"
       },
       "versions": [
+        {
+          "timestamp": 1794258855,
+          "version": "v1.0.6",
+          "versionCode": 106,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.6/AlwaysStrong-v1.0.6.zip",
+          "changelog": "",
+          "size": 5307072
+        },
         {
           "timestamp": 1792108800,
           "version": "v1.0.5",
@@ -1664,8 +1672,8 @@
     {
       "id": "alwaysstrong-inject",
       "name": "AlwaysStrong [Inject]",
-      "version": "v1.0.5",
-      "versionCode": 105,
+      "version": "v1.0.6",
+      "versionCode": 106,
       "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
       "description": "[Inject build] Strong Play Integrity in one drop-in module. Hardware attestation + an auto-refreshed Pixel fingerprint. Tap Action.",
       "added": 1794228531,
@@ -1684,7 +1692,7 @@
         "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
         "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
       ],
-      "size": 5071434,
+      "size": 5088450,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1710,6 +1718,14 @@
         "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong-inject/track.json"
       },
       "versions": [
+        {
+          "timestamp": 1794258855,
+          "version": "v1.0.6",
+          "versionCode": 106,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.6/AlwaysStrong-v1.0.6-inject.zip",
+          "changelog": "",
+          "size": 5088450
+        },
         {
           "timestamp": 1792108800,
           "version": "v1.0.5",
@@ -1739,8 +1755,8 @@
     {
       "id": "alwaysstrong-nopif",
       "name": "AlwaysStrong [Lite]",
-      "version": "v1.0.5",
-      "versionCode": 105,
+      "version": "v1.0.6",
+      "versionCode": 106,
       "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
       "description": "[PIF-less / Lite] Hardware attestation + auto keybox updates, no PlayIntegrityFork. For setups where the bundled PIF conflicts with Google Mobile Services.",
       "added": 1794228531,
@@ -1759,7 +1775,7 @@
         "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
         "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
       ],
-      "size": 4972085,
+      "size": 4988396,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1782,6 +1798,14 @@
         "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong-nopif/track.json"
       },
       "versions": [
+        {
+          "timestamp": 1794258855,
+          "version": "v1.0.6",
+          "versionCode": 106,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.6/AlwaysStrong-v1.0.6-nopif.zip",
+          "changelog": "",
+          "size": 4988396
+        },
         {
           "timestamp": 1792108800,
           "version": "v1.0.5",

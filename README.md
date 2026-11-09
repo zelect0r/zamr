@@ -26,7 +26,7 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | Apps | YouTube Morphe, Music Morphe |
 | Battery | Frosty, CPU Screen Off |
 | Customization | iOS Emoji, LiveBoot |
-| Integrity | AlwaysStrong, Integrity Box, Oh My Keymint, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store, Tricky Store OSS |
+| Integrity | AlwaysStrong (Fork, Inject, Lite), Integrity Box, Oh My Keymint, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store, Tricky Store OSS |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
 | Utility | zygisk-detach, bindhosts, MSD, DT2W Fix, Android LUKS Mounter, TermuxSu, imgdrive |
@@ -36,12 +36,12 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 
 ## Included modules
 
-The MMRL index currently publishes 33 modules:
+The MMRL index currently publishes 35 modules:
 
 - Zygisk Next, NeoZygisk, ReZygisk, and Meow Zygisk
 - Zygisk Assistant and zygisk-detach
 - Play Integrity Fix and Play Integrity Fork
-- AlwaysStrong
+- AlwaysStrong (Fork, Inject, and Lite variants)
 - Integrity Box
 - Oh My Keymint
 - TEESimulator and TEESimulator-RS
@@ -69,7 +69,7 @@ The complete index is available at [`json/modules.json`](json/modules.json).
 
 GitHub Actions checks for new upstream GitHub releases every hour. The MMRL index and each module's update metadata are rebuilt automatically. After an upstream release, it can take a few minutes before the new version appears in MMRL and on the repository page.
 
-AlwaysStrong is tracked from its GitLab releases. Every published release (currently v1.0.3–v1.0.5) is listed in the index, so older builds remain installable instead of being replaced by the newest one.
+AlwaysStrong is tracked from its GitLab releases. Its three variants are published as separate entries in MMRL — **AlwaysStrong** (PlayIntegrityFork), **AlwaysStrong [Inject]** and **AlwaysStrong [Lite]** (PIF-less) — so you can pick the one that matches your setup. Every published release of each variant is listed in the index, so older builds remain installable instead of being replaced by the newest one.
 
 ## Outdated or removed modules
 

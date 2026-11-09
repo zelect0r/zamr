@@ -1,0 +1,31 @@
+{
+  "id": "alwaysstrong-inject",
+  "version": "v1.0.5",
+  "versionCode": 105,
+  "versions": [
+    {
+      "timestamp": 1792108800,
+      "version": "v1.0.5",
+      "versionCode": 105,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.5-r2/AlwaysStrong-v1.0.5-inject.zip",
+      "changelog": "",
+      "size": 5071434
+    },
+    {
+      "timestamp": 1788652800,
+      "version": "v1.0.4",
+      "versionCode": 104,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.4/AlwaysStrong-v1.0.4-inject.zip",
+      "changelog": "",
+      "size": 4669526
+    },
+    {
+      "timestamp": 1786752000,
+      "version": "v1.0.3",
+      "versionCode": 103,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.3/AlwaysStrong-v1.0.3-inject.zip",
+      "changelog": "",
+      "size": 4620141
+    }
+  ]
+}

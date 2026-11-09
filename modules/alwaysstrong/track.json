@@ -21,7 +21,10 @@
   "options": {
     "gitlab": {
       "source": "releases",
-      "all_versions": true
+      "all_versions": true,
+      "variant": "default",
+      "name": "AlwaysStrong",
+      "description": "Strong Play Integrity in one drop-in module. TEESimulator-RS + PlayIntegrityFork, auto-refreshed. Tap Action."
     }
   },
   "max_num": 100,

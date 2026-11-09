@@ -108,7 +108,7 @@ def head_size(url: str):
         return 0
 
 
-def fetch_gitlab_versions(owner: str, repo: str, module_id: str):
+def fetch_gitlab_versions(owner: str, repo: str, module_id: str, variant: str = "default"):
     """Return every installable release of a GitLab project, newest first.
 
     GitLab hosts the release ZIPs as generic package links, so there is no
@@ -139,7 +139,7 @@ def fetch_gitlab_versions(owner: str, repo: str, module_id: str):
             for link in links
             if link.get("url")
         ]
-        asset = pick_asset(module_id, assets)
+        asset = pick_asset(module_id, assets, variant=variant)
         if asset is None:
             continue
         versions.append(
@@ -174,9 +174,23 @@ def module_keywords(module_id: str):
     return [k.lower() for k in candidates if k]
 
 
-def pick_asset(module_id: str, assets, hint: str = ""):
+def pick_asset(module_id: str, assets, hint: str = "", variant: str = "default"):
     """Choose the best release asset for a module, preferring a brand match."""
     zips = [a for a in assets if (a.get("name") or "").lower().endswith(".zip")]
+    if module_id.startswith("alwaysstrong"):
+        # Releases ship three variants (default, -inject, -nopif) that only
+        # differ in the fingerprint engine. Each track publishes exactly one
+        # of them so all three are selectable in MMRL.
+        if variant == "inject":
+            zips = [a for a in zips if "-inject" in a["name"].lower()]
+        elif variant == "nopif":
+            zips = [a for a in zips if "-nopif" in a["name"].lower()]
+        else:
+            zips = [
+                a
+                for a in zips
+                if "-inject" not in a["name"].lower() and "-nopif" not in a["name"].lower()
+            ]
     if not zips:
         return None
 
@@ -189,13 +203,6 @@ def pick_asset(module_id: str, assets, hint: str = ""):
         score = 0
         if any(k in name for k in keywords):
             score += 100
-        if module_id == "alwaysstrong":
-            # Releases ship three variants (default, -inject, -nopif) that
-            # only differ in the fingerprint engine. Publish the default build
-            # (no suffix), as recommended upstream, and keep it for every
-            # historical release too.
-            if "-inject" in name or "-nopif" in name:
-                score -= 50
         if "release" in name:
             score += 10
         elif "debug" in name:
@@ -297,7 +304,8 @@ def main():
                 print(f"[{module_id}] no GitLab repository configured, skipping")
                 continue
 
-            versions = fetch_gitlab_versions(*gitlab_pair, module_id)
+            variant = gitlab_options.get("variant", "default")
+            versions = fetch_gitlab_versions(*gitlab_pair, module_id, variant)
             if not versions:
                 print(f"[{module_id}] no GitLab releases found, leaving as-is")
                 continue
@@ -327,17 +335,25 @@ def main():
 
             mod = index_modules.get(module_id)
             if mod is not None:
+                name = gitlab_options.get("name")
+                description = gitlab_options.get("description")
                 if (
                     mod.get("versions") != versions
                     or mod.get("version") != latest["version"]
                     or mod.get("versionCode") != latest["versionCode"]
                     or mod.get("size") != latest["size"]
+                    or (name is not None and mod.get("name") != name)
+                    or (description is not None and mod.get("description") != description)
                 ):
                     changed = True
                 mod["versions"] = versions
                 mod["version"] = latest["version"]
                 mod["versionCode"] = latest["versionCode"]
                 mod["size"] = latest["size"]
+                if name is not None:
+                    mod["name"] = name
+                if description is not None:
+                    mod["description"] = description
                 print(f"[{module_id}] modules.json -> {len(versions)} releases")
             continue
 

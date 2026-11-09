@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794228022
+    "timestamp": 1794228531
   },
   "modules": [
     {
@@ -1658,6 +1658,145 @@
           "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.3/AlwaysStrong-v1.0.3.zip",
           "changelog": "",
           "size": 4808985
+        }
+      ]
+    },
+    {
+      "id": "alwaysstrong-inject",
+      "name": "AlwaysStrong [Inject]",
+      "version": "v1.0.5",
+      "versionCode": 105,
+      "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
+      "description": "[Inject build] Strong Play Integrity in one drop-in module. Hardware attestation + an auto-refreshed Pixel fingerprint. Tap Action.",
+      "added": 1794228531,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://gitlab.com/Evokerr/AlwaysStrong",
+      "license": "GPL-3.0",
+      "verified": true,
+      "support": "https://t.me/keyboxstrong",
+      "readme": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/README.md",
+      "screenshots": [
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/webui.jpg",
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
+      ],
+      "size": 5071434,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794228531,
+        "source": "https://gitlab.com/Evokerr/AlwaysStrong",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong-inject/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1792108800,
+          "version": "v1.0.5",
+          "versionCode": 105,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.5-r2/AlwaysStrong-v1.0.5-inject.zip",
+          "changelog": "",
+          "size": 5071434
+        },
+        {
+          "timestamp": 1788652800,
+          "version": "v1.0.4",
+          "versionCode": 104,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.4/AlwaysStrong-v1.0.4-inject.zip",
+          "changelog": "",
+          "size": 4669526
+        },
+        {
+          "timestamp": 1786752000,
+          "version": "v1.0.3",
+          "versionCode": 103,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.3/AlwaysStrong-v1.0.3-inject.zip",
+          "changelog": "",
+          "size": 4620141
+        }
+      ]
+    },
+    {
+      "id": "alwaysstrong-nopif",
+      "name": "AlwaysStrong [Lite]",
+      "version": "v1.0.5",
+      "versionCode": 105,
+      "author": "Evokerr, JingMatrix, Enginex0, osm0sis, KOWX712",
+      "description": "[PIF-less / Lite] Hardware attestation + auto keybox updates, no PlayIntegrityFork. For setups where the bundled PIF conflicts with Google Mobile Services.",
+      "added": 1794228531,
+      "maxApi": 36,
+      "category": "Integrity",
+      "categories": [
+        "Integrity"
+      ],
+      "homepage": "https://gitlab.com/Evokerr/AlwaysStrong",
+      "license": "GPL-3.0",
+      "verified": true,
+      "support": "https://t.me/keyboxstrong",
+      "readme": "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/README.md",
+      "screenshots": [
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/webui.jpg",
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/advanced.jpg",
+        "https://gitlab.com/Evokerr/AlwaysStrong/-/raw/main/screenshots/languages.jpg"
+      ],
+      "size": 4972085,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794228531,
+        "source": "https://gitlab.com/Evokerr/AlwaysStrong",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/alwaysstrong-nopif/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1792108800,
+          "version": "v1.0.5",
+          "versionCode": 105,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.5-r2/AlwaysStrong-v1.0.5-nopif.zip",
+          "changelog": "",
+          "size": 4972085
+        },
+        {
+          "timestamp": 1788652800,
+          "version": "v1.0.4",
+          "versionCode": 104,
+          "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.4/AlwaysStrong-v1.0.4-nopif.zip",
+          "changelog": "",
+          "size": 4590097
         }
       ]
     }

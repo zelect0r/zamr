@@ -1,14 +1,14 @@
 {
   "id": "youtube-morphe",
-  "timestamp": 1793984963.0,
+  "timestamp": 1794326948.0,
   "versions": [
     {
-      "timestamp": 1793984963.0,
-      "version": "v21.30.216 (patches 2.1.0.mpp)",
-      "versionCode": 20221126,
-      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221126/youtube-morphe-module-v21.30.216-all.zip",
+      "timestamp": 1794326948.0,
+      "version": "v21.30.216 (patches 2.2.0.mpp)",
+      "versionCode": 20221128,
+      "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221128/youtube-morphe-module-v21.30.216-all.zip",
       "changelog": "",
-      "size": 236749499
+      "size": 237012659
     }
   ]
 }

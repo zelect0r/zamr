@@ -1,7 +1,15 @@
 {
   "id": "alwaysstrong",
-  "timestamp": 1794261823.0,
+  "timestamp": 1794442660.0,
   "versions": [
+    {
+      "timestamp": 1794442902,
+      "version": "v1.0.6.1",
+      "versionCode": 1061,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.6.1/AlwaysStrong-v1.0.6.1.zip",
+      "changelog": "",
+      "size": 5312661
+    },
     {
       "timestamp": 1794258855,
       "version": "v1.0.6",
@@ -35,6 +43,6 @@
       "size": 4808985
     }
   ],
-  "version": "v1.0.6",
-  "versionCode": 106
+  "version": "v1.0.6.1",
+  "versionCode": 1061
 }

@@ -3,6 +3,14 @@
   "timestamp": 1794261827.0,
   "versions": [
     {
+      "timestamp": 1794442902,
+      "version": "v1.0.6.1",
+      "versionCode": 1061,
+      "zipUrl": "https://gitlab.com/api/v4/projects/87739512/packages/generic/AlwaysStrong/v1.0.6.1/AlwaysStrong-v1.0.6.1-inject.zip",
+      "changelog": "",
+      "size": 5094039
+    },
+    {
       "timestamp": 1794258855,
       "version": "v1.0.6",
       "versionCode": 106,
@@ -35,6 +43,6 @@
       "size": 4620141
     }
   ],
-  "version": "v1.0.6",
-  "versionCode": 106
+  "version": "v1.0.6.1",
+  "versionCode": 1061
 }

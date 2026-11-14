@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1794455617.506768
+    "timestamp": 1794665773.0091143
   },
   "modules": [
     {
@@ -170,8 +170,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "6.2.6-rc.4",
-      "versionCode": 602006304,
+      "version": "6.2.6",
+      "versionCode": 602006999,
       "author": "Hybrid Mount Developers",
       "description": "Mount orchestration metamodule for KernelSU and APatch",
       "added": 1782579917,
@@ -185,7 +185,7 @@
       "homepage": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 5427969,
+      "size": 5453903,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -205,12 +205,12 @@
       },
       "versions": [
         {
-          "timestamp": 1794221348.0,
-          "version": "6.2.6-rc.4",
-          "versionCode": 602006304,
-          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.4/Hybrid-Mount-6.2.6-rc.4-2162.zip",
+          "timestamp": 1794656373.0,
+          "version": "6.2.6",
+          "versionCode": 602006999,
+          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6/Hybrid-Mount-6.2.6-2168.zip",
           "changelog": "",
-          "size": 5427969
+          "size": 5453903
         }
       ]
     },

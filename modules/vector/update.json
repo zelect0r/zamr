@@ -1,14 +1,14 @@
 {
   "id": "vector",
-  "timestamp": 1793995419.0,
+  "timestamp": 1794735915.0,
   "versions": [
     {
-      "timestamp": 1793995419.0,
-      "version": "v2.2 (3118-91e77e43-JingMatrix-Vector)",
-      "versionCode": 3118,
-      "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3118/Vector-v2.2-3118-Release.zip",
+      "timestamp": 1794735915.0,
+      "version": "v2.2 (3119-6f6b976e-JingMatrix-Vector)",
+      "versionCode": 3119,
+      "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3119/Vector-v2.2-3119-Release.zip",
       "changelog": "",
-      "size": 7452170
+      "size": 7458120
     }
   ]
 }

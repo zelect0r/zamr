@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1795039509.6079907
+    "timestamp": 1795067452
   },
   "modules": [
     {
@@ -1847,6 +1847,76 @@
           "size": 4590097
         }
       ]
+    },
+    {
+      "id": "stevenblock",
+      "name": "StevenBlock",
+      "version": "v2.0",
+      "versionCode": 2000,
+      "author": "mikropsoft",
+      "description": "Systemless ad blocker with 7 curated lists, add-ons, live apply, WebUI, health check and automatic rollback",
+      "added": 1795067069,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "Adblocking and Hosts Files",
+        "APatch",
+        "KernelSU",
+        "Magisk",
+        "WebUI"
+      ],
+      "homepage": "https://github.com/mikropsoft/StevenBlock",
+      "license": "GPL-2.0",
+      "verified": false,
+      "readme": "https://raw.githubusercontent.com/mikropsoft/StevenBlock/refs/heads/main/README.md",
+      "screenshots": [
+        "https://raw.githubusercontent.com/mikropsoft/StevenBlock/refs/heads/main/assets/cover.png"
+      ],
+      "support": "https://github.com/mikropsoft/StevenBlock/issues",
+      "size": 459862,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "kernelsu.permission.POST_MOUNT"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true,
+        "post_mount": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1795067069,
+        "source": "https://github.com/mikropsoft/StevenBlock",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/stevenblock/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1794382981,
+          "version": "v2.0",
+          "versionCode": 2000,
+          "zipUrl": "https://github.com/mikropsoft/StevenBlock/releases/download/v2.0/StevenBlock.zip",
+          "changelog": "",
+          "size": 459862
+        },
+        {
+          "timestamp": 1793180380,
+          "version": "v1.0",
+          "versionCode": 1000,
+          "zipUrl": "https://github.com/mikropsoft/StevenBlock/releases/download/v1.0/StevenBlock.zip",
+          "changelog": "",
+          "size": 416985
+        }
+      ],
+      "note": {
+        "color": "yellow",
+        "title": "Not tested",
+        "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer mikropsoft (@mikropsoft)."
+      }
     }
   ]
 }

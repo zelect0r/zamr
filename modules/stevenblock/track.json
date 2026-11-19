@@ -1,0 +1,31 @@
+{
+  "id": "stevenblock",
+  "enable": true,
+  "verified": false,
+  "update_to": "https://github.com/mikropsoft/StevenBlock.git",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/mikropsoft/StevenBlock",
+  "source": "https://github.com/mikropsoft/StevenBlock",
+  "maxApi": 36,
+  "category": "Utility",
+  "categories": [
+    "Adblocking and Hosts Files",
+    "APatch",
+    "KernelSU",
+    "Magisk",
+    "WebUI"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1795067069,
+  "last_update": 1794382981,
+  "versions": 2,
+  "note": {
+    "color": "yellow",
+    "title": "Not tested",
+    "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer mikropsoft (@mikropsoft)."
+  }
+}

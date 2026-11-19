@@ -1,0 +1,22 @@
+{
+  "id": "stevenblock",
+  "timestamp": 1794382981,
+  "versions": [
+    {
+      "timestamp": 1794382981,
+      "version": "v2.0",
+      "versionCode": 2000,
+      "zipUrl": "https://github.com/mikropsoft/StevenBlock/releases/download/v2.0/StevenBlock.zip",
+      "changelog": "",
+      "size": 459862
+    },
+    {
+      "timestamp": 1793180380,
+      "version": "v1.0",
+      "versionCode": 1000,
+      "zipUrl": "https://github.com/mikropsoft/StevenBlock/releases/download/v1.0/StevenBlock.zip",
+      "changelog": "",
+      "size": 416985
+    }
+  ]
+}

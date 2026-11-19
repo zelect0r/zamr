@@ -29,14 +29,14 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | Integrity | AlwaysStrong (Fork, Inject, Lite), Integrity Box, Oh My Keymint, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store, Tricky Store OSS |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
-| Utility | zygisk-detach, bindhosts, StevenBlock, MSD, DT2W Fix, Android LUKS Mounter, TermuxSu, imgdrive |
+| Utility | AshReXcue, zygisk-detach, bindhosts, StevenBlock, MSD, DT2W Fix, Android LUKS Mounter, TermuxSu, imgdrive |
 | Xposed | Vector |
 | Zygisk | Zygisk Next, NeoZygisk, ReZygisk, Meow Zygisk |
-| WebUI | Tricky Addon Enhanced, Tricky Addon Target List, Integrity Box, StevenBlock |
+| WebUI | AshReXcue, Tricky Addon Enhanced, Tricky Addon Target List, Integrity Box, StevenBlock |
 
 ## Included modules
 
-The MMRL index currently publishes 36 modules:
+The MMRL index currently publishes 37 modules:
 
 - Zygisk Next, NeoZygisk, ReZygisk, and Meow Zygisk
 - Zygisk Assistant and zygisk-detach
@@ -56,6 +56,7 @@ The MMRL index currently publishes 36 modules:
 - Hybrid Mount
 - bindhosts
 - StevenBlock
+- AshReXcue Bootloop Protector
 - DT2W Fix
 - MSD
 - Frosty

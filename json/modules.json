@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1795073640
+    "timestamp": 1795075987
   },
   "modules": [
     {
@@ -1910,6 +1910,62 @@
           "zipUrl": "https://github.com/mikropsoft/StevenBlock/releases/download/v1.0/StevenBlock.zip",
           "changelog": "",
           "size": 416985
+        }
+      ]
+    },
+    {
+      "id": "ashlooper",
+      "name": "AshReXcue BootLoop Protector",
+      "version": "10.1",
+      "versionCode": 201,
+      "author": "AshBorn (@Ripper_Hybrid)",
+      "description": "🔰 Your safety net for bad modules. Catches boot loops, disables the culprits.",
+      "added": 1795075987,
+      "maxApi": 36,
+      "category": "Utility",
+      "categories": [
+        "APatch",
+        "KernelSU",
+        "Magisk",
+        "Utility",
+        "WebUI"
+      ],
+      "homepage": "https://github.com/RipperHybrid/AshLooper",
+      "license": "GPL-3.0",
+      "verified": true,
+      "readme": "https://raw.githubusercontent.com/RipperHybrid/AshLooper/refs/heads/Master/README.md",
+      "screenshots": [
+        "https://ashrexcue.pages.dev/banner.png"
+      ],
+      "support": "https://github.com/RipperHybrid/AshLooper/issues",
+      "size": 1272374,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1795075987,
+        "source": "https://github.com/RipperHybrid/AshLooper",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/ashlooper/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1793860707,
+          "version": "10.1",
+          "versionCode": 201,
+          "zipUrl": "https://github.com/RipperHybrid/AshLooper/releases/download/v10.1/AshReXcue_Bootloop_Protector_10.1_201.zip",
+          "changelog": "",
+          "size": 1272374
         }
       ]
     }

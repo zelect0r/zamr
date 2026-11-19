@@ -1,0 +1,26 @@
+{
+  "id": "ashlooper",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/RipperHybrid/AshLooper.git",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/RipperHybrid/AshLooper",
+  "source": "https://github.com/RipperHybrid/AshLooper",
+  "maxApi": 36,
+  "category": "Utility",
+  "categories": [
+    "APatch",
+    "KernelSU",
+    "Magisk",
+    "Utility",
+    "WebUI"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1795075987,
+  "last_update": 1793860707,
+  "versions": 1
+}

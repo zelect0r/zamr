@@ -1,7 +1,7 @@
 {
   "id": "stevenblock",
   "enable": true,
-  "verified": false,
+  "verified": true,
   "update_to": "https://github.com/mikropsoft/StevenBlock.git",
   "license": "GPL-2.0",
   "homepage": "https://github.com/mikropsoft/StevenBlock",
@@ -22,10 +22,5 @@
   },
   "added": 1795067069,
   "last_update": 1794382981,
-  "versions": 2,
-  "note": {
-    "color": "yellow",
-    "title": "Not tested",
-    "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer mikropsoft (@mikropsoft)."
-  }
+  "versions": 2
 }

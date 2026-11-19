@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1795067452
+    "timestamp": 1795073640
   },
   "modules": [
     {
@@ -1867,7 +1867,7 @@
       ],
       "homepage": "https://github.com/mikropsoft/StevenBlock",
       "license": "GPL-2.0",
-      "verified": false,
+      "verified": true,
       "readme": "https://raw.githubusercontent.com/mikropsoft/StevenBlock/refs/heads/main/README.md",
       "screenshots": [
         "https://raw.githubusercontent.com/mikropsoft/StevenBlock/refs/heads/main/assets/cover.png"
@@ -1911,12 +1911,7 @@
           "changelog": "",
           "size": 416985
         }
-      ],
-      "note": {
-        "color": "yellow",
-        "title": "Not tested",
-        "message": "This module has not yet been tested by the repository maintainer. Use it at your own risk. For issues, please contact the module maintainer mikropsoft (@mikropsoft)."
-      }
+      ]
     }
   ]
 }

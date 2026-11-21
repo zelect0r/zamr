@@ -1,14 +1,14 @@
 {
   "id": "msd",
-  "timestamp": 1794086298.0,
+  "timestamp": 1795223224.0,
   "versions": [
     {
-      "timestamp": 1794086298.0,
-      "version": "v2.6",
-      "versionCode": 132608,
-      "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.6/MSD-2.6-release.zip",
+      "timestamp": 1795223224.0,
+      "version": "v2.7",
+      "versionCode": 132864,
+      "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.7/MSD-2.7-release.zip",
       "changelog": "",
-      "size": 3834316
+      "size": 3863102
     }
   ]
 }

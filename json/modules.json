@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1795228225.7164688
+    "timestamp": 1795259963.5981398
   },
   "modules": [
     {
@@ -1162,7 +1162,7 @@
       "support": "https://t.me/MeowDump",
       "license": "GPL-3.0",
       "verified": true,
-      "size": 3017166,
+      "size": 3015516,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1192,9 +1192,9 @@
           "timestamp": 1794807444.0,
           "version": "v48.2",
           "versionCode": 48200,
-          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v48/v48.2-Integrity-Box-17-11-2026.zip",
+          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/Beta-R6/Integrity-Box-Beta-6.zip",
           "changelog": "",
-          "size": 3017166
+          "size": 3015516
         }
       ]
     },

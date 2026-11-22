@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1795259963.5981398
+    "timestamp": 1795364537.6481314
   },
   "modules": [
     {
@@ -1542,8 +1542,8 @@
     {
       "id": "oh_my_keymint",
       "name": "Oh My Keymint",
-      "version": "1.2.6-9069c6c",
-      "versionCode": 180,
+      "version": "1.3.0-7742865",
+      "versionCode": 182,
       "author": "James Clef",
       "description": "Custom keystore implementation for Android Keystore Spoofer",
       "added": 1794144662,
@@ -1557,7 +1557,7 @@
       "verified": true,
       "support": "https://github.com/qwq233/OhMyKeymint/issues",
       "readme": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/master/README.md",
-      "size": 4930351,
+      "size": 4511524,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -1577,12 +1577,12 @@
       },
       "versions": [
         {
-          "timestamp": 1793941233,
-          "version": "1.2.6-9069c6c",
-          "versionCode": 180,
-          "zipUrl": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.6-9069c6c/OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
+          "timestamp": 1795339529.0,
+          "version": "1.3.0-7742865",
+          "versionCode": 182,
+          "zipUrl": "https://github.com/qwq233/OhMyKeymint/releases/download/1.3.0-7742865/OhMyKeymint-release-arm64-v8a-1.3.0-7742865.zip",
           "changelog": "",
-          "size": 4930351
+          "size": 4511524
         }
       ]
     },

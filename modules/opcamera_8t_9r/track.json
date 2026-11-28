@@ -1,0 +1,33 @@
+{
+  "id": "opcamera_8t_9r",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/juliazero/OPCamera-source.git",
+  "license": "Proprietary",
+  "homepage": "https://github.com/juliazero/OPCamera-source",
+  "source": "https://github.com/juliazero/OPCamera-source",
+  "support": "https://github.com/juliazero/OPCamera-source/issues",
+  "maxApi": 37,
+  "category": "Customization",
+  "categories": [
+    "APatch",
+    "KernelSU",
+    "Magisk",
+    "Customization"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "devices": [
+    "OnePlus 8T (kebab)",
+    "OnePlus 9R (lemonades)"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  },
+  "added": 1795862447,
+  "last_update": 1795861981,
+  "versions": 1
+}

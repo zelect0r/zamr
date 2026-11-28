@@ -8,7 +8,7 @@
   "description": "Android root modules for APatch, KernelSU and Magisk • Available in MMRL",
   "metadata": {
     "version": 1,
-    "timestamp": 1795724092.7419136
+    "timestamp": 1795862677
   },
   "modules": [
     {
@@ -1966,6 +1966,54 @@
           "zipUrl": "https://github.com/RipperHybrid/AshLooper/releases/download/v10.1/AshReXcue_Bootloop_Protector_10.1_201.zip",
           "changelog": "",
           "size": 1272374
+        }
+      ]
+    },
+    {
+      "id": "opcamera_8t_9r",
+      "name": "OPCamera for OnePlus 8T / 9R",
+      "version": "1.0.3",
+      "versionCode": 113,
+      "author": "OnePlus / DerpFest contributors / juliazero",
+      "description": "OxygenOS Camera 5.9.84 for Android 17 on OnePlus 8T / 9R. Magisk / KernelSU / APatch.",
+      "added": 1795862447,
+      "maxApi": 37,
+      "category": "Customization",
+      "categories": [
+        "APatch",
+        "KernelSU",
+        "Magisk",
+        "Customization"
+      ],
+      "homepage": "https://github.com/juliazero/OPCamera-source",
+      "license": "Proprietary",
+      "verified": true,
+      "support": "https://github.com/juliazero/OPCamera-source/issues",
+      "size": 207799690,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1795862447,
+        "source": "https://github.com/juliazero/OPCamera-source",
+        "antifeatures": null,
+        "build_metadata": "https://zelect0r.github.io/zamr/modules/opcamera_8t_9r/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1795861981,
+          "version": "1.0.3",
+          "versionCode": 113,
+          "zipUrl": "https://github.com/juliazero/OPCamera-source/releases/download/v1.0.3/OPCamera-v1.0.3-8T-9R.zip",
+          "changelog": "https://github.com/juliazero/OPCamera-source/releases/download/v1.0.3/CHANGELOG.md",
+          "size": 207799690
         }
       ]
     }

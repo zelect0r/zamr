@@ -25,7 +25,7 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 | --- | --- |
 | Apps | YouTube Morphe, Music Morphe |
 | Battery | Frosty, CPU Screen Off |
-| Customization | iOS Emoji, LiveBoot |
+| Customization | iOS Emoji, LiveBoot, OPCamera |
 | Integrity | AlwaysStrong (Fork, Inject, Lite), Integrity Box, Oh My Keymint, Play Integrity Fix, Play Integrity Fork, TEESimulator, TEESimulator-RS, Tricky Addon Enhanced, Tricky Addon Target List, Tricky Store, Tricky Store OSS |
 | KernelSU | SUSFS for KernelSU, Hybrid Mount |
 | Root Hide | Zygisk Assistant, HMA-OSS Zygisk |
@@ -36,7 +36,7 @@ Do not enter `repo.json` or `json/modules.json`; MMRL loads the module index fro
 
 ## Included modules
 
-The MMRL index currently publishes 37 modules:
+The MMRL index currently publishes 38 modules:
 
 - Zygisk Next, NeoZygisk, ReZygisk, and Meow Zygisk
 - Zygisk Assistant and zygisk-detach
@@ -51,6 +51,7 @@ The MMRL index currently publishes 37 modules:
 - Vector
 - iOS Emoji
 - LiveBoot
+- OPCamera for OnePlus 8T / 9R (kebab, lemonades), tracked from [juliazero/OPCamera-source](https://github.com/juliazero/OPCamera-source)
 - YouTube Morphe and Music Morphe
 - HMA-OSS Zygisk
 - Hybrid Mount
@@ -72,6 +73,8 @@ The complete index is available at [`json/modules.json`](json/modules.json).
 GitHub Actions checks for new upstream GitHub releases every hour. The MMRL index and each module's update metadata are rebuilt automatically. After an upstream release, it can take a few minutes before the new version appears in MMRL and on the repository page.
 
 AlwaysStrong is tracked from its GitLab releases. Its three variants are published as separate entries in MMRL — **AlwaysStrong** (PlayIntegrityFork), **AlwaysStrong [Inject]** and **AlwaysStrong [Lite]** (PIF-less) — so you can pick the one that matches your setup. Every published release of each variant is listed in the index, so older builds remain installable instead of being replaced by the newest one.
+
+OPCamera is tracked from [juliazero/OPCamera-source](https://github.com/juliazero/OPCamera-source) like the other GitHub projects: every new upstream release is synchronized automatically, so MMRL installs the ZIP directly from the upstream release.
 
 ## Outdated or removed modules
 
